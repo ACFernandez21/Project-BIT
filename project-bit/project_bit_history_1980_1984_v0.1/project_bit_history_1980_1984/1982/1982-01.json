@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 1,
+  "period": "1982-01",
+  "events": [
+    {
+      "id": "1982-01-08-at-t-agrees-to-break-up-bell-system",
+      "date": "1982-01-08",
+      "date_precision": "day",
+      "known_as_of": "1982-01-08",
+      "category": "business",
+      "scope": "US",
+      "headline": "AT&T agrees to break up Bell System",
+      "summary": "The U.S. government and AT&T settle the antitrust case that will divide the Bell System into regional companies.",
+      "tags": [
+        "AT&T",
+        "telecommunications",
+        "antitrust"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-01-13-air-florida-flight-90-crashes-in-washingto",
+      "date": "1982-01-13",
+      "date_precision": "day",
+      "known_as_of": "1982-01-13",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Air Florida Flight 90 crashes in Washington",
+      "summary": "The airliner crashes after takeoff into the 14th Street Bridge and Potomac River during severe winter weather.",
+      "tags": [
+        "aviation",
+        "Washington DC"
+      ],
+      "economic_sectors": [
+        "airlines",
+        "insurance"
+      ],
+      "game_relevance": [
+        "disaster_risk",
+        "airline_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-01-24-san-francisco-49ers-win-super-bowl-xvi",
+      "date": "1982-01-24",
+      "date_precision": "day",
+      "known_as_of": "1982-01-24",
+      "category": "sports",
+      "scope": "US",
+      "headline": "San Francisco 49ers win Super Bowl XVI",
+      "summary": "The 49ers defeat the Cincinnati Bengals 26-21.",
+      "tags": [
+        "NFL",
+        "Super Bowl",
+        "49ers"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

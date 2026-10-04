@@ -1,0 +1,531 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1984,
+  "month": 11,
+  "period": "1984-11",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1984-11-context-economics_markets-1-federal-deficits-become-a-larger-policy-conce",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Federal deficits become a larger policy concern",
+      "summary": "November 1984: Tax cuts, recession-era revenue weakness, and higher defense spending keep budget deficits prominent in political and market debate.",
+      "tags": [
+        "budget deficit",
+        "fiscal policy"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "defense"
+      ],
+      "game_relevance": [
+        "fiscal_policy",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-11-context-economics_markets-2-interest-rate-expectations-remain-important-t",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Interest-rate expectations remain important to markets",
+      "summary": "November 1984: Even with inflation reduced, investors watch rates closely as rapid growth raises questions about future monetary tightening.",
+      "tags": [
+        "interest rates",
+        "Federal Reserve"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "finance"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "market_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-11-context-economics_markets-3-strong-expansion-continues",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Strong expansion continues",
+      "summary": "November 1984: The U.S. economy remains in a powerful post-1982 expansion with robust consumer and business activity.",
+      "tags": [
+        "economic expansion",
+        "growth"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "retail",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-11-context-business_technology-3-macintosh-makes-graphical-computing-a-mainstr",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Macintosh makes graphical computing a mainstream technology story",
+      "summary": "November 1984: Apple's Macintosh puts the GUI and mouse at the center of personal-computer competition.",
+      "tags": [
+        "Macintosh",
+        "Apple",
+        "GUI"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-business_technology-2-pc-software-and-compatibility-become-strategi",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "PC software and compatibility become strategic battlegrounds",
+      "summary": "November 1984: IBM-compatible machines, Apple systems, and increasingly sophisticated applications compete for business and household adoption.",
+      "tags": [
+        "PC compatibles",
+        "software",
+        "Apple"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "competition",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-business_technology-1-post-breakup-telecom-competition-begins",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Post-breakup telecom competition begins",
+      "summary": "November 1984: The Bell System divestiture creates regional Bell companies and a new competitive structure for U.S. telecommunications.",
+      "tags": [
+        "AT&T",
+        "Bell System"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-politics_geopolitics-1-cold-war-competition-persists-despite-selecti",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War competition persists despite selective diplomacy",
+      "summary": "November 1984: U.S.-Soviet military rivalry and arms-control issues remain central even as both sides manage channels of communication.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "arms control"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-politics_geopolitics-2-middle-east-security-remains-unstable",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East security remains unstable",
+      "summary": "November 1984: Lebanon and the continuing Iran-Iraq War keep terrorism, oil, and U.S. regional strategy in focus.",
+      "tags": [
+        "Middle East",
+        "Iran-Iraq War",
+        "Lebanon"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-06-ronald-reagan-wins-landslide-re-election",
+      "date": "1984-11-06",
+      "date_precision": "day",
+      "known_as_of": "1984-11-06",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Ronald Reagan wins landslide re-election",
+      "summary": "Reagan defeats Walter Mondale, carrying 49 states and winning 525 electoral votes.",
+      "tags": [
+        "Reagan",
+        "Mondale",
+        "election 1984"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_continuity"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1984-11-context-sports-2-college-football-becomes-a-major-weekly-natio",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "November 1984: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-sports-1-major-league-baseball-reaches-postseason-and-",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "November 1984: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-sports-3-nfl-regular-season-dominates-american-televis",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "November 1984: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-pop_culture-1-1984-becomes-a-major-year-for-blockbuster-fil",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "1984 becomes a major year for blockbuster film culture",
+      "summary": "November 1984: A dense slate of highly recognizable comedies, action-adventures, fantasy, and family films drives theatrical attendance.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-09-a-nightmare-on-elm-street-opens",
+      "date": "1984-11-09",
+      "date_precision": "day",
+      "known_as_of": "1984-11-09",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "A Nightmare on Elm Street opens",
+      "summary": "The horror film introduces Freddy Krueger and becomes an enduring franchise.",
+      "tags": [
+        "horror",
+        "film",
+        "Freddy Krueger"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1984-11-25-band-aid-records-do-they-know-it-s-christm",
+      "date": "1984-11-25",
+      "date_precision": "day",
+      "known_as_of": "1984-11-25",
+      "category": "pop_culture",
+      "scope": "UK/international",
+      "headline": "Band Aid records Do They Know It's Christmas?",
+      "summary": "British and Irish music stars record a charity single to raise funds for Ethiopian famine relief.",
+      "tags": [
+        "Band Aid",
+        "Ethiopia",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "humanitarian"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1984-11-context-society_science_disasters-3-aids-epidemic-continues-expanding",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic continues expanding",
+      "summary": "November 1984: Public-health agencies and researchers face rising case counts and an urgent need for testing, treatment, and education.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-society_science_disasters-2-industrial-and-environmental-safety-receive-r",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Industrial and environmental safety receive renewed scrutiny",
+      "summary": "November 1984: Major accidents and contamination concerns reinforce attention to corporate safety, chemical hazards, and regulation.",
+      "tags": [
+        "industrial safety",
+        "environment"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "industrial_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-11-context-society_science_disasters-1-space-shuttle-becomes-a-frequent-symbol-of-u-",
+      "date": "1984-11",
+      "date_precision": "month",
+      "known_as_of": "1984-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle becomes a frequent symbol of U.S. high technology",
+      "summary": "November 1984: NASA conducts numerous shuttle missions involving satellites, science, and increasingly complex space operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    }
+  ]
+}

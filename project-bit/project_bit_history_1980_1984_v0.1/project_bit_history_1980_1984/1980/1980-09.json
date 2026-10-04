@@ -1,0 +1,93 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 9,
+  "period": "1980-09",
+  "events": [
+    {
+      "id": "1980-09-22-iran-iraq-war-begins",
+      "date": "1980-09-22",
+      "date_precision": "day",
+      "known_as_of": "1980-09-22",
+      "category": "geopolitics",
+      "scope": "Middle East",
+      "headline": "Iran-Iraq War begins",
+      "summary": "Iraq invades Iran, beginning a war that will last nearly eight years and repeatedly threaten oil supplies.",
+      "tags": [
+        "Iran",
+        "Iraq",
+        "war",
+        "oil"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-09-pac-man-spreads-beyond-japan",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "category": "technology",
+      "scope": "international",
+      "headline": "Pac-Man spreads beyond Japan",
+      "summary": "Namco's Pac-Man begins its international rise, becoming one of the defining arcade games of the decade.",
+      "tags": [
+        "Pac-Man",
+        "arcade",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-09-inflation-remains-a-central-election-year-",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Inflation remains a central election-year issue",
+      "summary": "High consumer prices and borrowing costs continue to shape household finances and the presidential campaign.",
+      "tags": [
+        "inflation",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "banking",
+        "retail",
+        "housing"
+      ],
+      "game_relevance": [
+        "consumer_sentiment",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    }
+  ]
+}

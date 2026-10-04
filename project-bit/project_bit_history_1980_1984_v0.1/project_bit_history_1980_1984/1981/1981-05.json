@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 5,
+  "period": "1981-05",
+  "events": [
+    {
+      "id": "1981-05-01-american-airlines-launches-aadvantage",
+      "date": "1981-05-01",
+      "date_precision": "day",
+      "known_as_of": "1981-05-01",
+      "category": "business",
+      "scope": "US/international",
+      "headline": "American Airlines launches AAdvantage",
+      "summary": "American Airlines introduces what becomes the first major modern frequent-flyer loyalty program.",
+      "tags": [
+        "airlines",
+        "loyalty programs"
+      ],
+      "economic_sectors": [
+        "airlines",
+        "travel"
+      ],
+      "game_relevance": [
+        "consumer_behavior",
+        "business_model"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-05-01-japan-adopts-voluntary-auto-export-restrai",
+      "date": "1981-05-01",
+      "date_precision": "day",
+      "known_as_of": "1981-05-01",
+      "category": "trade",
+      "scope": "US/Japan",
+      "headline": "Japan adopts voluntary auto export restraints",
+      "summary": "Japan limits automobile exports to the United States amid pressure over competition with U.S. automakers.",
+      "tags": [
+        "Japan",
+        "autos",
+        "trade"
+      ],
+      "economic_sectors": [
+        "autos",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "international_trade",
+        "auto_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-05-11-bob-marley-dies",
+      "date": "1981-05-11",
+      "date_precision": "day",
+      "known_as_of": "1981-05-11",
+      "category": "pop_culture",
+      "scope": "international",
+      "headline": "Bob Marley dies",
+      "summary": "Reggae icon Bob Marley dies at age 36, prompting global attention to his music and legacy.",
+      "tags": [
+        "Bob Marley",
+        "reggae",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "consumer_attention"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    }
+  ]
+}

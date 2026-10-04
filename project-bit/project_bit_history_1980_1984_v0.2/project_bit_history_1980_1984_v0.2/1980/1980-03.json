@@ -1,0 +1,534 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 3,
+  "period": "1980-03",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-03-context-economics_markets-1-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "March 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-03-14-carter-administration-imposes-credit-contr",
+      "date": "1980-03-14",
+      "date_precision": "day",
+      "known_as_of": "1980-03-14",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Carter administration imposes credit controls",
+      "summary": "The administration introduces credit restraints as part of the fight against inflation, contributing to a sharp pullback in borrowing and spending.",
+      "tags": [
+        "credit controls",
+        "inflation",
+        "Carter"
+      ],
+      "economic_sectors": [
+        "banking",
+        "retail",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-03-31-depository-institutions-deregulation-and-m",
+      "date": "1980-03-31",
+      "date_precision": "day",
+      "known_as_of": "1980-03-31",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Depository Institutions Deregulation and Monetary Control Act signed",
+      "summary": "The law changes banking regulation and expands Federal Reserve requirements across depository institutions.",
+      "tags": [
+        "banking",
+        "Federal Reserve",
+        "deregulation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "finance"
+      ],
+      "game_relevance": [
+        "bank_rules",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-03-context-business_technology-1-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "March 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-business_technology-3-cable-television-expands-the-media-landscape",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable television expands the media landscape",
+      "summary": "March 1980: Cable networks and expanded channel choices begin changing how Americans consume television.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-business_technology-2-personal-computers-move-further-into-homes-an",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "March 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-politics_geopolitics-1-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "March 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-politics_geopolitics-3-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "March 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-politics_geopolitics-2-the-u-s-presidential-campaign-dominates-domes",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The U.S. presidential campaign dominates domestic politics",
+      "summary": "March 1980: Jimmy Carter and Ronald Reagan compete amid inflation, recession, the Iran hostage crisis, and Cold War tensions.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-sports-3-major-league-baseball-begins-its-season",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball begins its season",
+      "summary": "March 1980: Baseball returns for the spring and begins a season-long national sports cycle.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-sports-1-nba-and-nhl-playoffs-become-major-television-",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL playoffs become major television events",
+      "summary": "March 1980: Professional basketball and hockey move into postseason play during spring.",
+      "tags": [
+        "NBA",
+        "NHL",
+        "playoffs"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-sports-2-ncaa-basketball-tournament-dominates-march-sp",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NCAA basketball tournament dominates March sports coverage",
+      "summary": "March 1980: The expanding national tournament becomes one of the biggest annual events in American sports.",
+      "tags": [
+        "NCAA tournament",
+        "college basketball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-pop_culture-3-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "March 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-pop_culture-1-network-television-still-dominates-mass-enter",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "March 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-pop_culture-2-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "March 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-context-society_science_disasters-1-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "March 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-03-mount-st-helens-activity-intensifies",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "category": "science",
+      "scope": "US",
+      "headline": "Mount St. Helens activity intensifies",
+      "summary": "Earthquakes and steam explosions at Mount St. Helens signal the volcanic crisis that will culminate in May.",
+      "tags": [
+        "volcano",
+        "Mount St. Helens"
+      ],
+      "economic_sectors": [
+        "insurance",
+        "transportation"
+      ],
+      "game_relevance": [
+        "disaster_risk",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    },
+    {
+      "id": "1980-03-context-society_science_disasters-2-the-space-shuttle-program-prepares-for-first-",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle program prepares for first flight",
+      "summary": "March 1980: NASA works toward the first orbital shuttle mission, scheduled for 1981.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

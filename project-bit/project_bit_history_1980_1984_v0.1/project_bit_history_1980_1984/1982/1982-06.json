@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 6,
+  "period": "1982-06",
+  "events": [
+    {
+      "id": "1982-06-11-e-t-the-extra-terrestrial-opens",
+      "date": "1982-06-11",
+      "date_precision": "day",
+      "known_as_of": "1982-06-11",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "E.T. the Extra-Terrestrial opens",
+      "summary": "Steven Spielberg's film becomes a major box-office phenomenon and one of the defining movies of the decade.",
+      "tags": [
+        "E.T.",
+        "film",
+        "Spielberg"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-06-14-argentina-surrenders-in-falklands-war",
+      "date": "1982-06-14",
+      "date_precision": "day",
+      "known_as_of": "1982-06-14",
+      "category": "geopolitics",
+      "scope": "South Atlantic",
+      "headline": "Argentina surrenders in Falklands War",
+      "summary": "Argentine forces surrender in the Falkland Islands, effectively ending the conflict.",
+      "tags": [
+        "Falklands War",
+        "Argentina",
+        "UK"
+      ],
+      "economic_sectors": [
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-06-los-angeles-lakers-win-nba-championship",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Los Angeles Lakers win NBA championship",
+      "summary": "The Lakers defeat the Philadelphia 76ers in the NBA Finals.",
+      "tags": [
+        "NBA",
+        "Lakers"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

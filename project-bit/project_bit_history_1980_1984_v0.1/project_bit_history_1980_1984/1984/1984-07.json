@@ -1,0 +1,91 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 7,
+  "period": "1984-07",
+  "events": [
+    {
+      "id": "1984-07-12-geraldine-ferraro-selected-as-democratic-v",
+      "date": "1984-07-12",
+      "date_precision": "day",
+      "known_as_of": "1984-07-12",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Geraldine Ferraro selected as Democratic VP nominee",
+      "summary": "Walter Mondale chooses Ferraro, the first woman nominated for vice president by a major U.S. political party.",
+      "tags": [
+        "Ferraro",
+        "Mondale",
+        "election 1984"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "social_change"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-07-28-los-angeles-summer-olympics-begin",
+      "date": "1984-07-28",
+      "date_precision": "day",
+      "known_as_of": "1984-07-28",
+      "category": "sports",
+      "scope": "US/international",
+      "headline": "Los Angeles Summer Olympics begin",
+      "summary": "The 1984 Summer Games open in Los Angeles amid a Soviet-led boycott.",
+      "tags": [
+        "Olympics",
+        "Los Angeles",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "tourism",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "regional_economy"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-07-27-purple-rain-film-opens",
+      "date": "1984-07-27",
+      "date_precision": "day",
+      "known_as_of": "1984-07-27",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Purple Rain film opens",
+      "summary": "Prince's Purple Rain reaches theaters during the album's breakthrough cultural moment.",
+      "tags": [
+        "Prince",
+        "Purple Rain",
+        "music",
+        "film"
+      ],
+      "economic_sectors": [
+        "music",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

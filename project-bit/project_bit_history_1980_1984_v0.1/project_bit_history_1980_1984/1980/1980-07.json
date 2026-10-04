@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 7,
+  "period": "1980-07",
+  "events": [
+    {
+      "id": "1980-07-16-ronald-reagan-wins-republican-presidential",
+      "date": "1980-07-16",
+      "date_precision": "day",
+      "known_as_of": "1980-07-16",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Ronald Reagan wins Republican presidential nomination",
+      "summary": "The Republican convention nominates Reagan for president, setting the general-election contest against Jimmy Carter.",
+      "tags": [
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-07-19-moscow-summer-olympics-begin",
+      "date": "1980-07-19",
+      "date_precision": "day",
+      "known_as_of": "1980-07-19",
+      "category": "sports",
+      "scope": "international",
+      "headline": "Moscow Summer Olympics begin",
+      "summary": "The Olympics open in Moscow under the shadow of a U.S.-led boycott following the Soviet invasion of Afghanistan.",
+      "tags": [
+        "Olympics",
+        "Moscow",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "tourism"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-07-unemployment-rises-as-the-recession-bottom",
+      "date": "1980-07",
+      "date_precision": "month",
+      "known_as_of": "1980-07",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Unemployment rises as the recession bottoms",
+      "summary": "U.S. unemployment reaches a four-year high while economic activity approaches the recession trough.",
+      "tags": [
+        "unemployment",
+        "recession"
+      ],
+      "economic_sectors": [
+        "labor",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1980",
+        "nber_cycle"
+      ]
+    }
+  ]
+}

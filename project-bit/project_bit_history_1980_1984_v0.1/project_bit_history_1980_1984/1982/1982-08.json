@@ -1,0 +1,92 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 8,
+  "period": "1982-08",
+  "events": [
+    {
+      "id": "1982-08-12-mexico-signals-debt-crisis",
+      "date": "1982-08-12",
+      "date_precision": "day",
+      "known_as_of": "1982-08-12",
+      "category": "economics",
+      "scope": "international",
+      "headline": "Mexico signals debt crisis",
+      "summary": "Mexico announces it can no longer meet scheduled debt payments, helping trigger the Latin American debt crisis.",
+      "tags": [
+        "Mexico",
+        "debt crisis",
+        "banks"
+      ],
+      "economic_sectors": [
+        "banking",
+        "finance"
+      ],
+      "game_relevance": [
+        "sovereign_debt",
+        "bank_risk",
+        "international_markets"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-08-plo-evacuation-from-beirut-begins",
+      "date": "1982-08",
+      "date_precision": "month",
+      "known_as_of": "1982-08",
+      "category": "geopolitics",
+      "scope": "Lebanon",
+      "headline": "PLO evacuation from Beirut begins",
+      "summary": "Palestine Liberation Organization forces begin leaving Beirut after the Israeli invasion of Lebanon.",
+      "tags": [
+        "Lebanon",
+        "Israel",
+        "PLO"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-08-long-term-interest-rates-begin-a-major-dec",
+      "date": "1982-08",
+      "date_precision": "month",
+      "known_as_of": "1982-08",
+      "category": "markets",
+      "scope": "US",
+      "headline": "Long-term interest rates begin a major decline",
+      "summary": "As inflation expectations ease and the Fed shifts, bond yields begin falling from historic highs.",
+      "tags": [
+        "bonds",
+        "interest rates",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "finance"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "bond_market",
+        "recovery_signal"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

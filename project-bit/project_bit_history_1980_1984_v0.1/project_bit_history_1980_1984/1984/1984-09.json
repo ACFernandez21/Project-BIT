@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 9,
+  "period": "1984-09",
+  "events": [
+    {
+      "id": "1984-09-04-brian-mulroney-wins-canadian-federal-elect",
+      "date": "1984-09-04",
+      "date_precision": "day",
+      "known_as_of": "1984-09-04",
+      "category": "politics",
+      "scope": "Canada",
+      "headline": "Brian Mulroney wins Canadian federal election",
+      "summary": "The Progressive Conservatives win a large parliamentary majority, ending years of Liberal dominance.",
+      "tags": [
+        "Canada",
+        "Mulroney",
+        "election"
+      ],
+      "economic_sectors": [
+        "finance",
+        "energy"
+      ],
+      "game_relevance": [
+        "international_markets",
+        "policy_change"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-09-14-first-mtv-video-music-awards-held",
+      "date": "1984-09-14",
+      "date_precision": "day",
+      "known_as_of": "1984-09-14",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "First MTV Video Music Awards held",
+      "summary": "MTV stages the inaugural VMAs, reflecting the growing influence of music video culture.",
+      "tags": [
+        "MTV",
+        "VMAs",
+        "music"
+      ],
+      "economic_sectors": [
+        "media",
+        "music"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-09-reagan-mondale-general-election-campaign-i",
+      "date": "1984-09",
+      "date_precision": "month",
+      "known_as_of": "1984-09",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Reagan-Mondale general election campaign intensifies",
+      "summary": "The presidential campaign moves into its fall phase with the economy and Cold War policy central issues.",
+      "tags": [
+        "Reagan",
+        "Mondale",
+        "election 1984"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    }
+  ]
+}

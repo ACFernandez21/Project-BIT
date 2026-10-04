@@ -1,0 +1,536 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 6,
+  "period": "1980-06",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-06-1980-recession-nears-its-trough",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "category": "economics",
+      "scope": "US",
+      "headline": "1980 recession nears its trough",
+      "summary": "The brief 1980 downturn reaches its low point around midyear; NBER later dates the trough to July.",
+      "tags": [
+        "recession",
+        "employment"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "autos",
+        "housing"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "nber_cycle"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-06-context-economics_markets-1-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "June 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-06-context-economics_markets-2-inflation-remains-exceptionally-high",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation remains exceptionally high",
+      "summary": "June 1980: The U.S. economy remains shaped by double-digit inflation and the Federal Reserve's aggressive anti-inflation campaign.",
+      "tags": [
+        "inflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-06-context-business_technology-1-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "June 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-business_technology-2-personal-computers-move-further-into-homes-an",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "June 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-01-cnn-launches-as-a-24-hour-news-network",
+      "date": "1980-06-01",
+      "date_precision": "day",
+      "known_as_of": "1980-06-01",
+      "category": "technology",
+      "scope": "US",
+      "headline": "CNN launches as a 24-hour news network",
+      "summary": "Cable News Network begins broadcasting, introducing continuous television news coverage.",
+      "tags": [
+        "CNN",
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1980-06-context-politics_geopolitics-1-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "June 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-politics_geopolitics-3-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "June 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-politics_geopolitics-2-the-u-s-presidential-campaign-dominates-domes",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The U.S. presidential campaign dominates domestic politics",
+      "summary": "June 1980: Jimmy Carter and Ronald Reagan compete amid inflation, recession, the Iran hostage crisis, and Cold War tensions.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-sports-2-major-league-baseball-occupies-the-center-of-",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball occupies the center of the summer sports calendar",
+      "summary": "June 1980: Pennant races, the All-Star Game, and star performances dominate U.S. summer sports coverage.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-sports-3-motorsports-and-golf-draw-major-summer-audien",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Motorsports and golf draw major summer audiences",
+      "summary": "June 1980: NASCAR, Indy-style racing, and golf majors remain important parts of the sports calendar.",
+      "tags": [
+        "motorsports",
+        "golf"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-sports-1-nfl-teams-prepare-for-the-coming-season",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL teams prepare for the coming season",
+      "summary": "June 1980: Training camps and preseason football begin shifting national sports attention toward the NFL.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-pop_culture-3-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "June 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-pop_culture-1-network-television-still-dominates-mass-enter",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "June 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-pop_culture-2-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "June 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-society_science_disasters-1-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "June 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-context-society_science_disasters-2-the-space-shuttle-program-prepares-for-first-",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle program prepares for first flight",
+      "summary": "June 1980: NASA works toward the first orbital shuttle mission, scheduled for 1981.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-23-severe-u-s-heat-wave-begins",
+      "date": "1980-06-23",
+      "date_precision": "day",
+      "known_as_of": "1980-06-23",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Severe U.S. heat wave begins",
+      "summary": "A prolonged heat wave affects much of the central and southern United States, causing major loss of life and agricultural stress.",
+      "tags": [
+        "heat wave",
+        "weather"
+      ],
+      "economic_sectors": [
+        "agriculture",
+        "utilities",
+        "insurance"
+      ],
+      "game_relevance": [
+        "weather_shock",
+        "commodity_prices",
+        "power_demand"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

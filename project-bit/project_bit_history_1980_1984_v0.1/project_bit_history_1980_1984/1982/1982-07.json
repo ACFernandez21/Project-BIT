@@ -1,0 +1,91 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 7,
+  "period": "1982-07",
+  "events": [
+    {
+      "id": "1982-07-11-italy-wins-fifa-world-cup",
+      "date": "1982-07-11",
+      "date_precision": "day",
+      "known_as_of": "1982-07-11",
+      "category": "sports",
+      "scope": "international",
+      "headline": "Italy wins FIFA World Cup",
+      "summary": "Italy defeats West Germany 3-1 in Madrid to win the World Cup.",
+      "tags": [
+        "World Cup",
+        "Italy",
+        "soccer"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-07-federal-reserve-begins-backing-away-from-e",
+      "date": "1982-07",
+      "date_precision": "month",
+      "known_as_of": "1982-07",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Federal Reserve begins backing away from extreme monetary restraint",
+      "summary": "With the recession severe and inflation falling, monetary policy starts becoming less restrictive.",
+      "tags": [
+        "Federal Reserve",
+        "Volcker",
+        "recession"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "recovery_signal"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    },
+    {
+      "id": "1982-07-tron-showcases-computer-generated-imagery",
+      "date": "1982-07",
+      "date_precision": "month",
+      "known_as_of": "1982-07",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "TRON showcases computer-generated imagery",
+      "summary": "Disney's TRON becomes a notable early use of extensive computer imagery in a feature film.",
+      "tags": [
+        "TRON",
+        "CGI",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

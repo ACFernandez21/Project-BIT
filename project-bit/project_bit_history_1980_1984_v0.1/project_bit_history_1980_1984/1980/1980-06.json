@@ -1,0 +1,93 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 6,
+  "period": "1980-06",
+  "events": [
+    {
+      "id": "1980-06-01-cnn-launches-as-a-24-hour-news-network",
+      "date": "1980-06-01",
+      "date_precision": "day",
+      "known_as_of": "1980-06-01",
+      "category": "technology",
+      "scope": "US",
+      "headline": "CNN launches as a 24-hour news network",
+      "summary": "Cable News Network begins broadcasting, introducing continuous television news coverage.",
+      "tags": [
+        "CNN",
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-06-1980-recession-nears-its-trough",
+      "date": "1980-06",
+      "date_precision": "month",
+      "known_as_of": "1980-06",
+      "category": "economics",
+      "scope": "US",
+      "headline": "1980 recession nears its trough",
+      "summary": "The brief 1980 downturn reaches its low point around midyear; NBER later dates the trough to July.",
+      "tags": [
+        "recession",
+        "employment"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "autos",
+        "housing"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "nber_cycle"
+      ]
+    },
+    {
+      "id": "1980-06-23-severe-u-s-heat-wave-begins",
+      "date": "1980-06-23",
+      "date_precision": "day",
+      "known_as_of": "1980-06-23",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Severe U.S. heat wave begins",
+      "summary": "A prolonged heat wave affects much of the central and southern United States, causing major loss of life and agricultural stress.",
+      "tags": [
+        "heat wave",
+        "weather"
+      ],
+      "economic_sectors": [
+        "agriculture",
+        "utilities",
+        "insurance"
+      ],
+      "game_relevance": [
+        "weather_shock",
+        "commodity_prices",
+        "power_demand"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

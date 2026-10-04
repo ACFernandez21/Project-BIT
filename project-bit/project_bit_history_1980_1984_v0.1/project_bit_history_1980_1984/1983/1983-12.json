@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 12,
+  "period": "1983-12",
+  "events": [
+    {
+      "id": "1983-12-09-australia-floats-its-dollar",
+      "date": "1983-12-09",
+      "date_precision": "day",
+      "known_as_of": "1983-12-09",
+      "category": "markets",
+      "scope": "Australia",
+      "headline": "Australia floats its dollar",
+      "summary": "The Australian government allows the currency to float and liberalizes foreign-exchange controls.",
+      "tags": [
+        "Australia",
+        "currency",
+        "FX"
+      ],
+      "economic_sectors": [
+        "banking",
+        "finance"
+      ],
+      "game_relevance": [
+        "foreign_exchange",
+        "international_markets"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-12-10-democracy-returns-to-argentina",
+      "date": "1983-12-10",
+      "date_precision": "day",
+      "known_as_of": "1983-12-10",
+      "category": "politics",
+      "scope": "Argentina",
+      "headline": "Democracy returns to Argentina",
+      "summary": "Raul Alfonsin takes office, ending years of military rule.",
+      "tags": [
+        "Argentina",
+        "democracy"
+      ],
+      "economic_sectors": [
+        "finance",
+        "international"
+      ],
+      "game_relevance": [
+        "political_risk",
+        "international_markets"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-12-17-harrods-bombing-in-london",
+      "date": "1983-12-17",
+      "date_precision": "day",
+      "known_as_of": "1983-12-17",
+      "category": "terrorism",
+      "scope": "UK",
+      "headline": "Harrods bombing in London",
+      "summary": "An IRA car bomb outside Harrods kills six people and injures dozens.",
+      "tags": [
+        "IRA",
+        "London",
+        "Harrods"
+      ],
+      "economic_sectors": [
+        "retail",
+        "tourism",
+        "insurance"
+      ],
+      "game_relevance": [
+        "terrorism_risk",
+        "consumer_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    }
+  ]
+}

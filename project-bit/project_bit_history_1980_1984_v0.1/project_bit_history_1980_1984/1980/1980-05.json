@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 5,
+  "period": "1980-05",
+  "events": [
+    {
+      "id": "1980-05-08-who-certifies-eradication-of-smallpox",
+      "date": "1980-05-08",
+      "date_precision": "day",
+      "known_as_of": "1980-05-08",
+      "category": "science",
+      "scope": "international",
+      "headline": "WHO certifies eradication of smallpox",
+      "summary": "The World Health Organization formally declares smallpox eradicated worldwide.",
+      "tags": [
+        "public health",
+        "WHO",
+        "smallpox"
+      ],
+      "economic_sectors": [
+        "healthcare"
+      ],
+      "game_relevance": [
+        "world_news",
+        "science_progress"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-05-18-mount-st-helens-erupts-catastrophically",
+      "date": "1980-05-18",
+      "date_precision": "day",
+      "known_as_of": "1980-05-18",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Mount St. Helens erupts catastrophically",
+      "summary": "The Washington volcano erupts, killing dozens and causing widespread environmental and economic damage.",
+      "tags": [
+        "Mount St. Helens",
+        "volcano",
+        "Washington"
+      ],
+      "economic_sectors": [
+        "insurance",
+        "forestry",
+        "transportation"
+      ],
+      "game_relevance": [
+        "disaster_risk",
+        "regional_economy",
+        "commodities"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-05-21-the-empire-strikes-back-reaches-theaters",
+      "date": "1980-05-21",
+      "date_precision": "day",
+      "known_as_of": "1980-05-21",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "The Empire Strikes Back reaches theaters",
+      "summary": "The second released Star Wars film becomes one of the year's defining entertainment events.",
+      "tags": [
+        "Star Wars",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    }
+  ]
+}

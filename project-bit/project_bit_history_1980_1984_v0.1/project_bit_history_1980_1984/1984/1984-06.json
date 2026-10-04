@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 6,
+  "period": "1984-06",
+  "events": [
+    {
+      "id": "1984-06-05-operation-blue-star-begins",
+      "date": "1984-06-05",
+      "date_precision": "day",
+      "known_as_of": "1984-06-05",
+      "category": "geopolitics",
+      "scope": "India",
+      "headline": "Operation Blue Star begins",
+      "summary": "Indian forces enter the Golden Temple complex in Amritsar in an operation against Sikh militants.",
+      "tags": [
+        "India",
+        "Punjab",
+        "Operation Blue Star"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-06-08-ghostbusters-and-gremlins-open",
+      "date": "1984-06-08",
+      "date_precision": "day",
+      "known_as_of": "1984-06-08",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Ghostbusters and Gremlins open",
+      "summary": "Two influential 1980s films debut on the same day and become major commercial successes.",
+      "tags": [
+        "Ghostbusters",
+        "Gremlins",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-06-12-boston-celtics-win-nba-championship",
+      "date": "1984-06-12",
+      "date_precision": "day",
+      "known_as_of": "1984-06-12",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Boston Celtics win NBA championship",
+      "summary": "The Celtics defeat the Los Angeles Lakers in a seven-game NBA Finals series.",
+      "tags": [
+        "NBA",
+        "Celtics",
+        "Lakers"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

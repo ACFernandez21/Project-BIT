@@ -1,0 +1,113 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 5,
+  "period": "1982-05",
+  "events": [
+    {
+      "id": "1982-05-01-1982-world-s-fair-opens-in-knoxville",
+      "date": "1982-05-01",
+      "date_precision": "day",
+      "known_as_of": "1982-05-01",
+      "category": "business",
+      "scope": "US",
+      "headline": "1982 World's Fair opens in Knoxville",
+      "summary": "The World's Fair opens and ultimately attracts more than 11 million visitors.",
+      "tags": [
+        "World's Fair",
+        "Knoxville"
+      ],
+      "economic_sectors": [
+        "tourism",
+        "retail"
+      ],
+      "game_relevance": [
+        "regional_economy",
+        "consumer_attention"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982",
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-05-02-the-weather-channel-launches",
+      "date": "1982-05-02",
+      "date_precision": "day",
+      "known_as_of": "1982-05-02",
+      "category": "media",
+      "scope": "US",
+      "headline": "The Weather Channel launches",
+      "summary": "The first 24-hour U.S. television weather network begins broadcasting.",
+      "tags": [
+        "Weather Channel",
+        "cable television"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982",
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-05-12-braniff-international-airways-ceases-opera",
+      "date": "1982-05-12",
+      "date_precision": "day",
+      "known_as_of": "1982-05-12",
+      "category": "business",
+      "scope": "US",
+      "headline": "Braniff International Airways ceases operations",
+      "summary": "Financially troubled Braniff files for bankruptcy and stops flying.",
+      "tags": [
+        "Braniff",
+        "airlines",
+        "bankruptcy"
+      ],
+      "economic_sectors": [
+        "airlines"
+      ],
+      "game_relevance": [
+        "bankruptcy",
+        "airline_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-05-falklands-war-intensifies",
+      "date": "1982-05",
+      "date_precision": "month",
+      "known_as_of": "1982-05",
+      "category": "geopolitics",
+      "scope": "South Atlantic",
+      "headline": "Falklands War intensifies",
+      "summary": "British and Argentine forces fight at sea and in the islands, including the sinking of General Belgrano and loss of HMS Sheffield.",
+      "tags": [
+        "Falklands War"
+      ],
+      "economic_sectors": [
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 10,
+  "period": "1984-10",
+  "events": [
+    {
+      "id": "1984-10-12-brighton-hotel-bombing-targets-british-gov",
+      "date": "1984-10-12",
+      "date_precision": "day",
+      "known_as_of": "1984-10-12",
+      "category": "terrorism",
+      "scope": "UK",
+      "headline": "Brighton hotel bombing targets British government",
+      "summary": "An IRA bomb strikes the Grand Hotel during the Conservative Party conference; Prime Minister Margaret Thatcher survives.",
+      "tags": [
+        "IRA",
+        "Brighton",
+        "Thatcher"
+      ],
+      "economic_sectors": [
+        "tourism",
+        "insurance"
+      ],
+      "game_relevance": [
+        "terrorism_risk",
+        "political_uncertainty"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-10-14-detroit-tigers-win-world-series",
+      "date": "1984-10-14",
+      "date_precision": "day",
+      "known_as_of": "1984-10-14",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Detroit Tigers win World Series",
+      "summary": "The Tigers defeat the San Diego Padres four games to one.",
+      "tags": [
+        "MLB",
+        "World Series",
+        "Tigers"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-10-31-prime-minister-indira-gandhi-assassinated",
+      "date": "1984-10-31",
+      "date_precision": "day",
+      "known_as_of": "1984-10-31",
+      "category": "geopolitics",
+      "scope": "India",
+      "headline": "Prime Minister Indira Gandhi assassinated",
+      "summary": "Gandhi is killed by two of her bodyguards, followed by severe anti-Sikh violence.",
+      "tags": [
+        "India",
+        "Indira Gandhi",
+        "assassination"
+      ],
+      "economic_sectors": [
+        "finance",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "international_markets"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

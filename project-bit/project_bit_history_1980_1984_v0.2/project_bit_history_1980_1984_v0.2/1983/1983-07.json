@@ -1,0 +1,525 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1983,
+  "month": 7,
+  "period": "1983-07",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1983-07-context-economics_markets-1-post-recession-expansion-strengthens",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Post-recession expansion strengthens",
+      "summary": "July 1983: The U.S. economy grows rapidly after the November 1982 recession trough.",
+      "tags": [
+        "recovery",
+        "growth"
+      ],
+      "economic_sectors": [
+        "retail",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-07-context-economics_markets-2-unemployment-trends-downward",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Unemployment trends downward",
+      "summary": "July 1983: Job conditions improve materially during the first full year of recovery, though unemployment remains elevated by modern standards.",
+      "tags": [
+        "employment",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "labor",
+        "retail"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-07-08-nber-announces-the-1981-82-recession-ended",
+      "date": "1983-07-08",
+      "date_precision": "day",
+      "known_as_of": "1983-07-08",
+      "category": "economics",
+      "scope": "US",
+      "headline": "NBER announces the 1981-82 recession ended in November 1982",
+      "summary": "The Business Cycle Dating Committee formally identifies the prior November as the recession trough.",
+      "tags": [
+        "NBER",
+        "recession",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "finance"
+      ],
+      "game_relevance": [
+        "recovery_signal"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "nber_cycle"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1983-07-context-business_technology-1-personal-computer-software-becomes-a-major-bu",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal-computer software becomes a major business category",
+      "summary": "July 1983: Lotus, Microsoft, and other software firms increasingly define value in the PC ecosystem.",
+      "tags": [
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-business_technology-2-u-s-video-game-industry-enters-a-severe-shake",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "U.S. video-game industry enters a severe shakeout",
+      "summary": "July 1983: Retail saturation, weak software, and consumer fatigue contribute to the North American video-game crash.",
+      "tags": [
+        "video game crash",
+        "Atari"
+      ],
+      "economic_sectors": [
+        "technology",
+        "retail",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "industry_contraction",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-15-nintendo-launches-famicom",
+      "date": "1983-07-15",
+      "date_precision": "day",
+      "known_as_of": "1983-07-15",
+      "category": "technology",
+      "scope": "Japan",
+      "headline": "Nintendo launches Famicom",
+      "summary": "Nintendo releases the Family Computer console in Japan, the platform later adapted as the Nintendo Entertainment System.",
+      "tags": [
+        "Nintendo",
+        "Famicom",
+        "video games"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1983-07-context-politics_geopolitics-1-reagan-defense-buildup-becomes-more-visible",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Reagan defense buildup becomes more visible",
+      "summary": "July 1983: The administration pushes higher defense spending and new strategic programs during a period of renewed Cold War tension.",
+      "tags": [
+        "Reagan",
+        "defense buildup",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense",
+        "aerospace"
+      ],
+      "game_relevance": [
+        "defense_sector",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-politics_geopolitics-2-u-s-soviet-relations-enter-a-particularly-ten",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S.-Soviet relations enter a particularly tense phase",
+      "summary": "July 1983: Missile deployments, KAL 007, Able Archer, and arms-control disputes heighten fears of confrontation.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-23-black-july-violence-begins",
+      "date": "1983-07-23",
+      "date_precision": "day",
+      "known_as_of": "1983-07-23",
+      "category": "geopolitics",
+      "scope": "Sri Lanka",
+      "headline": "Black July violence begins",
+      "summary": "Anti-Tamil riots in Sri Lanka intensify the country's ethnic conflict and civil war.",
+      "tags": [
+        "Sri Lanka",
+        "Black July"
+      ],
+      "economic_sectors": [
+        "shipping",
+        "tourism"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1983-07-context-sports-1-major-league-baseball-occupies-the-center-of-",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball occupies the center of the summer sports calendar",
+      "summary": "July 1983: Pennant races, the All-Star Game, and star performances dominate U.S. summer sports coverage.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-sports-2-motorsports-and-golf-draw-major-summer-audien",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Motorsports and golf draw major summer audiences",
+      "summary": "July 1983: NASCAR, Indy-style racing, and golf majors remain important parts of the sports calendar.",
+      "tags": [
+        "motorsports",
+        "golf"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-sports-3-nfl-teams-prepare-for-the-coming-season",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL teams prepare for the coming season",
+      "summary": "July 1983: Training camps and preseason football begin shifting national sports attention toward the NFL.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-pop_culture-2-event-movies-and-sequels-remain-central-to-th",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Event movies and sequels remain central to theaters",
+      "summary": "July 1983: Star Wars, action-adventure, comedy, and youth-oriented films drive the theatrical calendar.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-pop_culture-3-home-video-becomes-a-more-important-entertain",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Home video becomes a more important entertainment channel",
+      "summary": "July 1983: VCR adoption and video rental broaden how households consume movies outside theaters and broadcast TV.",
+      "tags": [
+        "VCR",
+        "home video"
+      ],
+      "economic_sectors": [
+        "consumer_electronics",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-pop_culture-1-michael-jackson-and-mtv-define-a-new-pop-musi",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Michael Jackson and MTV define a new pop-music visual era",
+      "summary": "July 1983: Music videos, choreography, fashion, and television exposure become inseparable from major pop releases.",
+      "tags": [
+        "Michael Jackson",
+        "MTV",
+        "music videos"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-society_science_disasters-1-aids-epidemic-becomes-a-growing-national-heal",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic becomes a growing national health issue",
+      "summary": "July 1983: Cases and deaths rise while researchers work to understand the disease and modes of transmission.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-society_science_disasters-3-environmental-contamination-remains-a-public-",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental contamination remains a public concern",
+      "summary": "July 1983: Superfund sites, industrial pollution, and hazardous-waste controversies keep environmental risk in national news.",
+      "tags": [
+        "Superfund",
+        "pollution"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-07-context-society_science_disasters-2-space-shuttle-activity-accelerates",
+      "date": "1983-07",
+      "date_precision": "month",
+      "known_as_of": "1983-07",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle activity accelerates",
+      "summary": "July 1983: NASA flies multiple shuttle missions and expands the range of scientific, satellite, and human-spaceflight operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

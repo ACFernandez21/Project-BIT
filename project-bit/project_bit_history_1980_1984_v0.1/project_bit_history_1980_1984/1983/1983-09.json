@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 9,
+  "period": "1983-09",
+  "events": [
+    {
+      "id": "1983-09-01-soviet-forces-shoot-down-korean-air-lines-",
+      "date": "1983-09-01",
+      "date_precision": "day",
+      "known_as_of": "1983-09-01",
+      "category": "geopolitics",
+      "scope": "US/USSR",
+      "headline": "Soviet forces shoot down Korean Air Lines Flight 007",
+      "summary": "The civilian Boeing 747 is destroyed after entering Soviet airspace, killing all 269 people aboard and sharply worsening Cold War tensions.",
+      "tags": [
+        "KAL 007",
+        "USSR",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "airlines",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "airline_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-09-17-vanessa-williams-becomes-first-black-miss-",
+      "date": "1983-09-17",
+      "date_precision": "day",
+      "known_as_of": "1983-09-17",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Vanessa Williams becomes first Black Miss America",
+      "summary": "Williams wins the Miss America title, a major cultural milestone in the pageant's history.",
+      "tags": [
+        "Miss America",
+        "Vanessa Williams"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "social_change"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-09-gps-access-becomes-part-of-post-kal-007-po",
+      "date": "1983-09",
+      "date_precision": "month",
+      "known_as_of": "1983-09",
+      "category": "technology",
+      "scope": "US",
+      "headline": "GPS access becomes part of post-KAL 007 policy discussion",
+      "summary": "The Reagan administration moves toward making satellite navigation available for civilian use once the system is operational.",
+      "tags": [
+        "GPS",
+        "navigation",
+        "KAL 007"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "transportation",
+        "technology"
+      ],
+      "game_relevance": [
+        "tech_infrastructure",
+        "navigation"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    }
+  ]
+}

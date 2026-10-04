@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="Project Bit"
+run/main_scene="res://dashboard.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/size/mode=3
+window/stretch/mode="canvas_items"
 
 [physics]
 

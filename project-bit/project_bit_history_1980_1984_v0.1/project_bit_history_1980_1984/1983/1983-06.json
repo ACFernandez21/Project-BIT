@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 6,
+  "period": "1983-06",
+  "events": [
+    {
+      "id": "1983-06-18-sally-ride-becomes-first-american-woman-in",
+      "date": "1983-06-18",
+      "date_precision": "day",
+      "known_as_of": "1983-06-18",
+      "category": "science",
+      "scope": "US",
+      "headline": "Sally Ride becomes first American woman in space",
+      "summary": "Ride launches aboard Space Shuttle Challenger on STS-7.",
+      "tags": [
+        "Sally Ride",
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "technology_sentiment",
+        "period_flavor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-06-wargames-brings-computer-hacking-into-popu",
+      "date": "1983-06",
+      "date_precision": "month",
+      "known_as_of": "1983-06",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "WarGames brings computer hacking into popular culture",
+      "summary": "The film WarGames popularizes public awareness of computers, networks, hacking, and nuclear-command risks.",
+      "tags": [
+        "WarGames",
+        "computers",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "tech_culture",
+        "consumer_attention"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-06-u-s-recovery-broadens",
+      "date": "1983-06",
+      "date_precision": "month",
+      "known_as_of": "1983-06",
+      "category": "economics",
+      "scope": "US",
+      "headline": "U.S. recovery broadens",
+      "summary": "Employment and production continue improving as inflation remains much lower than at the start of the decade.",
+      "tags": [
+        "recovery",
+        "inflation"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "employment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

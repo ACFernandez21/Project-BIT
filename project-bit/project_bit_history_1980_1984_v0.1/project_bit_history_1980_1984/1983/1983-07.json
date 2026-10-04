@@ -1,0 +1,86 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 7,
+  "period": "1983-07",
+  "events": [
+    {
+      "id": "1983-07-08-nber-announces-the-1981-82-recession-ended",
+      "date": "1983-07-08",
+      "date_precision": "day",
+      "known_as_of": "1983-07-08",
+      "category": "economics",
+      "scope": "US",
+      "headline": "NBER announces the 1981-82 recession ended in November 1982",
+      "summary": "The Business Cycle Dating Committee formally identifies the prior November as the recession trough.",
+      "tags": [
+        "NBER",
+        "recession",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "finance"
+      ],
+      "game_relevance": [
+        "recovery_signal"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "nber_cycle"
+      ]
+    },
+    {
+      "id": "1983-07-15-nintendo-launches-famicom",
+      "date": "1983-07-15",
+      "date_precision": "day",
+      "known_as_of": "1983-07-15",
+      "category": "technology",
+      "scope": "Japan",
+      "headline": "Nintendo launches Famicom",
+      "summary": "Nintendo releases the Family Computer console in Japan, the platform later adapted as the Nintendo Entertainment System.",
+      "tags": [
+        "Nintendo",
+        "Famicom",
+        "video games"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-07-23-black-july-violence-begins",
+      "date": "1983-07-23",
+      "date_precision": "day",
+      "known_as_of": "1983-07-23",
+      "category": "geopolitics",
+      "scope": "Sri Lanka",
+      "headline": "Black July violence begins",
+      "summary": "Anti-Tamil riots in Sri Lanka intensify the country's ethnic conflict and civil war.",
+      "tags": [
+        "Sri Lanka",
+        "Black July"
+      ],
+      "economic_sectors": [
+        "shipping",
+        "tourism"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    }
+  ]
+}

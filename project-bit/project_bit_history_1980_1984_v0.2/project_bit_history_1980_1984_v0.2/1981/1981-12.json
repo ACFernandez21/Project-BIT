@@ -1,0 +1,528 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1981,
+  "month": 12,
+  "period": "1981-12",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1981-12-context-economics_markets-1-reagan-economic-policy-reshapes-expectations",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Reagan economic policy reshapes expectations",
+      "summary": "December 1981: Tax cuts, deregulation, and defense spending become important themes for investors and businesses.",
+      "tags": [
+        "Reaganomics",
+        "tax policy"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "defense",
+        "banking"
+      ],
+      "game_relevance": [
+        "fiscal_policy",
+        "sector_rotation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1981-12-recession-deepens-into-year-end",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recession deepens into year-end",
+      "summary": "High interest rates continue to suppress manufacturing, construction, and auto demand.",
+      "tags": [
+        "recession",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment",
+        "credit_conditions"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1981-12-context-economics_markets-2-volcker-era-interest-rates-remain-punishingly",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Volcker-era interest rates remain punishingly high",
+      "summary": "December 1981: Federal Reserve policy keeps borrowing costs extremely elevated while inflation is being forced lower.",
+      "tags": [
+        "Volcker",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "credit_conditions"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1981-12-context-business_technology-3-cable-networks-gain-influence",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable networks gain influence",
+      "summary": "December 1981: MTV and other specialized cable channels demonstrate a new model for targeted television programming.",
+      "tags": [
+        "cable television",
+        "MTV"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-business_technology-2-ibm-pc-accelerates-business-computer-standard",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "IBM PC accelerates business-computer standardization",
+      "summary": "December 1981: IBM's entry into personal computing strengthens demand for compatible hardware, software, and peripherals.",
+      "tags": [
+        "IBM PC",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-business_technology-1-video-game-and-home-computer-competition-inte",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Video-game and home-computer competition intensifies",
+      "summary": "December 1981: Arcades, consoles, and increasingly capable home computers compete for consumer entertainment spending.",
+      "tags": [
+        "video games",
+        "home computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "competition",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-politics_geopolitics-1-middle-east-instability-remains-strategically",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East instability remains strategically important",
+      "summary": "December 1981: Iran-Iraq fighting, Israeli security concerns, and oil-supply risks continue shaping diplomacy and markets.",
+      "tags": [
+        "Middle East",
+        "Iran-Iraq War"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-politics_geopolitics-2-the-reagan-administration-begins-a-major-poli",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Reagan administration begins a major policy shift",
+      "summary": "December 1981: The new administration emphasizes tax cuts, deregulation, stronger defense spending, and a harder Cold War posture.",
+      "tags": [
+        "Reagan",
+        "Reagan administration"
+      ],
+      "economic_sectors": [
+        "defense",
+        "banking",
+        "energy"
+      ],
+      "game_relevance": [
+        "policy_change",
+        "sector_rotation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-13-martial-law-imposed-in-poland",
+      "date": "1981-12-13",
+      "date_precision": "day",
+      "known_as_of": "1981-12-13",
+      "category": "geopolitics",
+      "scope": "Poland",
+      "headline": "Martial law imposed in Poland",
+      "summary": "Polish authorities impose martial law and move against the Solidarity movement.",
+      "tags": [
+        "Poland",
+        "Solidarity",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "industry"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "labor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1981-12-context-sports-1-college-football-becomes-a-major-weekly-natio",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "December 1981: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-sports-3-major-league-baseball-reaches-postseason-and-",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "December 1981: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-sports-2-nfl-regular-season-dominates-american-televis",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "December 1981: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-pop_culture-3-hollywood-leans-further-into-franchise-and-ev",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Hollywood leans further into franchise and event films",
+      "summary": "December 1981: Sequels, action, science fiction, and high-concept releases increasingly shape theatrical marketing.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-pop_culture-2-music-video-culture-begins-reshaping-pop-prom",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Music video culture begins reshaping pop promotion",
+      "summary": "December 1981: MTV's launch gives artists and record labels a new national visual-marketing platform.",
+      "tags": [
+        "MTV",
+        "music video"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-pop_culture-1-prime-time-television-remains-a-shared-nation",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Prime-time television remains a shared national culture",
+      "summary": "December 1981: Large broadcast audiences make hit series and specials common reference points across the country.",
+      "tags": [
+        "television",
+        "broadcast"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-society_science_disasters-1-environmental-regulation-remains-a-major-fede",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental regulation remains a major federal policy arena",
+      "summary": "December 1981: Debates over pollution, energy development, and the direction of the EPA reflect the Reagan administration's deregulatory approach.",
+      "tags": [
+        "EPA",
+        "environment"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "energy"
+      ],
+      "game_relevance": [
+        "regulation",
+        "environmental_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-context-society_science_disasters-2-the-space-shuttle-begins-a-new-era-of-reusabl",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle begins a new era of reusable spacecraft",
+      "summary": "December 1981: NASA's shuttle flights make human spaceflight a recurring national technology story.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-28-first-american-ivf-baby-born",
+      "date": "1981-12-28",
+      "date_precision": "day",
+      "known_as_of": "1981-12-28",
+      "category": "science",
+      "scope": "US",
+      "headline": "First American IVF baby born",
+      "summary": "Elizabeth Jordan Carr is born in Virginia, marking a major U.S. milestone for in-vitro fertilization.",
+      "tags": [
+        "IVF",
+        "medicine"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "healthcare"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

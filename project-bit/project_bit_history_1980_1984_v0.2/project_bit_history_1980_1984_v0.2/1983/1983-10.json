@@ -1,0 +1,529 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1983,
+  "month": 10,
+  "period": "1983-10",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1983-10-context-economics_markets-3-lower-inflation-changes-the-investment-backdr",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Lower inflation changes the investment backdrop",
+      "summary": "October 1983: Inflation is far below the levels seen at the start of the decade, helping stabilize longer-term expectations.",
+      "tags": [
+        "inflation",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "broad_market"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-10-context-economics_markets-1-post-recession-expansion-strengthens",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Post-recession expansion strengthens",
+      "summary": "October 1983: The U.S. economy grows rapidly after the November 1982 recession trough.",
+      "tags": [
+        "recovery",
+        "growth"
+      ],
+      "economic_sectors": [
+        "retail",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-10-context-economics_markets-2-unemployment-trends-downward",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Unemployment trends downward",
+      "summary": "October 1983: Job conditions improve materially during the first full year of recovery, though unemployment remains elevated by modern standards.",
+      "tags": [
+        "employment",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "labor",
+        "retail"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-10-microsoft-word-enters-the-pc-software-mark",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Microsoft Word enters the PC software market",
+      "summary": "Microsoft releases the first version of Word for MS-DOS, adding to competition in personal-computer productivity software.",
+      "tags": [
+        "Microsoft",
+        "Word",
+        "software"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1983-10-context-business_technology-1-personal-computer-software-becomes-a-major-bu",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal-computer software becomes a major business category",
+      "summary": "October 1983: Lotus, Microsoft, and other software firms increasingly define value in the PC ecosystem.",
+      "tags": [
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-business_technology-2-u-s-video-game-industry-enters-a-severe-shake",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "U.S. video-game industry enters a severe shakeout",
+      "summary": "October 1983: Retail saturation, weak software, and consumer fatigue contribute to the North American video-game crash.",
+      "tags": [
+        "video game crash",
+        "Atari"
+      ],
+      "economic_sectors": [
+        "technology",
+        "retail",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "industry_contraction",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-politics_geopolitics-1-reagan-defense-buildup-becomes-more-visible",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Reagan defense buildup becomes more visible",
+      "summary": "October 1983: The administration pushes higher defense spending and new strategic programs during a period of renewed Cold War tension.",
+      "tags": [
+        "Reagan",
+        "defense buildup",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense",
+        "aerospace"
+      ],
+      "game_relevance": [
+        "defense_sector",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-23-beirut-barracks-bombing-kills-u-s-and-fren",
+      "date": "1983-10-23",
+      "date_precision": "day",
+      "known_as_of": "1983-10-23",
+      "category": "geopolitics",
+      "scope": "Lebanon",
+      "headline": "Beirut barracks bombing kills U.S. and French personnel",
+      "summary": "Truck bombs strike multinational-force barracks in Beirut, killing hundreds, including 241 U.S. service members.",
+      "tags": [
+        "Beirut",
+        "Lebanon",
+        "terrorism"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1983-10-25-united-states-invades-grenada",
+      "date": "1983-10-25",
+      "date_precision": "day",
+      "known_as_of": "1983-10-25",
+      "category": "geopolitics",
+      "scope": "Caribbean",
+      "headline": "United States invades Grenada",
+      "summary": "U.S. and allied forces land in Grenada following political upheaval on the island.",
+      "tags": [
+        "Grenada",
+        "US military",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1983-10-context-sports-3-college-football-becomes-a-major-weekly-natio",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "October 1983: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-sports-2-major-league-baseball-reaches-postseason-and-",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "October 1983: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-sports-1-nfl-regular-season-dominates-american-televis",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "October 1983: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-pop_culture-2-event-movies-and-sequels-remain-central-to-th",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Event movies and sequels remain central to theaters",
+      "summary": "October 1983: Star Wars, action-adventure, comedy, and youth-oriented films drive the theatrical calendar.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-pop_culture-3-home-video-becomes-a-more-important-entertain",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Home video becomes a more important entertainment channel",
+      "summary": "October 1983: VCR adoption and video rental broaden how households consume movies outside theaters and broadcast TV.",
+      "tags": [
+        "VCR",
+        "home video"
+      ],
+      "economic_sectors": [
+        "consumer_electronics",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-pop_culture-1-michael-jackson-and-mtv-define-a-new-pop-musi",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Michael Jackson and MTV define a new pop-music visual era",
+      "summary": "October 1983: Music videos, choreography, fashion, and television exposure become inseparable from major pop releases.",
+      "tags": [
+        "Michael Jackson",
+        "MTV",
+        "music videos"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-society_science_disasters-1-aids-epidemic-becomes-a-growing-national-heal",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic becomes a growing national health issue",
+      "summary": "October 1983: Cases and deaths rise while researchers work to understand the disease and modes of transmission.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-society_science_disasters-3-environmental-contamination-remains-a-public-",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental contamination remains a public concern",
+      "summary": "October 1983: Superfund sites, industrial pollution, and hazardous-waste controversies keep environmental risk in national news.",
+      "tags": [
+        "Superfund",
+        "pollution"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-10-context-society_science_disasters-2-space-shuttle-activity-accelerates",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle activity accelerates",
+      "summary": "October 1983: NASA flies multiple shuttle missions and expands the range of scientific, satellite, and human-spaceflight operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

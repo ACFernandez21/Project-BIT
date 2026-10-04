@@ -1,0 +1,527 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1983,
+  "month": 2,
+  "period": "1983-02",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1983-02-context-economics_markets-2-lower-inflation-changes-the-investment-backdr",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Lower inflation changes the investment backdrop",
+      "summary": "February 1983: Inflation is far below the levels seen at the start of the decade, helping stabilize longer-term expectations.",
+      "tags": [
+        "inflation",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "broad_market"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-02-recovery-begins-to-strengthen",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recovery begins to strengthen",
+      "summary": "Following the November 1982 trough, falling interest rates and improving demand support an accelerating U.S. recovery.",
+      "tags": [
+        "recovery",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "housing",
+        "autos",
+        "retail"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "consumer_spending"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1983-02-context-economics_markets-1-unemployment-trends-downward",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Unemployment trends downward",
+      "summary": "February 1983: Job conditions improve materially during the first full year of recovery, though unemployment remains elevated by modern standards.",
+      "tags": [
+        "employment",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "labor",
+        "retail"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-02-context-business_technology-3-personal-computer-software-becomes-a-major-bu",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal-computer software becomes a major business category",
+      "summary": "February 1983: Lotus, Microsoft, and other software firms increasingly define value in the PC ecosystem.",
+      "tags": [
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-business_technology-2-telecommunications-deregulation-approaches-a-",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Telecommunications deregulation approaches a structural break",
+      "summary": "February 1983: Businesses prepare for the January 1984 breakup of the Bell System and a more competitive telecom market.",
+      "tags": [
+        "AT&T",
+        "telecommunications"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-business_technology-1-u-s-video-game-industry-enters-a-severe-shake",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "U.S. video-game industry enters a severe shakeout",
+      "summary": "February 1983: Retail saturation, weak software, and consumer fatigue contribute to the North American video-game crash.",
+      "tags": [
+        "video game crash",
+        "Atari"
+      ],
+      "economic_sectors": [
+        "technology",
+        "retail",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "industry_contraction",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-politics_geopolitics-2-central-america-becomes-a-significant-u-s-for",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Central America becomes a significant U.S. foreign-policy issue",
+      "summary": "February 1983: The Reagan administration focuses on Nicaragua, El Salvador, and regional anti-communist policy.",
+      "tags": [
+        "Central America",
+        "Nicaragua",
+        "El Salvador"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-politics_geopolitics-3-reagan-defense-buildup-becomes-more-visible",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Reagan defense buildup becomes more visible",
+      "summary": "February 1983: The administration pushes higher defense spending and new strategic programs during a period of renewed Cold War tension.",
+      "tags": [
+        "Reagan",
+        "defense buildup",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense",
+        "aerospace"
+      ],
+      "game_relevance": [
+        "defense_sector",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-politics_geopolitics-1-u-s-soviet-relations-enter-a-particularly-ten",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S.-Soviet relations enter a particularly tense phase",
+      "summary": "February 1983: Missile deployments, KAL 007, Able Archer, and arms-control disputes heighten fears of confrontation.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-sports-2-college-basketball-builds-toward-march",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College basketball builds toward March",
+      "summary": "February 1983: Conference play intensifies as teams position for the NCAA men's basketball tournament.",
+      "tags": [
+        "NCAA basketball",
+        "college sports"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-sports-1-nba-and-nhl-regular-seasons-move-through-mids",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL regular seasons move through midseason",
+      "summary": "February 1983: Basketball and hockey provide major winter sports storylines across U.S. and Canadian markets.",
+      "tags": [
+        "NBA",
+        "NHL"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-sports-3-nfl-postseason-captures-national-attention",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL postseason captures national attention",
+      "summary": "February 1983: Professional football playoffs and the Super Bowl are major U.S. television and advertising events.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-pop_culture-1-event-movies-and-sequels-remain-central-to-th",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Event movies and sequels remain central to theaters",
+      "summary": "February 1983: Star Wars, action-adventure, comedy, and youth-oriented films drive the theatrical calendar.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-pop_culture-2-home-video-becomes-a-more-important-entertain",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Home video becomes a more important entertainment channel",
+      "summary": "February 1983: VCR adoption and video rental broaden how households consume movies outside theaters and broadcast TV.",
+      "tags": [
+        "VCR",
+        "home video"
+      ],
+      "economic_sectors": [
+        "consumer_electronics",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-28-m-a-s-h-finale-draws-enormous-television-a",
+      "date": "1983-02-28",
+      "date_precision": "day",
+      "known_as_of": "1983-02-28",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "M*A*S*H finale draws enormous television audience",
+      "summary": "The final episode of M*A*S*H becomes one of the most-watched U.S. television broadcasts ever.",
+      "tags": [
+        "MASH",
+        "television"
+      ],
+      "economic_sectors": [
+        "media",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1983-02-context-society_science_disasters-2-environmental-contamination-remains-a-public-",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental contamination remains a public concern",
+      "summary": "February 1983: Superfund sites, industrial pollution, and hazardous-waste controversies keep environmental risk in national news.",
+      "tags": [
+        "Superfund",
+        "pollution"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-context-society_science_disasters-1-space-shuttle-activity-accelerates",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle activity accelerates",
+      "summary": "February 1983: NASA flies multiple shuttle missions and expands the range of scientific, satellite, and human-spaceflight operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-23-federal-government-announces-times-beach-b",
+      "date": "1983-02-23",
+      "date_precision": "day",
+      "known_as_of": "1983-02-23",
+      "category": "environment",
+      "scope": "US",
+      "headline": "Federal government announces Times Beach buyout",
+      "summary": "The EPA plans evacuation and purchase of the dioxin-contaminated Missouri community.",
+      "tags": [
+        "EPA",
+        "Times Beach",
+        "dioxin"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

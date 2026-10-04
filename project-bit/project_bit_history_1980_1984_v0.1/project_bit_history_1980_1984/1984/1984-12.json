@@ -1,0 +1,91 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 12,
+  "period": "1984-12",
+  "events": [
+    {
+      "id": "1984-12-03-bhopal-gas-disaster",
+      "date": "1984-12-03",
+      "date_precision": "day",
+      "known_as_of": "1984-12-03",
+      "category": "disaster",
+      "scope": "India",
+      "headline": "Bhopal gas disaster",
+      "summary": "A toxic gas leak at a Union Carbide pesticide plant in Bhopal kills thousands and becomes one of history's worst industrial disasters.",
+      "tags": [
+        "Bhopal",
+        "Union Carbide",
+        "industrial disaster"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "industrial_risk",
+        "regulation",
+        "brand_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-12-ethiopian-famine-drives-global-relief-atte",
+      "date": "1984-12",
+      "date_precision": "month",
+      "known_as_of": "1984-12",
+      "category": "humanitarian",
+      "scope": "Africa/international",
+      "headline": "Ethiopian famine drives global relief attention",
+      "summary": "Television coverage and charity efforts make the Ethiopian famine a major international humanitarian issue.",
+      "tags": [
+        "Ethiopia",
+        "famine",
+        "aid"
+      ],
+      "economic_sectors": [
+        "agriculture",
+        "media"
+      ],
+      "game_relevance": [
+        "commodity_risk",
+        "consumer_attention"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-12-u-s-completes-a-strong-expansion-year",
+      "date": "1984-12",
+      "date_precision": "month",
+      "known_as_of": "1984-12",
+      "category": "economics",
+      "scope": "US",
+      "headline": "U.S. completes a strong expansion year",
+      "summary": "The post-1982 recovery delivers strong growth and declining unemployment, while federal deficits remain a policy concern.",
+      "tags": [
+        "economic expansion",
+        "deficit",
+        "employment"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "fiscal_policy"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

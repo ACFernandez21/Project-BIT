@@ -1,0 +1,82 @@
+{
+  "wiki_1980": {
+    "name": "1980 - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1980",
+    "type": "timeline_reference"
+  },
+  "wiki_us_1980": {
+    "name": "1980 in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1980_in_the_United_States",
+    "type": "timeline_reference"
+  },
+  "wiki_1981": {
+    "name": "1981 - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1981",
+    "type": "timeline_reference"
+  },
+  "wiki_us_1981": {
+    "name": "1981 in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1981_in_the_United_States",
+    "type": "timeline_reference"
+  },
+  "wiki_1982": {
+    "name": "1982 - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1982",
+    "type": "timeline_reference"
+  },
+  "wiki_us_1982": {
+    "name": "1982 in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1982_in_the_United_States",
+    "type": "timeline_reference"
+  },
+  "wiki_1983": {
+    "name": "1983 - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1983",
+    "type": "timeline_reference"
+  },
+  "wiki_us_1983": {
+    "name": "1983 in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1983_in_the_United_States",
+    "type": "timeline_reference"
+  },
+  "wiki_1984": {
+    "name": "1984 - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1984",
+    "type": "timeline_reference"
+  },
+  "wiki_us_1984": {
+    "name": "1984 in the United States - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/1984_in_the_United_States",
+    "type": "timeline_reference"
+  },
+  "fed_recession_8182": {
+    "name": "Recession of 1981-82 - Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82",
+    "type": "primary_context"
+  },
+  "fed_great_inflation": {
+    "name": "The Great Inflation - Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/time-period/great-inflation",
+    "type": "primary_context"
+  },
+  "nber_cycle": {
+    "name": "Business Cycle Dating Committee Announcements - NBER",
+    "url": "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-committee-announcements",
+    "type": "primary_context"
+  },
+  "fed_recession_1980_82": {
+    "name": "Federal Reserve History — Great Inflation / Recession of 1981–82",
+    "url": "https://www.federalreservehistory.org/time-period/great-inflation",
+    "type": "primary_context"
+  },
+  "nber_cycles": {
+    "name": "NBER — Business Cycle Dating",
+    "url": "https://www.nber.org/research/business-cycle-dating",
+    "type": "primary_context"
+  },
+  "year_timeline_note": {
+    "name": "Yearly U.S. and world timeline references",
+    "url": "https://en.wikipedia.org/wiki/1980s",
+    "type": "secondary_context"
+  }
+}

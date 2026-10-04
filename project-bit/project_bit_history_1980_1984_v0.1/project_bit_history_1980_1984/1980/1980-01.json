@@ -1,0 +1,93 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 1,
+  "period": "1980-01",
+  "events": [
+    {
+      "id": "1980-01-04-u-s-announces-grain-embargo-against-soviet",
+      "date": "1980-01-04",
+      "date_precision": "day",
+      "known_as_of": "1980-01-04",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S. announces grain embargo against Soviet Union",
+      "summary": "President Jimmy Carter restricts grain exports to the USSR following the Soviet invasion of Afghanistan.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "trade",
+        "agriculture"
+      ],
+      "economic_sectors": [
+        "agriculture",
+        "commodities"
+      ],
+      "game_relevance": [
+        "commodity_prices",
+        "international_trade",
+        "farmer_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-01-18-silver-prices-reach-an-extraordinary-peak",
+      "date": "1980-01-18",
+      "date_precision": "day",
+      "known_as_of": "1980-01-18",
+      "category": "markets",
+      "scope": "international",
+      "headline": "Silver prices reach an extraordinary peak",
+      "summary": "Silver prices surge amid the Hunt brothers' attempt to corner the market, becoming a signature commodity-market episode of the era.",
+      "tags": [
+        "silver",
+        "commodities",
+        "speculation"
+      ],
+      "economic_sectors": [
+        "metals",
+        "finance"
+      ],
+      "game_relevance": [
+        "commodity_volatility",
+        "speculation"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-01-20-pittsburgh-steelers-win-super-bowl-xiv",
+      "date": "1980-01-20",
+      "date_precision": "day",
+      "known_as_of": "1980-01-20",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Pittsburgh Steelers win Super Bowl XIV",
+      "summary": "The Steelers defeat the Los Angeles Rams 31-19, becoming the first NFL franchise to win four Super Bowls.",
+      "tags": [
+        "NFL",
+        "Super Bowl",
+        "Steelers"
+      ],
+      "economic_sectors": [
+        "media",
+        "sports"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 4,
+  "period": "1980-04",
+  "events": [
+    {
+      "id": "1980-04-24-operation-eagle-claw-fails-in-iran",
+      "date": "1980-04-24",
+      "date_precision": "day",
+      "known_as_of": "1980-04-24",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Operation Eagle Claw fails in Iran",
+      "summary": "A U.S. attempt to rescue hostages in Iran is aborted after mechanical problems and a deadly collision in the desert.",
+      "tags": [
+        "Iran hostage crisis",
+        "US military"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-04-1980-recession-deepens",
+      "date": "1980-04",
+      "date_precision": "month",
+      "known_as_of": "1980-04",
+      "category": "economics",
+      "scope": "US",
+      "headline": "1980 recession deepens",
+      "summary": "Tight credit, high interest rates, and falling activity push the U.S. economy into a sharp but brief recession.",
+      "tags": [
+        "recession",
+        "interest rates",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "autos",
+        "housing",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment",
+        "credit_conditions"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "nber_cycle",
+        "fed_great_inflation"
+      ]
+    },
+    {
+      "id": "1980-04-arcade-gaming-expands-rapidly",
+      "date": "1980-04",
+      "date_precision": "month",
+      "known_as_of": "1980-04",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Arcade gaming expands rapidly",
+      "summary": "The U.S. arcade-game boom accelerates, setting the stage for Pac-Man and other major releases to become mass-market cultural phenomena.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    }
+  ]
+}

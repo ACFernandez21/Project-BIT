@@ -1,0 +1,92 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 3,
+  "period": "1983-03",
+  "events": [
+    {
+      "id": "1983-03-08-ibm-releases-pc-xt",
+      "date": "1983-03-08",
+      "date_precision": "day",
+      "known_as_of": "1983-03-08",
+      "category": "technology",
+      "scope": "US",
+      "headline": "IBM releases PC XT",
+      "summary": "IBM expands its personal-computer line with the PC XT, including a built-in hard drive.",
+      "tags": [
+        "IBM",
+        "PC XT",
+        "personal computer"
+      ],
+      "economic_sectors": [
+        "technology",
+        "storage",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-03-23-reagan-announces-strategic-defense-initiat",
+      "date": "1983-03-23",
+      "date_precision": "day",
+      "known_as_of": "1983-03-23",
+      "category": "defense",
+      "scope": "US",
+      "headline": "Reagan announces Strategic Defense Initiative",
+      "summary": "President Reagan proposes research into missile-defense systems, quickly nicknamed 'Star Wars.'",
+      "tags": [
+        "SDI",
+        "Cold War",
+        "missile defense"
+      ],
+      "economic_sectors": [
+        "defense",
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "defense_sector",
+        "government_spending"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-03-25-michael-jackson-performs-moonwalk-during-m",
+      "date": "1983-03-25",
+      "date_precision": "day",
+      "known_as_of": "1983-03-25",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Michael Jackson performs moonwalk during Motown 25 taping",
+      "summary": "The performance of 'Billie Jean,' broadcast later in May, becomes a defining moment in Jackson's rise.",
+      "tags": [
+        "Michael Jackson",
+        "Motown",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 4,
+  "period": "1983-04",
+  "events": [
+    {
+      "id": "1983-04-04-space-shuttle-challenger-launches-on-sts-6",
+      "date": "1983-04-04",
+      "date_precision": "day",
+      "known_as_of": "1983-04-04",
+      "category": "science",
+      "scope": "US",
+      "headline": "Space Shuttle Challenger launches on STS-6",
+      "summary": "Challenger begins its first mission; the flight includes the first U.S. spacewalk of the shuttle program.",
+      "tags": [
+        "NASA",
+        "Challenger",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-04-15-tokyo-disneyland-opens",
+      "date": "1983-04-15",
+      "date_precision": "day",
+      "known_as_of": "1983-04-15",
+      "category": "business",
+      "scope": "Japan",
+      "headline": "Tokyo Disneyland opens",
+      "summary": "Disney's first theme park outside the United States opens near Tokyo.",
+      "tags": [
+        "Disney",
+        "Japan",
+        "theme parks"
+      ],
+      "economic_sectors": [
+        "tourism",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "international_expansion",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-04-interest-sensitive-sectors-rebound",
+      "date": "1983-04",
+      "date_precision": "month",
+      "known_as_of": "1983-04",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Interest-sensitive sectors rebound",
+      "summary": "Lower rates help housing and automobile demand recover strongly from the 1981-82 recession.",
+      "tags": [
+        "recovery",
+        "housing",
+        "autos"
+      ],
+      "economic_sectors": [
+        "housing",
+        "autos",
+        "banking"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "sector_growth"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

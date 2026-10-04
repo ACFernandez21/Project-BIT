@@ -1,0 +1,5516 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "coverage": {
+    "start": "1980-01",
+    "end": "1984-12",
+    "months": 60
+  },
+  "notes": [
+    "Curated baseline for gameplay and research; not an exhaustive historical record.",
+    "game_relevance and economic_sectors are interpretive metadata, not claims of measured market impact.",
+    "Month-precision entries use YYYY-MM when an exact day is intentionally not asserted.",
+    "Before using an event for deterministic market simulation, validate it against market/price datasets separately."
+  ],
+  "source_registry": {
+    "wiki_1980": {
+      "name": "1980 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1980",
+      "type": "timeline_reference"
+    },
+    "wiki_us_1980": {
+      "name": "1980 in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1980_in_the_United_States",
+      "type": "timeline_reference"
+    },
+    "wiki_1981": {
+      "name": "1981 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1981",
+      "type": "timeline_reference"
+    },
+    "wiki_us_1981": {
+      "name": "1981 in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1981_in_the_United_States",
+      "type": "timeline_reference"
+    },
+    "wiki_1982": {
+      "name": "1982 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1982",
+      "type": "timeline_reference"
+    },
+    "wiki_us_1982": {
+      "name": "1982 in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1982_in_the_United_States",
+      "type": "timeline_reference"
+    },
+    "wiki_1983": {
+      "name": "1983 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1983",
+      "type": "timeline_reference"
+    },
+    "wiki_us_1983": {
+      "name": "1983 in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1983_in_the_United_States",
+      "type": "timeline_reference"
+    },
+    "wiki_1984": {
+      "name": "1984 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1984",
+      "type": "timeline_reference"
+    },
+    "wiki_us_1984": {
+      "name": "1984 in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1984_in_the_United_States",
+      "type": "timeline_reference"
+    },
+    "fed_recession_8182": {
+      "name": "Recession of 1981-82 - Federal Reserve History",
+      "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82",
+      "type": "primary_context"
+    },
+    "fed_great_inflation": {
+      "name": "The Great Inflation - Federal Reserve History",
+      "url": "https://www.federalreservehistory.org/time-period/great-inflation",
+      "type": "primary_context"
+    },
+    "nber_cycle": {
+      "name": "Business Cycle Dating Committee Announcements - NBER",
+      "url": "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-committee-announcements",
+      "type": "primary_context"
+    }
+  },
+  "months": [
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 1,
+      "period": "1980-01",
+      "events": [
+        {
+          "id": "1980-01-04-u-s-announces-grain-embargo-against-soviet",
+          "date": "1980-01-04",
+          "date_precision": "day",
+          "known_as_of": "1980-01-04",
+          "category": "geopolitics",
+          "scope": "US/international",
+          "headline": "U.S. announces grain embargo against Soviet Union",
+          "summary": "President Jimmy Carter restricts grain exports to the USSR following the Soviet invasion of Afghanistan.",
+          "tags": [
+            "Cold War",
+            "USSR",
+            "trade",
+            "agriculture"
+          ],
+          "economic_sectors": [
+            "agriculture",
+            "commodities"
+          ],
+          "game_relevance": [
+            "commodity_prices",
+            "international_trade",
+            "farmer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1980",
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-01-18-silver-prices-reach-an-extraordinary-peak",
+          "date": "1980-01-18",
+          "date_precision": "day",
+          "known_as_of": "1980-01-18",
+          "category": "markets",
+          "scope": "international",
+          "headline": "Silver prices reach an extraordinary peak",
+          "summary": "Silver prices surge amid the Hunt brothers' attempt to corner the market, becoming a signature commodity-market episode of the era.",
+          "tags": [
+            "silver",
+            "commodities",
+            "speculation"
+          ],
+          "economic_sectors": [
+            "metals",
+            "finance"
+          ],
+          "game_relevance": [
+            "commodity_volatility",
+            "speculation"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-01-20-pittsburgh-steelers-win-super-bowl-xiv",
+          "date": "1980-01-20",
+          "date_precision": "day",
+          "known_as_of": "1980-01-20",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Pittsburgh Steelers win Super Bowl XIV",
+          "summary": "The Steelers defeat the Los Angeles Rams 31-19, becoming the first NFL franchise to win four Super Bowls.",
+          "tags": [
+            "NFL",
+            "Super Bowl",
+            "Steelers"
+          ],
+          "economic_sectors": [
+            "media",
+            "sports"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 2,
+      "period": "1980-02",
+      "events": [
+        {
+          "id": "1980-02-13-lake-placid-winter-olympics-open",
+          "date": "1980-02-13",
+          "date_precision": "day",
+          "known_as_of": "1980-02-13",
+          "category": "sports",
+          "scope": "international/US",
+          "headline": "Lake Placid Winter Olympics open",
+          "summary": "The XIII Olympic Winter Games open in Lake Placid, New York, amid intense Cold War attention.",
+          "tags": [
+            "Olympics",
+            "Lake Placid",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "sports",
+            "tourism",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "consumer_attention"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-02-22-miracle-on-ice",
+          "date": "1980-02-22",
+          "date_precision": "day",
+          "known_as_of": "1980-02-22",
+          "category": "sports",
+          "scope": "US/international",
+          "headline": "Miracle on Ice",
+          "summary": "The U.S. Olympic hockey team defeats the heavily favored Soviet team in the medal round at Lake Placid.",
+          "tags": [
+            "hockey",
+            "Olympics",
+            "USSR",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "national_sentiment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-02-high-inflation-and-tight-money-dominate-th",
+          "date": "1980-02",
+          "date_precision": "month",
+          "known_as_of": "1980-02",
+          "category": "economics",
+          "scope": "US",
+          "headline": "High inflation and tight money dominate the U.S. economy",
+          "summary": "The Volcker Federal Reserve continues an aggressive anti-inflation policy as borrowing costs remain extremely high.",
+          "tags": [
+            "inflation",
+            "Volcker",
+            "interest rates"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "credit_conditions",
+            "consumer_sentiment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 3,
+      "period": "1980-03",
+      "events": [
+        {
+          "id": "1980-03-14-carter-administration-imposes-credit-contr",
+          "date": "1980-03-14",
+          "date_precision": "day",
+          "known_as_of": "1980-03-14",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Carter administration imposes credit controls",
+          "summary": "The administration introduces credit restraints as part of the fight against inflation, contributing to a sharp pullback in borrowing and spending.",
+          "tags": [
+            "credit controls",
+            "inflation",
+            "Carter"
+          ],
+          "economic_sectors": [
+            "banking",
+            "retail",
+            "autos"
+          ],
+          "game_relevance": [
+            "credit_conditions",
+            "consumer_spending"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        },
+        {
+          "id": "1980-03-31-depository-institutions-deregulation-and-m",
+          "date": "1980-03-31",
+          "date_precision": "day",
+          "known_as_of": "1980-03-31",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Depository Institutions Deregulation and Monetary Control Act signed",
+          "summary": "The law changes banking regulation and expands Federal Reserve requirements across depository institutions.",
+          "tags": [
+            "banking",
+            "Federal Reserve",
+            "deregulation"
+          ],
+          "economic_sectors": [
+            "banking",
+            "finance"
+          ],
+          "game_relevance": [
+            "bank_rules",
+            "interest_rates"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        },
+        {
+          "id": "1980-03-mount-st-helens-activity-intensifies",
+          "date": "1980-03",
+          "date_precision": "month",
+          "known_as_of": "1980-03",
+          "category": "science",
+          "scope": "US",
+          "headline": "Mount St. Helens activity intensifies",
+          "summary": "Earthquakes and steam explosions at Mount St. Helens signal the volcanic crisis that will culminate in May.",
+          "tags": [
+            "volcano",
+            "Mount St. Helens"
+          ],
+          "economic_sectors": [
+            "insurance",
+            "transportation"
+          ],
+          "game_relevance": [
+            "disaster_risk",
+            "regional_economy"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 4,
+      "period": "1980-04",
+      "events": [
+        {
+          "id": "1980-04-24-operation-eagle-claw-fails-in-iran",
+          "date": "1980-04-24",
+          "date_precision": "day",
+          "known_as_of": "1980-04-24",
+          "category": "geopolitics",
+          "scope": "US/international",
+          "headline": "Operation Eagle Claw fails in Iran",
+          "summary": "A U.S. attempt to rescue hostages in Iran is aborted after mechanical problems and a deadly collision in the desert.",
+          "tags": [
+            "Iran hostage crisis",
+            "US military"
+          ],
+          "economic_sectors": [
+            "defense",
+            "energy"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "national_sentiment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-04-1980-recession-deepens",
+          "date": "1980-04",
+          "date_precision": "month",
+          "known_as_of": "1980-04",
+          "category": "economics",
+          "scope": "US",
+          "headline": "1980 recession deepens",
+          "summary": "Tight credit, high interest rates, and falling activity push the U.S. economy into a sharp but brief recession.",
+          "tags": [
+            "recession",
+            "interest rates",
+            "Volcker"
+          ],
+          "economic_sectors": [
+            "autos",
+            "housing",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment",
+            "credit_conditions"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "nber_cycle",
+            "fed_great_inflation"
+          ]
+        },
+        {
+          "id": "1980-04-arcade-gaming-expands-rapidly",
+          "date": "1980-04",
+          "date_precision": "month",
+          "known_as_of": "1980-04",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Arcade gaming expands rapidly",
+          "summary": "The U.S. arcade-game boom accelerates, setting the stage for Pac-Man and other major releases to become mass-market cultural phenomena.",
+          "tags": [
+            "arcades",
+            "video games"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "technology"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 5,
+      "period": "1980-05",
+      "events": [
+        {
+          "id": "1980-05-08-who-certifies-eradication-of-smallpox",
+          "date": "1980-05-08",
+          "date_precision": "day",
+          "known_as_of": "1980-05-08",
+          "category": "science",
+          "scope": "international",
+          "headline": "WHO certifies eradication of smallpox",
+          "summary": "The World Health Organization formally declares smallpox eradicated worldwide.",
+          "tags": [
+            "public health",
+            "WHO",
+            "smallpox"
+          ],
+          "economic_sectors": [
+            "healthcare"
+          ],
+          "game_relevance": [
+            "world_news",
+            "science_progress"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-05-18-mount-st-helens-erupts-catastrophically",
+          "date": "1980-05-18",
+          "date_precision": "day",
+          "known_as_of": "1980-05-18",
+          "category": "disaster",
+          "scope": "US",
+          "headline": "Mount St. Helens erupts catastrophically",
+          "summary": "The Washington volcano erupts, killing dozens and causing widespread environmental and economic damage.",
+          "tags": [
+            "Mount St. Helens",
+            "volcano",
+            "Washington"
+          ],
+          "economic_sectors": [
+            "insurance",
+            "forestry",
+            "transportation"
+          ],
+          "game_relevance": [
+            "disaster_risk",
+            "regional_economy",
+            "commodities"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-05-21-the-empire-strikes-back-reaches-theaters",
+          "date": "1980-05-21",
+          "date_precision": "day",
+          "known_as_of": "1980-05-21",
+          "category": "pop_culture",
+          "scope": "US/international",
+          "headline": "The Empire Strikes Back reaches theaters",
+          "summary": "The second released Star Wars film becomes one of the year's defining entertainment events.",
+          "tags": [
+            "Star Wars",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 6,
+      "period": "1980-06",
+      "events": [
+        {
+          "id": "1980-06-01-cnn-launches-as-a-24-hour-news-network",
+          "date": "1980-06-01",
+          "date_precision": "day",
+          "known_as_of": "1980-06-01",
+          "category": "technology",
+          "scope": "US",
+          "headline": "CNN launches as a 24-hour news network",
+          "summary": "Cable News Network begins broadcasting, introducing continuous television news coverage.",
+          "tags": [
+            "CNN",
+            "cable television",
+            "media"
+          ],
+          "economic_sectors": [
+            "media",
+            "telecommunications"
+          ],
+          "game_relevance": [
+            "media_shift",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1980",
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-06-1980-recession-nears-its-trough",
+          "date": "1980-06",
+          "date_precision": "month",
+          "known_as_of": "1980-06",
+          "category": "economics",
+          "scope": "US",
+          "headline": "1980 recession nears its trough",
+          "summary": "The brief 1980 downturn reaches its low point around midyear; NBER later dates the trough to July.",
+          "tags": [
+            "recession",
+            "employment"
+          ],
+          "economic_sectors": [
+            "manufacturing",
+            "autos",
+            "housing"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "nber_cycle"
+          ]
+        },
+        {
+          "id": "1980-06-23-severe-u-s-heat-wave-begins",
+          "date": "1980-06-23",
+          "date_precision": "day",
+          "known_as_of": "1980-06-23",
+          "category": "disaster",
+          "scope": "US",
+          "headline": "Severe U.S. heat wave begins",
+          "summary": "A prolonged heat wave affects much of the central and southern United States, causing major loss of life and agricultural stress.",
+          "tags": [
+            "heat wave",
+            "weather"
+          ],
+          "economic_sectors": [
+            "agriculture",
+            "utilities",
+            "insurance"
+          ],
+          "game_relevance": [
+            "weather_shock",
+            "commodity_prices",
+            "power_demand"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1980",
+            "wiki_us_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 7,
+      "period": "1980-07",
+      "events": [
+        {
+          "id": "1980-07-16-ronald-reagan-wins-republican-presidential",
+          "date": "1980-07-16",
+          "date_precision": "day",
+          "known_as_of": "1980-07-16",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Ronald Reagan wins Republican presidential nomination",
+          "summary": "The Republican convention nominates Reagan for president, setting the general-election contest against Jimmy Carter.",
+          "tags": [
+            "Reagan",
+            "election 1980"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-07-19-moscow-summer-olympics-begin",
+          "date": "1980-07-19",
+          "date_precision": "day",
+          "known_as_of": "1980-07-19",
+          "category": "sports",
+          "scope": "international",
+          "headline": "Moscow Summer Olympics begin",
+          "summary": "The Olympics open in Moscow under the shadow of a U.S.-led boycott following the Soviet invasion of Afghanistan.",
+          "tags": [
+            "Olympics",
+            "Moscow",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media",
+            "tourism"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-07-unemployment-rises-as-the-recession-bottom",
+          "date": "1980-07",
+          "date_precision": "month",
+          "known_as_of": "1980-07",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Unemployment rises as the recession bottoms",
+          "summary": "U.S. unemployment reaches a four-year high while economic activity approaches the recession trough.",
+          "tags": [
+            "unemployment",
+            "recession"
+          ],
+          "economic_sectors": [
+            "labor",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "employment",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1980",
+            "nber_cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 8,
+      "period": "1980-08",
+      "events": [
+        {
+          "id": "1980-08-14-jimmy-carter-wins-democratic-renomination",
+          "date": "1980-08-14",
+          "date_precision": "day",
+          "known_as_of": "1980-08-14",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Jimmy Carter wins Democratic renomination",
+          "summary": "President Carter secures the Democratic nomination after defeating Senator Ted Kennedy's primary challenge.",
+          "tags": [
+            "Carter",
+            "election 1980"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "sentiment"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-08-31-solidarity-movement-gains-recognition-in-p",
+          "date": "1980-08-31",
+          "date_precision": "day",
+          "known_as_of": "1980-08-31",
+          "category": "politics",
+          "scope": "Europe",
+          "headline": "Solidarity movement gains recognition in Poland",
+          "summary": "The Gdansk Agreement recognizes independent trade unions, giving rise to Solidarity as a major challenge to communist rule.",
+          "tags": [
+            "Poland",
+            "Solidarity",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "industry",
+            "shipping"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "labor"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-08-economic-recovery-begins-after-short-reces",
+          "date": "1980-08",
+          "date_precision": "month",
+          "known_as_of": "1980-08",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Economic recovery begins after short recession",
+          "summary": "Activity begins recovering from the 1980 recession even as inflation remains high and monetary policy stays volatile.",
+          "tags": [
+            "recovery",
+            "inflation"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "interest_rates"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "nber_cycle",
+            "fed_great_inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 9,
+      "period": "1980-09",
+      "events": [
+        {
+          "id": "1980-09-22-iran-iraq-war-begins",
+          "date": "1980-09-22",
+          "date_precision": "day",
+          "known_as_of": "1980-09-22",
+          "category": "geopolitics",
+          "scope": "Middle East",
+          "headline": "Iran-Iraq War begins",
+          "summary": "Iraq invades Iran, beginning a war that will last nearly eight years and repeatedly threaten oil supplies.",
+          "tags": [
+            "Iran",
+            "Iraq",
+            "war",
+            "oil"
+          ],
+          "economic_sectors": [
+            "energy",
+            "defense",
+            "shipping"
+          ],
+          "game_relevance": [
+            "oil_price",
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-09-pac-man-spreads-beyond-japan",
+          "date": "1980-09",
+          "date_precision": "month",
+          "known_as_of": "1980-09",
+          "category": "technology",
+          "scope": "international",
+          "headline": "Pac-Man spreads beyond Japan",
+          "summary": "Namco's Pac-Man begins its international rise, becoming one of the defining arcade games of the decade.",
+          "tags": [
+            "Pac-Man",
+            "arcade",
+            "video games"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "technology"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-09-inflation-remains-a-central-election-year-",
+          "date": "1980-09",
+          "date_precision": "month",
+          "known_as_of": "1980-09",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Inflation remains a central election-year issue",
+          "summary": "High consumer prices and borrowing costs continue to shape household finances and the presidential campaign.",
+          "tags": [
+            "inflation",
+            "election 1980"
+          ],
+          "economic_sectors": [
+            "banking",
+            "retail",
+            "housing"
+          ],
+          "game_relevance": [
+            "consumer_sentiment",
+            "interest_rates"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 10,
+      "period": "1980-10",
+      "events": [
+        {
+          "id": "1980-10-21-philadelphia-phillies-win-the-world-series",
+          "date": "1980-10-21",
+          "date_precision": "day",
+          "known_as_of": "1980-10-21",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Philadelphia Phillies win the World Series",
+          "summary": "The Phillies defeat the Kansas City Royals to win the franchise's first World Series championship.",
+          "tags": [
+            "MLB",
+            "World Series",
+            "Phillies"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-10-28-carter-and-reagan-hold-presidential-debate",
+          "date": "1980-10-28",
+          "date_precision": "day",
+          "known_as_of": "1980-10-28",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Carter and Reagan hold presidential debate",
+          "summary": "The nationally televised debate becomes a defining moment in the closing days of the 1980 presidential campaign.",
+          "tags": [
+            "Carter",
+            "Reagan",
+            "election 1980"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-10-interest-rates-climb-again",
+          "date": "1980-10",
+          "date_precision": "month",
+          "known_as_of": "1980-10",
+          "category": "markets",
+          "scope": "US",
+          "headline": "Interest rates climb again",
+          "summary": "After easing during the recession, U.S. interest rates rise sharply again as the Federal Reserve maintains its anti-inflation stance.",
+          "tags": [
+            "Volcker",
+            "interest rates",
+            "inflation"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "credit_conditions"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 11,
+      "period": "1980-11",
+      "events": [
+        {
+          "id": "1980-11-04-ronald-reagan-wins-u-s-presidential-electi",
+          "date": "1980-11-04",
+          "date_precision": "day",
+          "known_as_of": "1980-11-04",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Ronald Reagan wins U.S. presidential election",
+          "summary": "Reagan defeats incumbent President Jimmy Carter in a decisive election victory.",
+          "tags": [
+            "Reagan",
+            "Carter",
+            "election 1980"
+          ],
+          "economic_sectors": [
+            "media",
+            "defense",
+            "energy"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "policy_change"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980",
+            "wiki_us_1980"
+          ]
+        },
+        {
+          "id": "1980-11-12-voyager-1-flies-past-saturn",
+          "date": "1980-11-12",
+          "date_precision": "day",
+          "known_as_of": "1980-11-12",
+          "category": "science",
+          "scope": "international",
+          "headline": "Voyager 1 flies past Saturn",
+          "summary": "NASA's Voyager 1 makes its close encounter with Saturn, returning major scientific observations and images.",
+          "tags": [
+            "NASA",
+            "Voyager",
+            "Saturn"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-11-markets-anticipate-reagan-policy-shift",
+          "date": "1980-11",
+          "date_precision": "month",
+          "known_as_of": "1980-11",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Markets anticipate Reagan policy shift",
+          "summary": "Investors begin positioning around expectations of tax cuts, deregulation, higher defense spending, and continued anti-inflation policy.",
+          "tags": [
+            "Reaganomics",
+            "markets"
+          ],
+          "economic_sectors": [
+            "finance",
+            "defense",
+            "banking"
+          ],
+          "game_relevance": [
+            "policy_expectations",
+            "sector_rotation"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1980,
+      "month": 12,
+      "period": "1980-12",
+      "events": [
+        {
+          "id": "1980-12-08-john-lennon-is-murdered-in-new-york",
+          "date": "1980-12-08",
+          "date_precision": "day",
+          "known_as_of": "1980-12-08",
+          "category": "pop_culture",
+          "scope": "US/international",
+          "headline": "John Lennon is murdered in New York",
+          "summary": "Former Beatle John Lennon is shot and killed outside his Manhattan residence, prompting worldwide mourning.",
+          "tags": [
+            "John Lennon",
+            "Beatles",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "consumer_attention"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        },
+        {
+          "id": "1980-12-federal-funds-rates-approach-extreme-highs",
+          "date": "1980-12",
+          "date_precision": "month",
+          "known_as_of": "1980-12",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Federal funds rates approach extreme highs",
+          "summary": "The Federal Reserve's inflation fight pushes short-term interest rates toward historically high levels.",
+          "tags": [
+            "Volcker",
+            "interest rates",
+            "inflation"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "credit_conditions"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        },
+        {
+          "id": "1980-12-home-computing-and-video-games-gain-moment",
+          "date": "1980-12",
+          "date_precision": "month",
+          "known_as_of": "1980-12",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Home computing and video games gain momentum",
+          "summary": "Personal computers, home consoles, and arcade games are becoming increasingly visible consumer technology categories entering the 1980s.",
+          "tags": [
+            "personal computers",
+            "video games"
+          ],
+          "economic_sectors": [
+            "technology",
+            "retail"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "consumer_trends"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1980"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 1,
+      "period": "1981-01",
+      "events": [
+        {
+          "id": "1981-01-20-ronald-reagan-inaugurated-as-40th-u-s-pres",
+          "date": "1981-01-20",
+          "date_precision": "day",
+          "known_as_of": "1981-01-20",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Ronald Reagan inaugurated as 40th U.S. president",
+          "summary": "Reagan takes office as the United States shifts toward tax cuts, deregulation, and increased defense spending.",
+          "tags": [
+            "Reagan",
+            "inauguration"
+          ],
+          "economic_sectors": [
+            "defense",
+            "banking",
+            "energy"
+          ],
+          "game_relevance": [
+            "policy_change",
+            "sector_rotation"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-01-20-iran-releases-52-american-hostages",
+          "date": "1981-01-20",
+          "date_precision": "day",
+          "known_as_of": "1981-01-20",
+          "category": "geopolitics",
+          "scope": "US/Iran",
+          "headline": "Iran releases 52 American hostages",
+          "summary": "The Iran hostage crisis ends after 444 days, minutes after Reagan's inauguration.",
+          "tags": [
+            "Iran hostage crisis",
+            "Iran"
+          ],
+          "economic_sectors": [
+            "energy",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "national_sentiment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-01-25-oakland-raiders-win-super-bowl-xv",
+          "date": "1981-01-25",
+          "date_precision": "day",
+          "known_as_of": "1981-01-25",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Oakland Raiders win Super Bowl XV",
+          "summary": "The Raiders defeat the Philadelphia Eagles 27-10.",
+          "tags": [
+            "NFL",
+            "Super Bowl",
+            "Raiders"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 2,
+      "period": "1981-02",
+      "events": [
+        {
+          "id": "1981-02-18-reagan-presents-economic-program-to-congre",
+          "date": "1981-02-18",
+          "date_precision": "day",
+          "known_as_of": "1981-02-18",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Reagan presents economic program to Congress",
+          "summary": "The administration outlines major tax and spending changes intended to reduce inflation and stimulate growth.",
+          "tags": [
+            "Reaganomics",
+            "tax policy"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "fiscal_policy",
+            "sector_rotation"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-02-interest-rates-remain-exceptionally-high",
+          "date": "1981-02",
+          "date_precision": "month",
+          "known_as_of": "1981-02",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Interest rates remain exceptionally high",
+          "summary": "The Volcker Fed maintains tight monetary conditions as inflation remains a dominant policy concern.",
+          "tags": [
+            "Volcker",
+            "interest rates"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "credit_conditions"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1981-02-mtv-preparations-signal-a-changing-music-b",
+          "date": "1981-02",
+          "date_precision": "month",
+          "known_as_of": "1981-02",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "MTV preparations signal a changing music business",
+          "summary": "Cable television and music-video programming are emerging as a new promotional channel ahead of MTV's launch later in the year.",
+          "tags": [
+            "music video",
+            "cable television"
+          ],
+          "economic_sectors": [
+            "media",
+            "music"
+          ],
+          "game_relevance": [
+            "media_shift",
+            "consumer_trends"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 3,
+      "period": "1981-03",
+      "events": [
+        {
+          "id": "1981-03-30-president-reagan-survives-assassination-at",
+          "date": "1981-03-30",
+          "date_precision": "day",
+          "known_as_of": "1981-03-30",
+          "category": "politics",
+          "scope": "US",
+          "headline": "President Reagan survives assassination attempt",
+          "summary": "John Hinckley Jr. shoots Reagan and several others outside a Washington hotel; Reagan survives.",
+          "tags": [
+            "Reagan",
+            "assassination attempt"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "national_sentiment",
+            "political_uncertainty"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-03-31-ordinary-people-wins-best-picture",
+          "date": "1981-03-31",
+          "date_precision": "day",
+          "known_as_of": "1981-03-31",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Ordinary People wins Best Picture",
+          "summary": "The 53rd Academy Awards are held after a one-day delay caused by the Reagan shooting.",
+          "tags": [
+            "Academy Awards",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-03-high-borrowing-costs-pressure-housing-and-",
+          "date": "1981-03",
+          "date_precision": "month",
+          "known_as_of": "1981-03",
+          "category": "economics",
+          "scope": "US",
+          "headline": "High borrowing costs pressure housing and manufacturing",
+          "summary": "Interest-sensitive sectors weaken under very tight monetary policy.",
+          "tags": [
+            "interest rates",
+            "manufacturing",
+            "housing"
+          ],
+          "economic_sectors": [
+            "housing",
+            "manufacturing",
+            "banking"
+          ],
+          "game_relevance": [
+            "credit_conditions",
+            "recession_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 4,
+      "period": "1981-04",
+      "events": [
+        {
+          "id": "1981-04-12-space-shuttle-columbia-launches-on-sts-1",
+          "date": "1981-04-12",
+          "date_precision": "day",
+          "known_as_of": "1981-04-12",
+          "category": "science",
+          "scope": "US",
+          "headline": "Space Shuttle Columbia launches on STS-1",
+          "summary": "NASA begins the Space Shuttle era with the first orbital flight of Columbia.",
+          "tags": [
+            "NASA",
+            "Space Shuttle",
+            "STS-1"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment",
+            "defense_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-04-18-longest-professional-baseball-game-begins",
+          "date": "1981-04-18",
+          "date_precision": "day",
+          "known_as_of": "1981-04-18",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Longest professional baseball game begins",
+          "summary": "The Pawtucket Red Sox and Rochester Red Wings play into the 32nd inning before the game is suspended; it is completed in June.",
+          "tags": [
+            "baseball",
+            "minor league"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-04-reagan-tax-cut-push-dominates-policy-debat",
+          "date": "1981-04",
+          "date_precision": "month",
+          "known_as_of": "1981-04",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Reagan tax-cut push dominates policy debate",
+          "summary": "Congress debates the administration's program of large reductions in marginal income-tax rates.",
+          "tags": [
+            "Reaganomics",
+            "tax cuts"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "fiscal_policy",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 5,
+      "period": "1981-05",
+      "events": [
+        {
+          "id": "1981-05-01-american-airlines-launches-aadvantage",
+          "date": "1981-05-01",
+          "date_precision": "day",
+          "known_as_of": "1981-05-01",
+          "category": "business",
+          "scope": "US/international",
+          "headline": "American Airlines launches AAdvantage",
+          "summary": "American Airlines introduces what becomes the first major modern frequent-flyer loyalty program.",
+          "tags": [
+            "airlines",
+            "loyalty programs"
+          ],
+          "economic_sectors": [
+            "airlines",
+            "travel"
+          ],
+          "game_relevance": [
+            "consumer_behavior",
+            "business_model"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-05-01-japan-adopts-voluntary-auto-export-restrai",
+          "date": "1981-05-01",
+          "date_precision": "day",
+          "known_as_of": "1981-05-01",
+          "category": "trade",
+          "scope": "US/Japan",
+          "headline": "Japan adopts voluntary auto export restraints",
+          "summary": "Japan limits automobile exports to the United States amid pressure over competition with U.S. automakers.",
+          "tags": [
+            "Japan",
+            "autos",
+            "trade"
+          ],
+          "economic_sectors": [
+            "autos",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "international_trade",
+            "auto_sector"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-05-11-bob-marley-dies",
+          "date": "1981-05-11",
+          "date_precision": "day",
+          "known_as_of": "1981-05-11",
+          "category": "pop_culture",
+          "scope": "international",
+          "headline": "Bob Marley dies",
+          "summary": "Reggae icon Bob Marley dies at age 36, prompting global attention to his music and legacy.",
+          "tags": [
+            "Bob Marley",
+            "reggae",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "consumer_attention"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 6,
+      "period": "1981-06",
+      "events": [
+        {
+          "id": "1981-06-05-cdc-reports-unusual-pneumonia-cases-later-",
+          "date": "1981-06-05",
+          "date_precision": "day",
+          "known_as_of": "1981-06-05",
+          "category": "health",
+          "scope": "US",
+          "headline": "CDC reports unusual pneumonia cases later associated with AIDS",
+          "summary": "A CDC report describes rare infections in young gay men, an early public milestone in recognition of the AIDS epidemic.",
+          "tags": [
+            "AIDS",
+            "CDC",
+            "public health"
+          ],
+          "economic_sectors": [
+            "healthcare",
+            "pharma"
+          ],
+          "game_relevance": [
+            "health_crisis",
+            "research"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-06-07-israel-strikes-iraq-s-osirak-nuclear-react",
+          "date": "1981-06-07",
+          "date_precision": "day",
+          "known_as_of": "1981-06-07",
+          "category": "geopolitics",
+          "scope": "Middle East",
+          "headline": "Israel strikes Iraq's Osirak nuclear reactor",
+          "summary": "Israeli aircraft destroy the Iraqi reactor near Baghdad in Operation Opera.",
+          "tags": [
+            "Israel",
+            "Iraq",
+            "nuclear"
+          ],
+          "economic_sectors": [
+            "defense",
+            "energy"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-06-12-major-league-baseball-players-strike",
+          "date": "1981-06-12",
+          "date_precision": "day",
+          "known_as_of": "1981-06-12",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Major League Baseball players strike",
+          "summary": "An MLB labor dispute halts the season for nearly two months.",
+          "tags": [
+            "MLB",
+            "labor strike"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "labor",
+            "sports_news"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 7,
+      "period": "1981-07",
+      "events": [
+        {
+          "id": "1981-07-u-s-enters-the-1981-82-recession",
+          "date": "1981-07",
+          "date_precision": "month",
+          "known_as_of": "1981-07",
+          "category": "economics",
+          "scope": "US",
+          "headline": "U.S. enters the 1981-82 recession",
+          "summary": "NBER later dates the business-cycle peak to July 1981 as tight monetary policy suppresses activity.",
+          "tags": [
+            "recession",
+            "Volcker"
+          ],
+          "economic_sectors": [
+            "manufacturing",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment",
+            "interest_rates"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "nber_cycle",
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1981-07-29-prince-charles-and-lady-diana-spencer-marr",
+          "date": "1981-07-29",
+          "date_precision": "day",
+          "known_as_of": "1981-07-29",
+          "category": "pop_culture",
+          "scope": "UK/international",
+          "headline": "Prince Charles and Lady Diana Spencer marry",
+          "summary": "The royal wedding draws a massive worldwide television audience.",
+          "tags": [
+            "royal wedding",
+            "Diana",
+            "television"
+          ],
+          "economic_sectors": [
+            "media",
+            "tourism"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "consumer_attention"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-07-nintendo-releases-donkey-kong",
+          "date": "1981-07",
+          "date_precision": "month",
+          "known_as_of": "1981-07",
+          "category": "technology",
+          "scope": "Japan",
+          "headline": "Nintendo releases Donkey Kong",
+          "summary": "Nintendo's arcade game introduces characters and gameplay that become foundational to its future game franchises.",
+          "tags": [
+            "Nintendo",
+            "Donkey Kong",
+            "arcade"
+          ],
+          "economic_sectors": [
+            "technology",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "consumer_trends"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 8,
+      "period": "1981-08",
+      "events": [
+        {
+          "id": "1981-08-01-mtv-begins-broadcasting",
+          "date": "1981-08-01",
+          "date_precision": "day",
+          "known_as_of": "1981-08-01",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "MTV begins broadcasting",
+          "summary": "Music Television launches in the United States, accelerating the importance of music videos and cable youth culture.",
+          "tags": [
+            "MTV",
+            "music videos",
+            "cable"
+          ],
+          "economic_sectors": [
+            "media",
+            "music"
+          ],
+          "game_relevance": [
+            "media_shift",
+            "consumer_trends"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-08-03-patco-air-traffic-controllers-strike",
+          "date": "1981-08-03",
+          "date_precision": "day",
+          "known_as_of": "1981-08-03",
+          "category": "labor",
+          "scope": "US",
+          "headline": "PATCO air traffic controllers strike",
+          "summary": "President Reagan orders striking federal air traffic controllers back to work and later fires those who refuse.",
+          "tags": [
+            "PATCO",
+            "labor",
+            "Reagan"
+          ],
+          "economic_sectors": [
+            "airlines",
+            "transportation"
+          ],
+          "game_relevance": [
+            "labor",
+            "airline_operations",
+            "policy_change"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-08-12-ibm-personal-computer-introduced",
+          "date": "1981-08-12",
+          "date_precision": "day",
+          "known_as_of": "1981-08-12",
+          "category": "technology",
+          "scope": "US",
+          "headline": "IBM Personal Computer introduced",
+          "summary": "IBM launches the IBM PC, a milestone in the commercialization and standardization of personal computing.",
+          "tags": [
+            "IBM PC",
+            "personal computers"
+          ],
+          "economic_sectors": [
+            "technology",
+            "semiconductors",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "sector_growth"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-08-13-economic-recovery-tax-act-signed",
+          "date": "1981-08-13",
+          "date_precision": "day",
+          "known_as_of": "1981-08-13",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Economic Recovery Tax Act signed",
+          "summary": "Reagan signs a major tax-cut package that reduces individual income-tax rates over several years.",
+          "tags": [
+            "Reaganomics",
+            "tax cuts"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "fiscal_policy",
+            "consumer_spending"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 9,
+      "period": "1981-09",
+      "events": [
+        {
+          "id": "1981-09-21-sandra-day-o-connor-confirmed-to-supreme-c",
+          "date": "1981-09-21",
+          "date_precision": "day",
+          "known_as_of": "1981-09-21",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Sandra Day O'Connor confirmed to Supreme Court",
+          "summary": "The Senate confirms O'Connor, who becomes the first woman to serve on the U.S. Supreme Court.",
+          "tags": [
+            "Supreme Court",
+            "Sandra Day O'Connor"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "politics",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-09-19-simon-garfunkel-perform-in-central-park",
+          "date": "1981-09-19",
+          "date_precision": "day",
+          "known_as_of": "1981-09-19",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Simon & Garfunkel perform in Central Park",
+          "summary": "The reunion concert draws a huge crowd and becomes a major live-music event.",
+          "tags": [
+            "Simon & Garfunkel",
+            "music",
+            "New York"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-09-recessionary-pressure-spreads",
+          "date": "1981-09",
+          "date_precision": "month",
+          "known_as_of": "1981-09",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Recessionary pressure spreads",
+          "summary": "Manufacturing and other interest-sensitive industries weaken as the 1981-82 recession develops.",
+          "tags": [
+            "recession",
+            "manufacturing"
+          ],
+          "economic_sectors": [
+            "manufacturing",
+            "autos",
+            "housing"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 10,
+      "period": "1981-10",
+      "events": [
+        {
+          "id": "1981-10-01-first-phase-of-reagan-income-tax-cuts-take",
+          "date": "1981-10-01",
+          "date_precision": "day",
+          "known_as_of": "1981-10-01",
+          "category": "economics",
+          "scope": "US",
+          "headline": "First phase of Reagan income-tax cuts takes effect",
+          "summary": "The initial reduction in the multi-stage federal income-tax cut becomes effective.",
+          "tags": [
+            "Reaganomics",
+            "tax cuts"
+          ],
+          "economic_sectors": [
+            "retail",
+            "broad_market"
+          ],
+          "game_relevance": [
+            "fiscal_policy",
+            "consumer_spending"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-10-06-egyptian-president-anwar-sadat-assassinate",
+          "date": "1981-10-06",
+          "date_precision": "day",
+          "known_as_of": "1981-10-06",
+          "category": "geopolitics",
+          "scope": "Egypt",
+          "headline": "Egyptian president Anwar Sadat assassinated",
+          "summary": "Sadat is killed during a military parade, creating political uncertainty in a key Middle Eastern state.",
+          "tags": [
+            "Egypt",
+            "Sadat",
+            "Middle East"
+          ],
+          "economic_sectors": [
+            "energy",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "oil_price"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-10-28-los-angeles-dodgers-win-world-series",
+          "date": "1981-10-28",
+          "date_precision": "day",
+          "known_as_of": "1981-10-28",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Los Angeles Dodgers win World Series",
+          "summary": "The Dodgers defeat the New York Yankees four games to two.",
+          "tags": [
+            "MLB",
+            "World Series",
+            "Dodgers"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 11,
+      "period": "1981-11",
+      "events": [
+        {
+          "id": "1981-11-12-space-shuttle-columbia-flies-sts-2",
+          "date": "1981-11-12",
+          "date_precision": "day",
+          "known_as_of": "1981-11-12",
+          "category": "science",
+          "scope": "US",
+          "headline": "Space Shuttle Columbia flies STS-2",
+          "summary": "The shuttle's second mission demonstrates reuse of an orbital spacecraft.",
+          "tags": [
+            "NASA",
+            "Space Shuttle",
+            "STS-2"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-11-16-luke-and-laura-wedding-draws-huge-tv-audie",
+          "date": "1981-11-16",
+          "date_precision": "day",
+          "known_as_of": "1981-11-16",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Luke and Laura wedding draws huge TV audience",
+          "summary": "The General Hospital wedding becomes one of the most-watched moments in daytime television history.",
+          "tags": [
+            "television",
+            "General Hospital"
+          ],
+          "economic_sectors": [
+            "media",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "consumer_attention"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-11-30-u-s-soviet-intermediate-range-nuclear-talk",
+          "date": "1981-11-30",
+          "date_precision": "day",
+          "known_as_of": "1981-11-30",
+          "category": "geopolitics",
+          "scope": "US/USSR",
+          "headline": "U.S.-Soviet intermediate-range nuclear talks begin",
+          "summary": "Negotiations open in Geneva over intermediate-range nuclear weapons in Europe.",
+          "tags": [
+            "Cold War",
+            "nuclear weapons",
+            "arms control"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1981,
+      "month": 12,
+      "period": "1981-12",
+      "events": [
+        {
+          "id": "1981-12-13-martial-law-imposed-in-poland",
+          "date": "1981-12-13",
+          "date_precision": "day",
+          "known_as_of": "1981-12-13",
+          "category": "geopolitics",
+          "scope": "Poland",
+          "headline": "Martial law imposed in Poland",
+          "summary": "Polish authorities impose martial law and move against the Solidarity movement.",
+          "tags": [
+            "Poland",
+            "Solidarity",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "industry"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "labor"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1981"
+          ]
+        },
+        {
+          "id": "1981-12-28-first-american-ivf-baby-born",
+          "date": "1981-12-28",
+          "date_precision": "day",
+          "known_as_of": "1981-12-28",
+          "category": "science",
+          "scope": "US",
+          "headline": "First American IVF baby born",
+          "summary": "Elizabeth Jordan Carr is born in Virginia, marking a major U.S. milestone for in-vitro fertilization.",
+          "tags": [
+            "IVF",
+            "medicine"
+          ],
+          "economic_sectors": [
+            "healthcare",
+            "biotech"
+          ],
+          "game_relevance": [
+            "science_progress",
+            "healthcare"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1981"
+          ]
+        },
+        {
+          "id": "1981-12-recession-deepens-into-year-end",
+          "date": "1981-12",
+          "date_precision": "month",
+          "known_as_of": "1981-12",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Recession deepens into year-end",
+          "summary": "High interest rates continue to suppress manufacturing, construction, and auto demand.",
+          "tags": [
+            "recession",
+            "interest rates"
+          ],
+          "economic_sectors": [
+            "manufacturing",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment",
+            "credit_conditions"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 1,
+      "period": "1982-01",
+      "events": [
+        {
+          "id": "1982-01-08-at-t-agrees-to-break-up-bell-system",
+          "date": "1982-01-08",
+          "date_precision": "day",
+          "known_as_of": "1982-01-08",
+          "category": "business",
+          "scope": "US",
+          "headline": "AT&T agrees to break up Bell System",
+          "summary": "The U.S. government and AT&T settle the antitrust case that will divide the Bell System into regional companies.",
+          "tags": [
+            "AT&T",
+            "telecommunications",
+            "antitrust"
+          ],
+          "economic_sectors": [
+            "telecommunications"
+          ],
+          "game_relevance": [
+            "deregulation",
+            "industry_structure"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-01-13-air-florida-flight-90-crashes-in-washingto",
+          "date": "1982-01-13",
+          "date_precision": "day",
+          "known_as_of": "1982-01-13",
+          "category": "disaster",
+          "scope": "US",
+          "headline": "Air Florida Flight 90 crashes in Washington",
+          "summary": "The airliner crashes after takeoff into the 14th Street Bridge and Potomac River during severe winter weather.",
+          "tags": [
+            "aviation",
+            "Washington DC"
+          ],
+          "economic_sectors": [
+            "airlines",
+            "insurance"
+          ],
+          "game_relevance": [
+            "disaster_risk",
+            "airline_sector"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-01-24-san-francisco-49ers-win-super-bowl-xvi",
+          "date": "1982-01-24",
+          "date_precision": "day",
+          "known_as_of": "1982-01-24",
+          "category": "sports",
+          "scope": "US",
+          "headline": "San Francisco 49ers win Super Bowl XVI",
+          "summary": "The 49ers defeat the Cincinnati Bengals 26-21.",
+          "tags": [
+            "NFL",
+            "Super Bowl",
+            "49ers"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 2,
+      "period": "1982-02",
+      "events": [
+        {
+          "id": "1982-02-hama-uprising-is-crushed",
+          "date": "1982-02",
+          "date_precision": "month",
+          "known_as_of": "1982-02",
+          "category": "geopolitics",
+          "scope": "Syria",
+          "headline": "Hama uprising is crushed",
+          "summary": "Syrian government forces suppress an uprising in Hama with extensive casualties and destruction.",
+          "tags": [
+            "Syria",
+            "Middle East"
+          ],
+          "economic_sectors": [
+            "energy",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-02-recession-and-high-unemployment-dominate",
+          "date": "1982-02",
+          "date_precision": "month",
+          "known_as_of": "1982-02",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Recession and high unemployment dominate",
+          "summary": "The U.S. downturn continues under tight monetary conditions, with manufacturing and construction especially weak.",
+          "tags": [
+            "recession",
+            "unemployment"
+          ],
+          "economic_sectors": [
+            "manufacturing",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "recession",
+            "employment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1982-02-personal-computer-software-market-expands",
+          "date": "1982-02",
+          "date_precision": "month",
+          "known_as_of": "1982-02",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Personal-computer software market expands",
+          "summary": "The growing IBM PC ecosystem accelerates demand for business software and compatible hardware.",
+          "tags": [
+            "IBM PC",
+            "software",
+            "personal computers"
+          ],
+          "economic_sectors": [
+            "technology",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "sector_growth"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 3,
+      "period": "1982-03",
+      "events": [
+        {
+          "id": "1982-03-10-united-states-bans-libyan-oil-imports",
+          "date": "1982-03-10",
+          "date_precision": "day",
+          "known_as_of": "1982-03-10",
+          "category": "geopolitics",
+          "scope": "US/Libya",
+          "headline": "United States bans Libyan oil imports",
+          "summary": "The Reagan administration imposes an embargo on Libyan crude amid accusations of state support for terrorism.",
+          "tags": [
+            "Libya",
+            "oil",
+            "sanctions"
+          ],
+          "economic_sectors": [
+            "energy"
+          ],
+          "game_relevance": [
+            "oil_price",
+            "international_trade",
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-03-29-chariots-of-fire-wins-best-picture",
+          "date": "1982-03-29",
+          "date_precision": "day",
+          "known_as_of": "1982-03-29",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Chariots of Fire wins Best Picture",
+          "summary": "The film wins Best Picture at the 54th Academy Awards.",
+          "tags": [
+            "Academy Awards",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-03-volcker-disinflation-continues",
+          "date": "1982-03",
+          "date_precision": "month",
+          "known_as_of": "1982-03",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Volcker disinflation continues",
+          "summary": "Inflation is falling, but the cost is severe weakness in employment and output.",
+          "tags": [
+            "inflation",
+            "Volcker",
+            "recession"
+          ],
+          "economic_sectors": [
+            "banking",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "inflation",
+            "recession",
+            "interest_rates"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 4,
+      "period": "1982-04",
+      "events": [
+        {
+          "id": "1982-04-02-argentina-invades-falkland-islands",
+          "date": "1982-04-02",
+          "date_precision": "day",
+          "known_as_of": "1982-04-02",
+          "category": "geopolitics",
+          "scope": "South Atlantic",
+          "headline": "Argentina invades Falkland Islands",
+          "summary": "Argentine forces seize the islands, triggering the Falklands War with the United Kingdom.",
+          "tags": [
+            "Falklands War",
+            "Argentina",
+            "UK"
+          ],
+          "economic_sectors": [
+            "defense",
+            "shipping"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-04-06-major-april-blizzard-hits-northeastern-uni",
+          "date": "1982-04-06",
+          "date_precision": "day",
+          "known_as_of": "1982-04-06",
+          "category": "weather",
+          "scope": "US",
+          "headline": "Major April blizzard hits northeastern United States",
+          "summary": "A powerful spring snowstorm disrupts travel, schools, businesses, and baseball schedules.",
+          "tags": [
+            "blizzard",
+            "weather"
+          ],
+          "economic_sectors": [
+            "transportation",
+            "retail",
+            "insurance"
+          ],
+          "game_relevance": [
+            "weather_shock",
+            "regional_economy"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-04-housing-and-auto-sectors-remain-under-heav",
+          "date": "1982-04",
+          "date_precision": "month",
+          "known_as_of": "1982-04",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Housing and auto sectors remain under heavy pressure",
+          "summary": "High financing costs continue to depress major interest-sensitive industries.",
+          "tags": [
+            "housing",
+            "autos",
+            "interest rates"
+          ],
+          "economic_sectors": [
+            "housing",
+            "autos",
+            "banking"
+          ],
+          "game_relevance": [
+            "credit_conditions",
+            "sector_stress"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 5,
+      "period": "1982-05",
+      "events": [
+        {
+          "id": "1982-05-01-1982-world-s-fair-opens-in-knoxville",
+          "date": "1982-05-01",
+          "date_precision": "day",
+          "known_as_of": "1982-05-01",
+          "category": "business",
+          "scope": "US",
+          "headline": "1982 World's Fair opens in Knoxville",
+          "summary": "The World's Fair opens and ultimately attracts more than 11 million visitors.",
+          "tags": [
+            "World's Fair",
+            "Knoxville"
+          ],
+          "economic_sectors": [
+            "tourism",
+            "retail"
+          ],
+          "game_relevance": [
+            "regional_economy",
+            "consumer_attention"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982",
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-05-02-the-weather-channel-launches",
+          "date": "1982-05-02",
+          "date_precision": "day",
+          "known_as_of": "1982-05-02",
+          "category": "media",
+          "scope": "US",
+          "headline": "The Weather Channel launches",
+          "summary": "The first 24-hour U.S. television weather network begins broadcasting.",
+          "tags": [
+            "Weather Channel",
+            "cable television"
+          ],
+          "economic_sectors": [
+            "media",
+            "telecommunications"
+          ],
+          "game_relevance": [
+            "media_shift"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982",
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-05-12-braniff-international-airways-ceases-opera",
+          "date": "1982-05-12",
+          "date_precision": "day",
+          "known_as_of": "1982-05-12",
+          "category": "business",
+          "scope": "US",
+          "headline": "Braniff International Airways ceases operations",
+          "summary": "Financially troubled Braniff files for bankruptcy and stops flying.",
+          "tags": [
+            "Braniff",
+            "airlines",
+            "bankruptcy"
+          ],
+          "economic_sectors": [
+            "airlines"
+          ],
+          "game_relevance": [
+            "bankruptcy",
+            "airline_sector"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1982"
+          ]
+        },
+        {
+          "id": "1982-05-falklands-war-intensifies",
+          "date": "1982-05",
+          "date_precision": "month",
+          "known_as_of": "1982-05",
+          "category": "geopolitics",
+          "scope": "South Atlantic",
+          "headline": "Falklands War intensifies",
+          "summary": "British and Argentine forces fight at sea and in the islands, including the sinking of General Belgrano and loss of HMS Sheffield.",
+          "tags": [
+            "Falklands War"
+          ],
+          "economic_sectors": [
+            "defense",
+            "shipping"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 6,
+      "period": "1982-06",
+      "events": [
+        {
+          "id": "1982-06-11-e-t-the-extra-terrestrial-opens",
+          "date": "1982-06-11",
+          "date_precision": "day",
+          "known_as_of": "1982-06-11",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "E.T. the Extra-Terrestrial opens",
+          "summary": "Steven Spielberg's film becomes a major box-office phenomenon and one of the defining movies of the decade.",
+          "tags": [
+            "E.T.",
+            "film",
+            "Spielberg"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-06-14-argentina-surrenders-in-falklands-war",
+          "date": "1982-06-14",
+          "date_precision": "day",
+          "known_as_of": "1982-06-14",
+          "category": "geopolitics",
+          "scope": "South Atlantic",
+          "headline": "Argentina surrenders in Falklands War",
+          "summary": "Argentine forces surrender in the Falkland Islands, effectively ending the conflict.",
+          "tags": [
+            "Falklands War",
+            "Argentina",
+            "UK"
+          ],
+          "economic_sectors": [
+            "defense",
+            "shipping"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-06-los-angeles-lakers-win-nba-championship",
+          "date": "1982-06",
+          "date_precision": "month",
+          "known_as_of": "1982-06",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Los Angeles Lakers win NBA championship",
+          "summary": "The Lakers defeat the Philadelphia 76ers in the NBA Finals.",
+          "tags": [
+            "NBA",
+            "Lakers"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 7,
+      "period": "1982-07",
+      "events": [
+        {
+          "id": "1982-07-11-italy-wins-fifa-world-cup",
+          "date": "1982-07-11",
+          "date_precision": "day",
+          "known_as_of": "1982-07-11",
+          "category": "sports",
+          "scope": "international",
+          "headline": "Italy wins FIFA World Cup",
+          "summary": "Italy defeats West Germany 3-1 in Madrid to win the World Cup.",
+          "tags": [
+            "World Cup",
+            "Italy",
+            "soccer"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "consumer_attention"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-07-federal-reserve-begins-backing-away-from-e",
+          "date": "1982-07",
+          "date_precision": "month",
+          "known_as_of": "1982-07",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Federal Reserve begins backing away from extreme monetary restraint",
+          "summary": "With the recession severe and inflation falling, monetary policy starts becoming less restrictive.",
+          "tags": [
+            "Federal Reserve",
+            "Volcker",
+            "recession"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "autos"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "recovery_signal"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1982-07-tron-showcases-computer-generated-imagery",
+          "date": "1982-07",
+          "date_precision": "month",
+          "known_as_of": "1982-07",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "TRON showcases computer-generated imagery",
+          "summary": "Disney's TRON becomes a notable early use of extensive computer imagery in a feature film.",
+          "tags": [
+            "TRON",
+            "CGI",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "technology"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 8,
+      "period": "1982-08",
+      "events": [
+        {
+          "id": "1982-08-12-mexico-signals-debt-crisis",
+          "date": "1982-08-12",
+          "date_precision": "day",
+          "known_as_of": "1982-08-12",
+          "category": "economics",
+          "scope": "international",
+          "headline": "Mexico signals debt crisis",
+          "summary": "Mexico announces it can no longer meet scheduled debt payments, helping trigger the Latin American debt crisis.",
+          "tags": [
+            "Mexico",
+            "debt crisis",
+            "banks"
+          ],
+          "economic_sectors": [
+            "banking",
+            "finance"
+          ],
+          "game_relevance": [
+            "sovereign_debt",
+            "bank_risk",
+            "international_markets"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-08-plo-evacuation-from-beirut-begins",
+          "date": "1982-08",
+          "date_precision": "month",
+          "known_as_of": "1982-08",
+          "category": "geopolitics",
+          "scope": "Lebanon",
+          "headline": "PLO evacuation from Beirut begins",
+          "summary": "Palestine Liberation Organization forces begin leaving Beirut after the Israeli invasion of Lebanon.",
+          "tags": [
+            "Lebanon",
+            "Israel",
+            "PLO"
+          ],
+          "economic_sectors": [
+            "defense",
+            "energy"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-08-long-term-interest-rates-begin-a-major-dec",
+          "date": "1982-08",
+          "date_precision": "month",
+          "known_as_of": "1982-08",
+          "category": "markets",
+          "scope": "US",
+          "headline": "Long-term interest rates begin a major decline",
+          "summary": "As inflation expectations ease and the Fed shifts, bond yields begin falling from historic highs.",
+          "tags": [
+            "bonds",
+            "interest rates",
+            "disinflation"
+          ],
+          "economic_sectors": [
+            "banking",
+            "housing",
+            "finance"
+          ],
+          "game_relevance": [
+            "interest_rates",
+            "bond_market",
+            "recovery_signal"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 9,
+      "period": "1982-09",
+      "events": [
+        {
+          "id": "1982-09-19-first-widely-recognized-emoticons-are-prop",
+          "date": "1982-09-19",
+          "date_precision": "day",
+          "known_as_of": "1982-09-19",
+          "category": "technology",
+          "scope": "US",
+          "headline": "First widely recognized emoticons are proposed online",
+          "summary": "Scott Fahlman suggests :-) and :-( in an online message-board discussion.",
+          "tags": [
+            "internet culture",
+            "emoticons"
+          ],
+          "economic_sectors": [
+            "technology",
+            "communications"
+          ],
+          "game_relevance": [
+            "tech_culture",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-09-21-nfl-players-begin-57-day-strike",
+          "date": "1982-09-21",
+          "date_precision": "day",
+          "known_as_of": "1982-09-21",
+          "category": "sports",
+          "scope": "US",
+          "headline": "NFL players begin 57-day strike",
+          "summary": "The strike reduces the regular season to nine games and forces an expanded playoff format.",
+          "tags": [
+            "NFL",
+            "labor strike"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "labor",
+            "sports_news"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-09-29-chicago-tylenol-murders-begin",
+          "date": "1982-09-29",
+          "date_precision": "day",
+          "known_as_of": "1982-09-29",
+          "category": "crime",
+          "scope": "US",
+          "headline": "Chicago Tylenol murders begin",
+          "summary": "Cyanide-laced Tylenol capsules kill seven people and lead to sweeping changes in consumer-product packaging.",
+          "tags": [
+            "Tylenol",
+            "consumer safety"
+          ],
+          "economic_sectors": [
+            "pharma",
+            "retail",
+            "packaging"
+          ],
+          "game_relevance": [
+            "consumer_safety",
+            "brand_risk",
+            "regulation"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 10,
+      "period": "1982-10",
+      "events": [
+        {
+          "id": "1982-10-01-epcot-center-opens-at-walt-disney-world",
+          "date": "1982-10-01",
+          "date_precision": "day",
+          "known_as_of": "1982-10-01",
+          "category": "business",
+          "scope": "US",
+          "headline": "EPCOT Center opens at Walt Disney World",
+          "summary": "Disney opens its second Florida theme park, focused on technology, culture, and international pavilions.",
+          "tags": [
+            "EPCOT",
+            "Disney",
+            "tourism"
+          ],
+          "economic_sectors": [
+            "tourism",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "regional_economy"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-10-15-garn-st-germain-depository-institutions-ac",
+          "date": "1982-10-15",
+          "date_precision": "day",
+          "known_as_of": "1982-10-15",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Garn-St Germain Depository Institutions Act signed",
+          "summary": "The law accelerates financial deregulation and gives thrift institutions broader lending powers.",
+          "tags": [
+            "banking",
+            "deregulation",
+            "savings and loans"
+          ],
+          "economic_sectors": [
+            "banking",
+            "real_estate"
+          ],
+          "game_relevance": [
+            "bank_rules",
+            "credit_growth"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_great_inflation"
+          ]
+        },
+        {
+          "id": "1982-10-inflation-falls-sharply",
+          "date": "1982-10",
+          "date_precision": "month",
+          "known_as_of": "1982-10",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Inflation falls sharply",
+          "summary": "Year-over-year inflation drops substantially from its 1980 peak as the recession and tight policy suppress price pressures.",
+          "tags": [
+            "inflation",
+            "disinflation"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "inflation",
+            "interest_rates"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 11,
+      "period": "1982-11",
+      "events": [
+        {
+          "id": "1982-11-1981-82-recession-reaches-its-trough",
+          "date": "1982-11",
+          "date_precision": "month",
+          "known_as_of": "1982-11",
+          "category": "economics",
+          "scope": "US",
+          "headline": "1981-82 recession reaches its trough",
+          "summary": "NBER later dates November 1982 as the end of the severe recession.",
+          "tags": [
+            "recession",
+            "recovery"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "recovery_signal",
+            "employment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "nber_cycle",
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1982-11-13-vietnam-veterans-memorial-dedicated",
+          "date": "1982-11-13",
+          "date_precision": "day",
+          "known_as_of": "1982-11-13",
+          "category": "society",
+          "scope": "US",
+          "headline": "Vietnam Veterans Memorial dedicated",
+          "summary": "The memorial is formally dedicated in Washington, D.C.",
+          "tags": [
+            "Vietnam Veterans Memorial",
+            "Washington DC"
+          ],
+          "economic_sectors": [
+            "tourism",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "national_sentiment"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-11-30-michael-jackson-releases-thriller",
+          "date": "1982-11-30",
+          "date_precision": "day",
+          "known_as_of": "1982-11-30",
+          "category": "pop_culture",
+          "scope": "international",
+          "headline": "Michael Jackson releases Thriller",
+          "summary": "Thriller is released and goes on to become one of the most commercially successful albums in history.",
+          "tags": [
+            "Michael Jackson",
+            "Thriller",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media",
+            "retail"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1982,
+      "month": 12,
+      "period": "1982-12",
+      "events": [
+        {
+          "id": "1982-12-02-first-permanent-artificial-heart-implanted",
+          "date": "1982-12-02",
+          "date_precision": "day",
+          "known_as_of": "1982-12-02",
+          "category": "science",
+          "scope": "US",
+          "headline": "First permanent artificial heart implanted",
+          "summary": "Barney Clark receives the Jarvik-7 artificial heart in Utah.",
+          "tags": [
+            "medicine",
+            "artificial heart"
+          ],
+          "economic_sectors": [
+            "healthcare",
+            "medical_devices"
+          ],
+          "game_relevance": [
+            "science_progress",
+            "healthcare"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        },
+        {
+          "id": "1982-12-unemployment-peaks-near-11-percent",
+          "date": "1982-12",
+          "date_precision": "month",
+          "known_as_of": "1982-12",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Unemployment peaks near 11 percent",
+          "summary": "U.S. unemployment reaches about 10.8 percent around the end of the recession, the highest level of the postwar era to that point.",
+          "tags": [
+            "unemployment",
+            "recession"
+          ],
+          "economic_sectors": [
+            "labor",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "employment",
+            "consumer_sentiment"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1982-12-26-time-names-the-computer-its-machine-of-the",
+          "date": "1982-12-26",
+          "date_precision": "day",
+          "known_as_of": "1982-12-26",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Time names the computer its Machine of the Year",
+          "summary": "Time magazine selects the personal computer rather than a person, highlighting computing's growing cultural and economic importance.",
+          "tags": [
+            "personal computer",
+            "Time magazine"
+          ],
+          "economic_sectors": [
+            "technology",
+            "media"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "consumer_trends"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1982"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 1,
+      "period": "1983-01",
+      "events": [
+        {
+          "id": "1983-01-01-arpanet-completes-transition-to-tcp-ip",
+          "date": "1983-01-01",
+          "date_precision": "day",
+          "known_as_of": "1983-01-01",
+          "category": "technology",
+          "scope": "international",
+          "headline": "ARPANET completes transition to TCP/IP",
+          "summary": "The network formally adopts TCP/IP, a milestone often associated with the birth of the modern Internet.",
+          "tags": [
+            "ARPANET",
+            "TCP/IP",
+            "internet"
+          ],
+          "economic_sectors": [
+            "technology",
+            "telecommunications"
+          ],
+          "game_relevance": [
+            "tech_infrastructure",
+            "long_term_growth"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-01-19-apple-introduces-lisa-computer",
+          "date": "1983-01-19",
+          "date_precision": "day",
+          "known_as_of": "1983-01-19",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Apple introduces Lisa computer",
+          "summary": "Apple releases the Lisa, notable for bringing a graphical user interface and mouse to a commercial personal computer.",
+          "tags": [
+            "Apple",
+            "Lisa",
+            "GUI"
+          ],
+          "economic_sectors": [
+            "technology",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "competition"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-01-26-lotus-1-2-3-released",
+          "date": "1983-01-26",
+          "date_precision": "day",
+          "known_as_of": "1983-01-26",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Lotus 1-2-3 released",
+          "summary": "Lotus launches its spreadsheet software for IBM-compatible PCs, quickly becoming a major business application.",
+          "tags": [
+            "Lotus 1-2-3",
+            "software",
+            "IBM PC"
+          ],
+          "economic_sectors": [
+            "software",
+            "technology"
+          ],
+          "game_relevance": [
+            "enterprise_software",
+            "tech_adoption"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-01-30-washington-wins-super-bowl-xvii",
+          "date": "1983-01-30",
+          "date_precision": "day",
+          "known_as_of": "1983-01-30",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Washington wins Super Bowl XVII",
+          "summary": "Washington defeats the Miami Dolphins 27-17.",
+          "tags": [
+            "NFL",
+            "Super Bowl"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 2,
+      "period": "1983-02",
+      "events": [
+        {
+          "id": "1983-02-23-federal-government-announces-times-beach-b",
+          "date": "1983-02-23",
+          "date_precision": "day",
+          "known_as_of": "1983-02-23",
+          "category": "environment",
+          "scope": "US",
+          "headline": "Federal government announces Times Beach buyout",
+          "summary": "The EPA plans evacuation and purchase of the dioxin-contaminated Missouri community.",
+          "tags": [
+            "EPA",
+            "Times Beach",
+            "dioxin"
+          ],
+          "economic_sectors": [
+            "chemicals",
+            "insurance",
+            "real_estate"
+          ],
+          "game_relevance": [
+            "environmental_risk",
+            "regulation"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-02-28-m-a-s-h-finale-draws-enormous-television-a",
+          "date": "1983-02-28",
+          "date_precision": "day",
+          "known_as_of": "1983-02-28",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "M*A*S*H finale draws enormous television audience",
+          "summary": "The final episode of M*A*S*H becomes one of the most-watched U.S. television broadcasts ever.",
+          "tags": [
+            "MASH",
+            "television"
+          ],
+          "economic_sectors": [
+            "media",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "consumer_attention",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-02-recovery-begins-to-strengthen",
+          "date": "1983-02",
+          "date_precision": "month",
+          "known_as_of": "1983-02",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Recovery begins to strengthen",
+          "summary": "Following the November 1982 trough, falling interest rates and improving demand support an accelerating U.S. recovery.",
+          "tags": [
+            "recovery",
+            "interest rates"
+          ],
+          "economic_sectors": [
+            "housing",
+            "autos",
+            "retail"
+          ],
+          "game_relevance": [
+            "recovery_signal",
+            "consumer_spending"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 3,
+      "period": "1983-03",
+      "events": [
+        {
+          "id": "1983-03-08-ibm-releases-pc-xt",
+          "date": "1983-03-08",
+          "date_precision": "day",
+          "known_as_of": "1983-03-08",
+          "category": "technology",
+          "scope": "US",
+          "headline": "IBM releases PC XT",
+          "summary": "IBM expands its personal-computer line with the PC XT, including a built-in hard drive.",
+          "tags": [
+            "IBM",
+            "PC XT",
+            "personal computer"
+          ],
+          "economic_sectors": [
+            "technology",
+            "storage",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "sector_growth"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-03-23-reagan-announces-strategic-defense-initiat",
+          "date": "1983-03-23",
+          "date_precision": "day",
+          "known_as_of": "1983-03-23",
+          "category": "defense",
+          "scope": "US",
+          "headline": "Reagan announces Strategic Defense Initiative",
+          "summary": "President Reagan proposes research into missile-defense systems, quickly nicknamed 'Star Wars.'",
+          "tags": [
+            "SDI",
+            "Cold War",
+            "missile defense"
+          ],
+          "economic_sectors": [
+            "defense",
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "defense_sector",
+            "government_spending"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        },
+        {
+          "id": "1983-03-25-michael-jackson-performs-moonwalk-during-m",
+          "date": "1983-03-25",
+          "date_precision": "day",
+          "known_as_of": "1983-03-25",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Michael Jackson performs moonwalk during Motown 25 taping",
+          "summary": "The performance of 'Billie Jean,' broadcast later in May, becomes a defining moment in Jackson's rise.",
+          "tags": [
+            "Michael Jackson",
+            "Motown",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 4,
+      "period": "1983-04",
+      "events": [
+        {
+          "id": "1983-04-04-space-shuttle-challenger-launches-on-sts-6",
+          "date": "1983-04-04",
+          "date_precision": "day",
+          "known_as_of": "1983-04-04",
+          "category": "science",
+          "scope": "US",
+          "headline": "Space Shuttle Challenger launches on STS-6",
+          "summary": "Challenger begins its first mission; the flight includes the first U.S. spacewalk of the shuttle program.",
+          "tags": [
+            "NASA",
+            "Challenger",
+            "Space Shuttle"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-04-15-tokyo-disneyland-opens",
+          "date": "1983-04-15",
+          "date_precision": "day",
+          "known_as_of": "1983-04-15",
+          "category": "business",
+          "scope": "Japan",
+          "headline": "Tokyo Disneyland opens",
+          "summary": "Disney's first theme park outside the United States opens near Tokyo.",
+          "tags": [
+            "Disney",
+            "Japan",
+            "theme parks"
+          ],
+          "economic_sectors": [
+            "tourism",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "international_expansion",
+            "consumer_trends"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-04-interest-sensitive-sectors-rebound",
+          "date": "1983-04",
+          "date_precision": "month",
+          "known_as_of": "1983-04",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Interest-sensitive sectors rebound",
+          "summary": "Lower rates help housing and automobile demand recover strongly from the 1981-82 recession.",
+          "tags": [
+            "recovery",
+            "housing",
+            "autos"
+          ],
+          "economic_sectors": [
+            "housing",
+            "autos",
+            "banking"
+          ],
+          "game_relevance": [
+            "recovery_signal",
+            "sector_growth"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 5,
+      "period": "1983-05",
+      "events": [
+        {
+          "id": "1983-05-16-motown-25-airs-on-television",
+          "date": "1983-05-16",
+          "date_precision": "day",
+          "known_as_of": "1983-05-16",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Motown 25 airs on television",
+          "summary": "The anniversary special broadcasts Michael Jackson's celebrated 'Billie Jean' performance to a national audience.",
+          "tags": [
+            "Motown 25",
+            "Michael Jackson",
+            "television"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_attention",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-05-25-return-of-the-jedi-opens",
+          "date": "1983-05-25",
+          "date_precision": "day",
+          "known_as_of": "1983-05-25",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Return of the Jedi opens",
+          "summary": "The third released Star Wars film becomes one of the year's biggest entertainment events.",
+          "tags": [
+            "Star Wars",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-05-economic-expansion-gains-pace",
+          "date": "1983-05",
+          "date_precision": "month",
+          "known_as_of": "1983-05",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Economic expansion gains pace",
+          "summary": "Consumer spending, housing, and production improve rapidly during the first full year of recovery.",
+          "tags": [
+            "economic recovery",
+            "consumer spending"
+          ],
+          "economic_sectors": [
+            "retail",
+            "housing",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 6,
+      "period": "1983-06",
+      "events": [
+        {
+          "id": "1983-06-18-sally-ride-becomes-first-american-woman-in",
+          "date": "1983-06-18",
+          "date_precision": "day",
+          "known_as_of": "1983-06-18",
+          "category": "science",
+          "scope": "US",
+          "headline": "Sally Ride becomes first American woman in space",
+          "summary": "Ride launches aboard Space Shuttle Challenger on STS-7.",
+          "tags": [
+            "Sally Ride",
+            "NASA",
+            "Space Shuttle"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment",
+            "period_flavor"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-06-wargames-brings-computer-hacking-into-popu",
+          "date": "1983-06",
+          "date_precision": "month",
+          "known_as_of": "1983-06",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "WarGames brings computer hacking into popular culture",
+          "summary": "The film WarGames popularizes public awareness of computers, networks, hacking, and nuclear-command risks.",
+          "tags": [
+            "WarGames",
+            "computers",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "technology"
+          ],
+          "game_relevance": [
+            "tech_culture",
+            "consumer_attention"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-06-u-s-recovery-broadens",
+          "date": "1983-06",
+          "date_precision": "month",
+          "known_as_of": "1983-06",
+          "category": "economics",
+          "scope": "US",
+          "headline": "U.S. recovery broadens",
+          "summary": "Employment and production continue improving as inflation remains much lower than at the start of the decade.",
+          "tags": [
+            "recovery",
+            "inflation"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "employment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 7,
+      "period": "1983-07",
+      "events": [
+        {
+          "id": "1983-07-08-nber-announces-the-1981-82-recession-ended",
+          "date": "1983-07-08",
+          "date_precision": "day",
+          "known_as_of": "1983-07-08",
+          "category": "economics",
+          "scope": "US",
+          "headline": "NBER announces the 1981-82 recession ended in November 1982",
+          "summary": "The Business Cycle Dating Committee formally identifies the prior November as the recession trough.",
+          "tags": [
+            "NBER",
+            "recession",
+            "recovery"
+          ],
+          "economic_sectors": [
+            "finance"
+          ],
+          "game_relevance": [
+            "recovery_signal"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "nber_cycle"
+          ]
+        },
+        {
+          "id": "1983-07-15-nintendo-launches-famicom",
+          "date": "1983-07-15",
+          "date_precision": "day",
+          "known_as_of": "1983-07-15",
+          "category": "technology",
+          "scope": "Japan",
+          "headline": "Nintendo launches Famicom",
+          "summary": "Nintendo releases the Family Computer console in Japan, the platform later adapted as the Nintendo Entertainment System.",
+          "tags": [
+            "Nintendo",
+            "Famicom",
+            "video games"
+          ],
+          "economic_sectors": [
+            "technology",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "consumer_trends"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-07-23-black-july-violence-begins",
+          "date": "1983-07-23",
+          "date_precision": "day",
+          "known_as_of": "1983-07-23",
+          "category": "geopolitics",
+          "scope": "Sri Lanka",
+          "headline": "Black July violence begins",
+          "summary": "Anti-Tamil riots in Sri Lanka intensify the country's ethnic conflict and civil war.",
+          "tags": [
+            "Sri Lanka",
+            "Black July"
+          ],
+          "economic_sectors": [
+            "shipping",
+            "tourism"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 8,
+      "period": "1983-08",
+      "events": [
+        {
+          "id": "1983-08-18-hurricane-alicia-strikes-texas",
+          "date": "1983-08-18",
+          "date_precision": "day",
+          "known_as_of": "1983-08-18",
+          "category": "disaster",
+          "scope": "US",
+          "headline": "Hurricane Alicia strikes Texas",
+          "summary": "Alicia hits the Houston-Galveston region, causing major damage and disruption.",
+          "tags": [
+            "hurricane",
+            "Texas",
+            "Houston"
+          ],
+          "economic_sectors": [
+            "energy",
+            "insurance",
+            "transportation"
+          ],
+          "game_relevance": [
+            "weather_shock",
+            "regional_economy",
+            "energy"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-08-strong-recovery-boosts-consumer-demand",
+          "date": "1983-08",
+          "date_precision": "month",
+          "known_as_of": "1983-08",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Strong recovery boosts consumer demand",
+          "summary": "Falling inflation and improved employment support stronger spending and business activity.",
+          "tags": [
+            "recovery",
+            "consumer spending"
+          ],
+          "economic_sectors": [
+            "retail",
+            "autos",
+            "housing"
+          ],
+          "game_relevance": [
+            "consumer_sentiment",
+            "growth_cycle"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1983-08-personal-computer-competition-intensifies",
+          "date": "1983-08",
+          "date_precision": "month",
+          "known_as_of": "1983-08",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Personal computer competition intensifies",
+          "summary": "IBM-compatible PCs, Apple systems, and rapidly growing software markets make personal computing a mainstream business story.",
+          "tags": [
+            "personal computers",
+            "IBM",
+            "Apple"
+          ],
+          "economic_sectors": [
+            "technology",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "competition"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 9,
+      "period": "1983-09",
+      "events": [
+        {
+          "id": "1983-09-01-soviet-forces-shoot-down-korean-air-lines-",
+          "date": "1983-09-01",
+          "date_precision": "day",
+          "known_as_of": "1983-09-01",
+          "category": "geopolitics",
+          "scope": "US/USSR",
+          "headline": "Soviet forces shoot down Korean Air Lines Flight 007",
+          "summary": "The civilian Boeing 747 is destroyed after entering Soviet airspace, killing all 269 people aboard and sharply worsening Cold War tensions.",
+          "tags": [
+            "KAL 007",
+            "USSR",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "airlines",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "airline_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-09-17-vanessa-williams-becomes-first-black-miss-",
+          "date": "1983-09-17",
+          "date_precision": "day",
+          "known_as_of": "1983-09-17",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Vanessa Williams becomes first Black Miss America",
+          "summary": "Williams wins the Miss America title, a major cultural milestone in the pageant's history.",
+          "tags": [
+            "Miss America",
+            "Vanessa Williams"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor",
+            "social_change"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-09-gps-access-becomes-part-of-post-kal-007-po",
+          "date": "1983-09",
+          "date_precision": "month",
+          "known_as_of": "1983-09",
+          "category": "technology",
+          "scope": "US",
+          "headline": "GPS access becomes part of post-KAL 007 policy discussion",
+          "summary": "The Reagan administration moves toward making satellite navigation available for civilian use once the system is operational.",
+          "tags": [
+            "GPS",
+            "navigation",
+            "KAL 007"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "transportation",
+            "technology"
+          ],
+          "game_relevance": [
+            "tech_infrastructure",
+            "navigation"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 10,
+      "period": "1983-10",
+      "events": [
+        {
+          "id": "1983-10-23-beirut-barracks-bombing-kills-u-s-and-fren",
+          "date": "1983-10-23",
+          "date_precision": "day",
+          "known_as_of": "1983-10-23",
+          "category": "geopolitics",
+          "scope": "Lebanon",
+          "headline": "Beirut barracks bombing kills U.S. and French personnel",
+          "summary": "Truck bombs strike multinational-force barracks in Beirut, killing hundreds, including 241 U.S. service members.",
+          "tags": [
+            "Beirut",
+            "Lebanon",
+            "terrorism"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-10-25-united-states-invades-grenada",
+          "date": "1983-10-25",
+          "date_precision": "day",
+          "known_as_of": "1983-10-25",
+          "category": "geopolitics",
+          "scope": "Caribbean",
+          "headline": "United States invades Grenada",
+          "summary": "U.S. and allied forces land in Grenada following political upheaval on the island.",
+          "tags": [
+            "Grenada",
+            "US military",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "defense_sector"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-10-microsoft-word-enters-the-pc-software-mark",
+          "date": "1983-10",
+          "date_precision": "month",
+          "known_as_of": "1983-10",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Microsoft Word enters the PC software market",
+          "summary": "Microsoft releases the first version of Word for MS-DOS, adding to competition in personal-computer productivity software.",
+          "tags": [
+            "Microsoft",
+            "Word",
+            "software"
+          ],
+          "economic_sectors": [
+            "software",
+            "technology"
+          ],
+          "game_relevance": [
+            "enterprise_software",
+            "tech_adoption"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 11,
+      "period": "1983-11",
+      "events": [
+        {
+          "id": "1983-11-07-able-archer-83-nato-exercise-begins",
+          "date": "1983-11-07",
+          "date_precision": "day",
+          "known_as_of": "1983-11-07",
+          "category": "geopolitics",
+          "scope": "Europe",
+          "headline": "Able Archer 83 NATO exercise begins",
+          "summary": "A NATO command exercise is interpreted with unusual concern by Soviet leaders, becoming one of the tense moments of the late Cold War.",
+          "tags": [
+            "Able Archer",
+            "NATO",
+            "USSR",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-11-20-the-day-after-airs-on-abc",
+          "date": "1983-11-20",
+          "date_precision": "day",
+          "known_as_of": "1983-11-20",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "The Day After airs on ABC",
+          "summary": "The television film depicting nuclear war draws an enormous audience and intensifies public debate about nuclear weapons.",
+          "tags": [
+            "The Day After",
+            "television",
+            "nuclear war"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_attention",
+            "geopolitical_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-11-recovery-drives-rapid-job-growth",
+          "date": "1983-11",
+          "date_precision": "month",
+          "known_as_of": "1983-11",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Recovery drives rapid job growth",
+          "summary": "The economy continues expanding strongly a year after the recession trough.",
+          "tags": [
+            "recovery",
+            "employment"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "employment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1983,
+      "month": 12,
+      "period": "1983-12",
+      "events": [
+        {
+          "id": "1983-12-09-australia-floats-its-dollar",
+          "date": "1983-12-09",
+          "date_precision": "day",
+          "known_as_of": "1983-12-09",
+          "category": "markets",
+          "scope": "Australia",
+          "headline": "Australia floats its dollar",
+          "summary": "The Australian government allows the currency to float and liberalizes foreign-exchange controls.",
+          "tags": [
+            "Australia",
+            "currency",
+            "FX"
+          ],
+          "economic_sectors": [
+            "banking",
+            "finance"
+          ],
+          "game_relevance": [
+            "foreign_exchange",
+            "international_markets"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-12-10-democracy-returns-to-argentina",
+          "date": "1983-12-10",
+          "date_precision": "day",
+          "known_as_of": "1983-12-10",
+          "category": "politics",
+          "scope": "Argentina",
+          "headline": "Democracy returns to Argentina",
+          "summary": "Raul Alfonsin takes office, ending years of military rule.",
+          "tags": [
+            "Argentina",
+            "democracy"
+          ],
+          "economic_sectors": [
+            "finance",
+            "international"
+          ],
+          "game_relevance": [
+            "political_risk",
+            "international_markets"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        },
+        {
+          "id": "1983-12-17-harrods-bombing-in-london",
+          "date": "1983-12-17",
+          "date_precision": "day",
+          "known_as_of": "1983-12-17",
+          "category": "terrorism",
+          "scope": "UK",
+          "headline": "Harrods bombing in London",
+          "summary": "An IRA car bomb outside Harrods kills six people and injures dozens.",
+          "tags": [
+            "IRA",
+            "London",
+            "Harrods"
+          ],
+          "economic_sectors": [
+            "retail",
+            "tourism",
+            "insurance"
+          ],
+          "game_relevance": [
+            "terrorism_risk",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1983"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 1,
+      "period": "1984-01",
+      "events": [
+        {
+          "id": "1984-01-01-bell-system-breakup-takes-effect",
+          "date": "1984-01-01",
+          "date_precision": "day",
+          "known_as_of": "1984-01-01",
+          "category": "business",
+          "scope": "US",
+          "headline": "Bell System breakup takes effect",
+          "summary": "AT&T's local telephone operations are separated into regional Bell companies, reshaping U.S. telecommunications.",
+          "tags": [
+            "AT&T",
+            "Bell System",
+            "telecommunications"
+          ],
+          "economic_sectors": [
+            "telecommunications"
+          ],
+          "game_relevance": [
+            "deregulation",
+            "industry_structure"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        },
+        {
+          "id": "1984-01-09-van-halen-releases-1984",
+          "date": "1984-01-09",
+          "date_precision": "day",
+          "known_as_of": "1984-01-09",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Van Halen releases 1984",
+          "summary": "The album becomes a major commercial hit, led by singles including 'Jump.'",
+          "tags": [
+            "Van Halen",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-01-24-apple-launches-macintosh",
+          "date": "1984-01-24",
+          "date_precision": "day",
+          "known_as_of": "1984-01-24",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Apple launches Macintosh",
+          "summary": "Steve Jobs introduces the Macintosh, bringing a graphical interface and mouse-driven computing to a mass audience.",
+          "tags": [
+            "Apple",
+            "Macintosh",
+            "personal computers"
+          ],
+          "economic_sectors": [
+            "technology",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "competition"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 2,
+      "period": "1984-02",
+      "events": [
+        {
+          "id": "1984-02-07-first-untethered-spacewalk",
+          "date": "1984-02-07",
+          "date_precision": "day",
+          "known_as_of": "1984-02-07",
+          "category": "science",
+          "scope": "US",
+          "headline": "First untethered spacewalk",
+          "summary": "Astronaut Bruce McCandless II flies freely from Space Shuttle Challenger using the Manned Maneuvering Unit.",
+          "tags": [
+            "NASA",
+            "spacewalk",
+            "Challenger"
+          ],
+          "economic_sectors": [
+            "aerospace",
+            "technology"
+          ],
+          "game_relevance": [
+            "technology_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-02-08-sarajevo-winter-olympics-begin",
+          "date": "1984-02-08",
+          "date_precision": "day",
+          "known_as_of": "1984-02-08",
+          "category": "sports",
+          "scope": "international",
+          "headline": "Sarajevo Winter Olympics begin",
+          "summary": "The Winter Games open in Yugoslavia and run through February 19.",
+          "tags": [
+            "Olympics",
+            "Sarajevo"
+          ],
+          "economic_sectors": [
+            "sports",
+            "tourism",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "consumer_attention"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-02-28-michael-jackson-wins-eight-grammy-awards",
+          "date": "1984-02-28",
+          "date_precision": "day",
+          "known_as_of": "1984-02-28",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Michael Jackson wins eight Grammy Awards",
+          "summary": "Jackson sets a single-night Grammy record during the peak of Thriller's cultural impact.",
+          "tags": [
+            "Michael Jackson",
+            "Grammys",
+            "Thriller"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 3,
+      "period": "1984-03",
+      "events": [
+        {
+          "id": "1984-03-12-british-miners-strike-begins",
+          "date": "1984-03-12",
+          "date_precision": "day",
+          "known_as_of": "1984-03-12",
+          "category": "labor",
+          "scope": "UK",
+          "headline": "British miners' strike begins",
+          "summary": "The National Union of Mineworkers launches a prolonged strike over planned coal-mine closures.",
+          "tags": [
+            "UK miners strike",
+            "coal",
+            "labor"
+          ],
+          "economic_sectors": [
+            "mining",
+            "energy"
+          ],
+          "game_relevance": [
+            "labor",
+            "energy_supply",
+            "political_risk"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-03-un-condemns-chemical-weapons-use-in-iran-i",
+          "date": "1984-03",
+          "date_precision": "month",
+          "known_as_of": "1984-03",
+          "category": "geopolitics",
+          "scope": "Middle East",
+          "headline": "UN condemns chemical weapons use in Iran-Iraq War",
+          "summary": "International concern rises over Iraq's use of chemical weapons during the war with Iran.",
+          "tags": [
+            "Iran-Iraq War",
+            "chemical weapons"
+          ],
+          "economic_sectors": [
+            "energy",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "oil_price"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-03-expansion-remains-strong-as-inflation-stay",
+          "date": "1984-03",
+          "date_precision": "month",
+          "known_as_of": "1984-03",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Expansion remains strong as inflation stays moderate",
+          "summary": "The U.S. economy continues its powerful post-recession expansion with improving labor markets and lower inflation than in 1980-82.",
+          "tags": [
+            "economic expansion",
+            "inflation"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "consumer_sentiment"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 4,
+      "period": "1984-04",
+      "events": [
+        {
+          "id": "1984-04-05-kareem-abdul-jabbar-becomes-nba-all-time-s",
+          "date": "1984-04-05",
+          "date_precision": "day",
+          "known_as_of": "1984-04-05",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Kareem Abdul-Jabbar becomes NBA all-time scoring leader",
+          "summary": "Abdul-Jabbar passes Wilt Chamberlain's career scoring record.",
+          "tags": [
+            "NBA",
+            "Kareem Abdul-Jabbar"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-04-13-india-launches-operation-meghdoot",
+          "date": "1984-04-13",
+          "date_precision": "day",
+          "known_as_of": "1984-04-13",
+          "category": "geopolitics",
+          "scope": "India/Pakistan",
+          "headline": "India launches Operation Meghdoot",
+          "summary": "Indian forces occupy key positions on the Siachen Glacier, beginning the long-running Siachen conflict.",
+          "tags": [
+            "India",
+            "Pakistan",
+            "Siachen"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-04-terms-of-endearment-leads-academy-awards",
+          "date": "1984-04",
+          "date_precision": "month",
+          "known_as_of": "1984-04",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Terms of Endearment leads Academy Awards",
+          "summary": "The film wins Best Picture and multiple major awards at the 56th Academy Awards.",
+          "tags": [
+            "Academy Awards",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 5,
+      "period": "1984-05",
+      "events": [
+        {
+          "id": "1984-05-05-itaipu-dam-begins-generating-electricity",
+          "date": "1984-05-05",
+          "date_precision": "day",
+          "known_as_of": "1984-05-05",
+          "category": "infrastructure",
+          "scope": "Brazil/Paraguay",
+          "headline": "Itaipu Dam begins generating electricity",
+          "summary": "The massive hydroelectric project on the Brazil-Paraguay border starts power generation.",
+          "tags": [
+            "Itaipu",
+            "hydroelectric",
+            "infrastructure"
+          ],
+          "economic_sectors": [
+            "utilities",
+            "construction"
+          ],
+          "game_relevance": [
+            "power_supply",
+            "infrastructure"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-05-08-soviet-union-announces-los-angeles-olympic",
+          "date": "1984-05-08",
+          "date_precision": "day",
+          "known_as_of": "1984-05-08",
+          "category": "sports",
+          "scope": "international",
+          "headline": "Soviet Union announces Los Angeles Olympics boycott",
+          "summary": "The USSR says it will not participate in the 1984 Summer Olympics, followed by many allied states.",
+          "tags": [
+            "Olympics",
+            "USSR",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "geopolitical_risk"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-05-23-indiana-jones-and-the-temple-of-doom-opens",
+          "date": "1984-05-23",
+          "date_precision": "day",
+          "known_as_of": "1984-05-23",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Indiana Jones and the Temple of Doom opens",
+          "summary": "The film becomes a major summer hit and helps shape the modern blockbuster era.",
+          "tags": [
+            "Indiana Jones",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 6,
+      "period": "1984-06",
+      "events": [
+        {
+          "id": "1984-06-05-operation-blue-star-begins",
+          "date": "1984-06-05",
+          "date_precision": "day",
+          "known_as_of": "1984-06-05",
+          "category": "geopolitics",
+          "scope": "India",
+          "headline": "Operation Blue Star begins",
+          "summary": "Indian forces enter the Golden Temple complex in Amritsar in an operation against Sikh militants.",
+          "tags": [
+            "India",
+            "Punjab",
+            "Operation Blue Star"
+          ],
+          "economic_sectors": [
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-06-08-ghostbusters-and-gremlins-open",
+          "date": "1984-06-08",
+          "date_precision": "day",
+          "known_as_of": "1984-06-08",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Ghostbusters and Gremlins open",
+          "summary": "Two influential 1980s films debut on the same day and become major commercial successes.",
+          "tags": [
+            "Ghostbusters",
+            "Gremlins",
+            "film"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-06-12-boston-celtics-win-nba-championship",
+          "date": "1984-06-12",
+          "date_precision": "day",
+          "known_as_of": "1984-06-12",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Boston Celtics win NBA championship",
+          "summary": "The Celtics defeat the Los Angeles Lakers in a seven-game NBA Finals series.",
+          "tags": [
+            "NBA",
+            "Celtics",
+            "Lakers"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 7,
+      "period": "1984-07",
+      "events": [
+        {
+          "id": "1984-07-12-geraldine-ferraro-selected-as-democratic-v",
+          "date": "1984-07-12",
+          "date_precision": "day",
+          "known_as_of": "1984-07-12",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Geraldine Ferraro selected as Democratic VP nominee",
+          "summary": "Walter Mondale chooses Ferraro, the first woman nominated for vice president by a major U.S. political party.",
+          "tags": [
+            "Ferraro",
+            "Mondale",
+            "election 1984"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "social_change"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        },
+        {
+          "id": "1984-07-28-los-angeles-summer-olympics-begin",
+          "date": "1984-07-28",
+          "date_precision": "day",
+          "known_as_of": "1984-07-28",
+          "category": "sports",
+          "scope": "US/international",
+          "headline": "Los Angeles Summer Olympics begin",
+          "summary": "The 1984 Summer Games open in Los Angeles amid a Soviet-led boycott.",
+          "tags": [
+            "Olympics",
+            "Los Angeles",
+            "Cold War"
+          ],
+          "economic_sectors": [
+            "sports",
+            "tourism",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "regional_economy"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-07-27-purple-rain-film-opens",
+          "date": "1984-07-27",
+          "date_precision": "day",
+          "known_as_of": "1984-07-27",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "Purple Rain film opens",
+          "summary": "Prince's Purple Rain reaches theaters during the album's breakthrough cultural moment.",
+          "tags": [
+            "Prince",
+            "Purple Rain",
+            "music",
+            "film"
+          ],
+          "economic_sectors": [
+            "music",
+            "entertainment"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 8,
+      "period": "1984-08",
+      "events": [
+        {
+          "id": "1984-08-12-los-angeles-olympics-conclude",
+          "date": "1984-08-12",
+          "date_precision": "day",
+          "known_as_of": "1984-08-12",
+          "category": "sports",
+          "scope": "US/international",
+          "headline": "Los Angeles Olympics conclude",
+          "summary": "The Games close after a commercially successful Olympics for Los Angeles and the United States.",
+          "tags": [
+            "Olympics",
+            "Los Angeles"
+          ],
+          "economic_sectors": [
+            "sports",
+            "tourism",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news",
+            "regional_economy"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-08-strong-expansion-continues-into-late-summe",
+          "date": "1984-08",
+          "date_precision": "month",
+          "known_as_of": "1984-08",
+          "category": "economics",
+          "scope": "US",
+          "headline": "Strong expansion continues into late summer",
+          "summary": "Growth remains robust, though interest-rate and deficit concerns stay prominent in markets and policy debate.",
+          "tags": [
+            "economic expansion",
+            "interest rates",
+            "deficit"
+          ],
+          "economic_sectors": [
+            "broad_market",
+            "banking"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "interest_rates"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        },
+        {
+          "id": "1984-08-personal-computers-become-a-mainstream-con",
+          "date": "1984-08",
+          "date_precision": "month",
+          "known_as_of": "1984-08",
+          "category": "technology",
+          "scope": "US",
+          "headline": "Personal computers become a mainstream consumer battleground",
+          "summary": "Apple, IBM, Commodore and compatible-PC makers compete for a rapidly expanding home and business computer market.",
+          "tags": [
+            "personal computers",
+            "Apple",
+            "IBM",
+            "Commodore"
+          ],
+          "economic_sectors": [
+            "technology",
+            "retail",
+            "software"
+          ],
+          "game_relevance": [
+            "tech_adoption",
+            "competition"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 9,
+      "period": "1984-09",
+      "events": [
+        {
+          "id": "1984-09-04-brian-mulroney-wins-canadian-federal-elect",
+          "date": "1984-09-04",
+          "date_precision": "day",
+          "known_as_of": "1984-09-04",
+          "category": "politics",
+          "scope": "Canada",
+          "headline": "Brian Mulroney wins Canadian federal election",
+          "summary": "The Progressive Conservatives win a large parliamentary majority, ending years of Liberal dominance.",
+          "tags": [
+            "Canada",
+            "Mulroney",
+            "election"
+          ],
+          "economic_sectors": [
+            "finance",
+            "energy"
+          ],
+          "game_relevance": [
+            "international_markets",
+            "policy_change"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-09-14-first-mtv-video-music-awards-held",
+          "date": "1984-09-14",
+          "date_precision": "day",
+          "known_as_of": "1984-09-14",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "First MTV Video Music Awards held",
+          "summary": "MTV stages the inaugural VMAs, reflecting the growing influence of music video culture.",
+          "tags": [
+            "MTV",
+            "VMAs",
+            "music"
+          ],
+          "economic_sectors": [
+            "media",
+            "music"
+          ],
+          "game_relevance": [
+            "media_shift",
+            "consumer_trends"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-09-reagan-mondale-general-election-campaign-i",
+          "date": "1984-09",
+          "date_precision": "month",
+          "known_as_of": "1984-09",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Reagan-Mondale general election campaign intensifies",
+          "summary": "The presidential campaign moves into its fall phase with the economy and Cold War policy central issues.",
+          "tags": [
+            "Reagan",
+            "Mondale",
+            "election 1984"
+          ],
+          "economic_sectors": [
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "consumer_sentiment"
+          ],
+          "importance": 3,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 10,
+      "period": "1984-10",
+      "events": [
+        {
+          "id": "1984-10-12-brighton-hotel-bombing-targets-british-gov",
+          "date": "1984-10-12",
+          "date_precision": "day",
+          "known_as_of": "1984-10-12",
+          "category": "terrorism",
+          "scope": "UK",
+          "headline": "Brighton hotel bombing targets British government",
+          "summary": "An IRA bomb strikes the Grand Hotel during the Conservative Party conference; Prime Minister Margaret Thatcher survives.",
+          "tags": [
+            "IRA",
+            "Brighton",
+            "Thatcher"
+          ],
+          "economic_sectors": [
+            "tourism",
+            "insurance"
+          ],
+          "game_relevance": [
+            "terrorism_risk",
+            "political_uncertainty"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-10-14-detroit-tigers-win-world-series",
+          "date": "1984-10-14",
+          "date_precision": "day",
+          "known_as_of": "1984-10-14",
+          "category": "sports",
+          "scope": "US",
+          "headline": "Detroit Tigers win World Series",
+          "summary": "The Tigers defeat the San Diego Padres four games to one.",
+          "tags": [
+            "MLB",
+            "World Series",
+            "Tigers"
+          ],
+          "economic_sectors": [
+            "sports",
+            "media"
+          ],
+          "game_relevance": [
+            "sports_news"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        },
+        {
+          "id": "1984-10-31-prime-minister-indira-gandhi-assassinated",
+          "date": "1984-10-31",
+          "date_precision": "day",
+          "known_as_of": "1984-10-31",
+          "category": "geopolitics",
+          "scope": "India",
+          "headline": "Prime Minister Indira Gandhi assassinated",
+          "summary": "Gandhi is killed by two of her bodyguards, followed by severe anti-Sikh violence.",
+          "tags": [
+            "India",
+            "Indira Gandhi",
+            "assassination"
+          ],
+          "economic_sectors": [
+            "finance",
+            "defense"
+          ],
+          "game_relevance": [
+            "geopolitical_risk",
+            "international_markets"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 11,
+      "period": "1984-11",
+      "events": [
+        {
+          "id": "1984-11-06-ronald-reagan-wins-landslide-re-election",
+          "date": "1984-11-06",
+          "date_precision": "day",
+          "known_as_of": "1984-11-06",
+          "category": "politics",
+          "scope": "US",
+          "headline": "Ronald Reagan wins landslide re-election",
+          "summary": "Reagan defeats Walter Mondale, carrying 49 states and winning 525 electoral votes.",
+          "tags": [
+            "Reagan",
+            "Mondale",
+            "election 1984"
+          ],
+          "economic_sectors": [
+            "broad_market",
+            "media"
+          ],
+          "game_relevance": [
+            "election_cycle",
+            "policy_continuity"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_us_1984"
+          ]
+        },
+        {
+          "id": "1984-11-09-a-nightmare-on-elm-street-opens",
+          "date": "1984-11-09",
+          "date_precision": "day",
+          "known_as_of": "1984-11-09",
+          "category": "pop_culture",
+          "scope": "US",
+          "headline": "A Nightmare on Elm Street opens",
+          "summary": "The horror film introduces Freddy Krueger and becomes an enduring franchise.",
+          "tags": [
+            "horror",
+            "film",
+            "Freddy Krueger"
+          ],
+          "economic_sectors": [
+            "entertainment",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_trends",
+            "period_flavor"
+          ],
+          "importance": 2,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-11-25-band-aid-records-do-they-know-it-s-christm",
+          "date": "1984-11-25",
+          "date_precision": "day",
+          "known_as_of": "1984-11-25",
+          "category": "pop_culture",
+          "scope": "UK/international",
+          "headline": "Band Aid records Do They Know It's Christmas?",
+          "summary": "British and Irish music stars record a charity single to raise funds for Ethiopian famine relief.",
+          "tags": [
+            "Band Aid",
+            "Ethiopia",
+            "music"
+          ],
+          "economic_sectors": [
+            "music",
+            "media"
+          ],
+          "game_relevance": [
+            "consumer_attention",
+            "humanitarian"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "project_bit_historical_timeline",
+      "dataset_version": "0.1.0",
+      "year": 1984,
+      "month": 12,
+      "period": "1984-12",
+      "events": [
+        {
+          "id": "1984-12-03-bhopal-gas-disaster",
+          "date": "1984-12-03",
+          "date_precision": "day",
+          "known_as_of": "1984-12-03",
+          "category": "disaster",
+          "scope": "India",
+          "headline": "Bhopal gas disaster",
+          "summary": "A toxic gas leak at a Union Carbide pesticide plant in Bhopal kills thousands and becomes one of history's worst industrial disasters.",
+          "tags": [
+            "Bhopal",
+            "Union Carbide",
+            "industrial disaster"
+          ],
+          "economic_sectors": [
+            "chemicals",
+            "insurance",
+            "manufacturing"
+          ],
+          "game_relevance": [
+            "industrial_risk",
+            "regulation",
+            "brand_risk"
+          ],
+          "importance": 5,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-12-ethiopian-famine-drives-global-relief-atte",
+          "date": "1984-12",
+          "date_precision": "month",
+          "known_as_of": "1984-12",
+          "category": "humanitarian",
+          "scope": "Africa/international",
+          "headline": "Ethiopian famine drives global relief attention",
+          "summary": "Television coverage and charity efforts make the Ethiopian famine a major international humanitarian issue.",
+          "tags": [
+            "Ethiopia",
+            "famine",
+            "aid"
+          ],
+          "economic_sectors": [
+            "agriculture",
+            "media"
+          ],
+          "game_relevance": [
+            "commodity_risk",
+            "consumer_attention"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "wiki_1984"
+          ]
+        },
+        {
+          "id": "1984-12-u-s-completes-a-strong-expansion-year",
+          "date": "1984-12",
+          "date_precision": "month",
+          "known_as_of": "1984-12",
+          "category": "economics",
+          "scope": "US",
+          "headline": "U.S. completes a strong expansion year",
+          "summary": "The post-1982 recovery delivers strong growth and declining unemployment, while federal deficits remain a policy concern.",
+          "tags": [
+            "economic expansion",
+            "deficit",
+            "employment"
+          ],
+          "economic_sectors": [
+            "broad_market"
+          ],
+          "game_relevance": [
+            "growth_cycle",
+            "fiscal_policy"
+          ],
+          "importance": 4,
+          "source_keys": [
+            "fed_recession_8182"
+          ]
+        }
+      ]
+    }
+  ]
+}

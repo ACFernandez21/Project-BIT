@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 3,
+  "period": "1984-03",
+  "events": [
+    {
+      "id": "1984-03-12-british-miners-strike-begins",
+      "date": "1984-03-12",
+      "date_precision": "day",
+      "known_as_of": "1984-03-12",
+      "category": "labor",
+      "scope": "UK",
+      "headline": "British miners' strike begins",
+      "summary": "The National Union of Mineworkers launches a prolonged strike over planned coal-mine closures.",
+      "tags": [
+        "UK miners strike",
+        "coal",
+        "labor"
+      ],
+      "economic_sectors": [
+        "mining",
+        "energy"
+      ],
+      "game_relevance": [
+        "labor",
+        "energy_supply",
+        "political_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-03-un-condemns-chemical-weapons-use-in-iran-i",
+      "date": "1984-03",
+      "date_precision": "month",
+      "known_as_of": "1984-03",
+      "category": "geopolitics",
+      "scope": "Middle East",
+      "headline": "UN condemns chemical weapons use in Iran-Iraq War",
+      "summary": "International concern rises over Iraq's use of chemical weapons during the war with Iran.",
+      "tags": [
+        "Iran-Iraq War",
+        "chemical weapons"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "oil_price"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-03-expansion-remains-strong-as-inflation-stay",
+      "date": "1984-03",
+      "date_precision": "month",
+      "known_as_of": "1984-03",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Expansion remains strong as inflation stays moderate",
+      "summary": "The U.S. economy continues its powerful post-recession expansion with improving labor markets and lower inflation than in 1980-82.",
+      "tags": [
+        "economic expansion",
+        "inflation"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

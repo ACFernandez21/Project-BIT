@@ -1,0 +1,535 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 5,
+  "period": "1980-05",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-05-context-economics_markets-1-credit-conditions-stay-unusually-tight",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Credit conditions stay unusually tight",
+      "summary": "May 1980: Borrowing costs and restricted credit weigh on households and interest-sensitive industries.",
+      "tags": [
+        "credit",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-05-context-economics_markets-2-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "May 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-05-context-economics_markets-3-inflation-remains-exceptionally-high",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation remains exceptionally high",
+      "summary": "May 1980: The U.S. economy remains shaped by double-digit inflation and the Federal Reserve's aggressive anti-inflation campaign.",
+      "tags": [
+        "inflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-05-context-business_technology-2-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "May 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-business_technology-1-cable-television-expands-the-media-landscape",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable television expands the media landscape",
+      "summary": "May 1980: Cable networks and expanded channel choices begin changing how Americans consume television.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-business_technology-3-personal-computers-move-further-into-homes-an",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "May 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-politics_geopolitics-2-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "May 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-politics_geopolitics-1-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "May 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-politics_geopolitics-3-the-u-s-presidential-campaign-dominates-domes",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The U.S. presidential campaign dominates domestic politics",
+      "summary": "May 1980: Jimmy Carter and Ronald Reagan compete amid inflation, recession, the Iran hostage crisis, and Cold War tensions.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-sports-1-major-league-baseball-begins-its-season",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball begins its season",
+      "summary": "May 1980: Baseball returns for the spring and begins a season-long national sports cycle.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-sports-2-nba-and-nhl-playoffs-become-major-television-",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL playoffs become major television events",
+      "summary": "May 1980: Professional basketball and hockey move into postseason play during spring.",
+      "tags": [
+        "NBA",
+        "NHL",
+        "playoffs"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-sports-3-ncaa-basketball-tournament-dominates-march-sp",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NCAA basketball tournament dominates March sports coverage",
+      "summary": "May 1980: The expanding national tournament becomes one of the biggest annual events in American sports.",
+      "tags": [
+        "NCAA tournament",
+        "college basketball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-pop_culture-1-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "May 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-context-pop_culture-2-network-television-still-dominates-mass-enter",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "May 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-21-the-empire-strikes-back-reaches-theaters",
+      "date": "1980-05-21",
+      "date_precision": "day",
+      "known_as_of": "1980-05-21",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "The Empire Strikes Back reaches theaters",
+      "summary": "The second released Star Wars film becomes one of the year's defining entertainment events.",
+      "tags": [
+        "Star Wars",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1980-05-context-society_science_disasters-1-environmental-and-energy-issues-remain-promin",
+      "date": "1980-05",
+      "date_precision": "month",
+      "known_as_of": "1980-05",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental and energy issues remain prominent",
+      "summary": "May 1980: Oil shocks, pollution concerns, and new environmental regulation continue to influence U.S. policy and industry.",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "chemicals",
+        "utilities"
+      ],
+      "game_relevance": [
+        "regulation",
+        "energy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-05-08-who-certifies-eradication-of-smallpox",
+      "date": "1980-05-08",
+      "date_precision": "day",
+      "known_as_of": "1980-05-08",
+      "category": "science",
+      "scope": "international",
+      "headline": "WHO certifies eradication of smallpox",
+      "summary": "The World Health Organization formally declares smallpox eradicated worldwide.",
+      "tags": [
+        "public health",
+        "WHO",
+        "smallpox"
+      ],
+      "economic_sectors": [
+        "healthcare"
+      ],
+      "game_relevance": [
+        "world_news",
+        "science_progress"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    },
+    {
+      "id": "1980-05-18-mount-st-helens-erupts-catastrophically",
+      "date": "1980-05-18",
+      "date_precision": "day",
+      "known_as_of": "1980-05-18",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Mount St. Helens erupts catastrophically",
+      "summary": "The Washington volcano erupts, killing dozens and causing widespread environmental and economic damage.",
+      "tags": [
+        "Mount St. Helens",
+        "volcano",
+        "Washington"
+      ],
+      "economic_sectors": [
+        "insurance",
+        "forestry",
+        "transportation"
+      ],
+      "game_relevance": [
+        "disaster_risk",
+        "regional_economy",
+        "commodities"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

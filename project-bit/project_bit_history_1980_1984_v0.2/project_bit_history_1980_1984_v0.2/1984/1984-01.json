@@ -1,0 +1,532 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1984,
+  "month": 1,
+  "period": "1984-01",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1984-01-context-economics_markets-2-federal-deficits-become-a-larger-policy-conce",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Federal deficits become a larger policy concern",
+      "summary": "January 1984: Tax cuts, recession-era revenue weakness, and higher defense spending keep budget deficits prominent in political and market debate.",
+      "tags": [
+        "budget deficit",
+        "fiscal policy"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "defense"
+      ],
+      "game_relevance": [
+        "fiscal_policy",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-01-context-economics_markets-3-interest-rate-expectations-remain-important-t",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Interest-rate expectations remain important to markets",
+      "summary": "January 1984: Even with inflation reduced, investors watch rates closely as rapid growth raises questions about future monetary tightening.",
+      "tags": [
+        "interest rates",
+        "Federal Reserve"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "finance"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "market_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-01-context-economics_markets-1-strong-expansion-continues",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Strong expansion continues",
+      "summary": "January 1984: The U.S. economy remains in a powerful post-1982 expansion with robust consumer and business activity.",
+      "tags": [
+        "economic expansion",
+        "growth"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "retail",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1984-01-context-business_technology-1-macintosh-makes-graphical-computing-a-mainstr",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Macintosh makes graphical computing a mainstream technology story",
+      "summary": "January 1984: Apple's Macintosh puts the GUI and mouse at the center of personal-computer competition.",
+      "tags": [
+        "Macintosh",
+        "Apple",
+        "GUI"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-01-bell-system-breakup-takes-effect",
+      "date": "1984-01-01",
+      "date_precision": "day",
+      "known_as_of": "1984-01-01",
+      "category": "business",
+      "scope": "US",
+      "headline": "Bell System breakup takes effect",
+      "summary": "AT&T's local telephone operations are separated into regional Bell companies, reshaping U.S. telecommunications.",
+      "tags": [
+        "AT&T",
+        "Bell System",
+        "telecommunications"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1984-01-24-apple-launches-macintosh",
+      "date": "1984-01-24",
+      "date_precision": "day",
+      "known_as_of": "1984-01-24",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Apple launches Macintosh",
+      "summary": "Steve Jobs introduces the Macintosh, bringing a graphical interface and mouse-driven computing to a mass audience.",
+      "tags": [
+        "Apple",
+        "Macintosh",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1984-01-context-politics_geopolitics-2-cold-war-competition-persists-despite-selecti",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War competition persists despite selective diplomacy",
+      "summary": "January 1984: U.S.-Soviet military rivalry and arms-control issues remain central even as both sides manage channels of communication.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "arms control"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-politics_geopolitics-3-middle-east-security-remains-unstable",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East security remains unstable",
+      "summary": "January 1984: Lebanon and the continuing Iran-Iraq War keep terrorism, oil, and U.S. regional strategy in focus.",
+      "tags": [
+        "Middle East",
+        "Iran-Iraq War",
+        "Lebanon"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-politics_geopolitics-1-the-reagan-mondale-election-cycle-shapes-u-s-",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Reagan-Mondale election cycle shapes U.S. politics",
+      "summary": "January 1984: Economic recovery, Cold War strategy, taxes, and social policy dominate the presidential campaign.",
+      "tags": [
+        "Reagan",
+        "Mondale",
+        "election 1984"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-sports-3-college-basketball-builds-toward-march",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College basketball builds toward March",
+      "summary": "January 1984: Conference play intensifies as teams position for the NCAA men's basketball tournament.",
+      "tags": [
+        "NCAA basketball",
+        "college sports"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-sports-2-nba-and-nhl-regular-seasons-move-through-mids",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL regular seasons move through midseason",
+      "summary": "January 1984: Basketball and hockey provide major winter sports storylines across U.S. and Canadian markets.",
+      "tags": [
+        "NBA",
+        "NHL"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-sports-1-nfl-postseason-captures-national-attention",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL postseason captures national attention",
+      "summary": "January 1984: Professional football playoffs and the Super Bowl are major U.S. television and advertising events.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-pop_culture-2-1984-becomes-a-major-year-for-blockbuster-fil",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "1984 becomes a major year for blockbuster film culture",
+      "summary": "January 1984: A dense slate of highly recognizable comedies, action-adventures, fantasy, and family films drives theatrical attendance.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-pop_culture-1-mtv-era-pop-reaches-a-cultural-peak",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "MTV-era pop reaches a cultural peak",
+      "summary": "January 1984: Prince, Michael Jackson, Madonna, Cyndi Lauper, and other video-friendly stars dominate youth culture and music marketing.",
+      "tags": [
+        "MTV",
+        "pop music",
+        "music videos"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-09-van-halen-releases-1984",
+      "date": "1984-01-09",
+      "date_precision": "day",
+      "known_as_of": "1984-01-09",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Van Halen releases 1984",
+      "summary": "The album becomes a major commercial hit, led by singles including 'Jump.'",
+      "tags": [
+        "Van Halen",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1984-01-context-society_science_disasters-1-aids-epidemic-continues-expanding",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic continues expanding",
+      "summary": "January 1984: Public-health agencies and researchers face rising case counts and an urgent need for testing, treatment, and education.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-society_science_disasters-3-industrial-and-environmental-safety-receive-r",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Industrial and environmental safety receive renewed scrutiny",
+      "summary": "January 1984: Major accidents and contamination concerns reinforce attention to corporate safety, chemical hazards, and regulation.",
+      "tags": [
+        "industrial safety",
+        "environment"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "industrial_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-context-society_science_disasters-2-space-shuttle-becomes-a-frequent-symbol-of-u-",
+      "date": "1984-01",
+      "date_precision": "month",
+      "known_as_of": "1984-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle becomes a frequent symbol of U.S. high technology",
+      "summary": "January 1984: NASA conducts numerous shuttle missions involving satellites, science, and increasingly complex space operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    }
+  ]
+}

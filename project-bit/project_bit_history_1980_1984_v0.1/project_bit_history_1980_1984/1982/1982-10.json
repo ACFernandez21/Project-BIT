@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 10,
+  "period": "1982-10",
+  "events": [
+    {
+      "id": "1982-10-01-epcot-center-opens-at-walt-disney-world",
+      "date": "1982-10-01",
+      "date_precision": "day",
+      "known_as_of": "1982-10-01",
+      "category": "business",
+      "scope": "US",
+      "headline": "EPCOT Center opens at Walt Disney World",
+      "summary": "Disney opens its second Florida theme park, focused on technology, culture, and international pavilions.",
+      "tags": [
+        "EPCOT",
+        "Disney",
+        "tourism"
+      ],
+      "economic_sectors": [
+        "tourism",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-10-15-garn-st-germain-depository-institutions-ac",
+      "date": "1982-10-15",
+      "date_precision": "day",
+      "known_as_of": "1982-10-15",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Garn-St Germain Depository Institutions Act signed",
+      "summary": "The law accelerates financial deregulation and gives thrift institutions broader lending powers.",
+      "tags": [
+        "banking",
+        "deregulation",
+        "savings and loans"
+      ],
+      "economic_sectors": [
+        "banking",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "bank_rules",
+        "credit_growth"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    },
+    {
+      "id": "1982-10-inflation-falls-sharply",
+      "date": "1982-10",
+      "date_precision": "month",
+      "known_as_of": "1982-10",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Inflation falls sharply",
+      "summary": "Year-over-year inflation drops substantially from its 1980 peak as the recession and tight policy suppress price pressures.",
+      "tags": [
+        "inflation",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

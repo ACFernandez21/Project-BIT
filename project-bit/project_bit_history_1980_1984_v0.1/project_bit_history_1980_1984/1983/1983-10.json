@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 10,
+  "period": "1983-10",
+  "events": [
+    {
+      "id": "1983-10-23-beirut-barracks-bombing-kills-u-s-and-fren",
+      "date": "1983-10-23",
+      "date_precision": "day",
+      "known_as_of": "1983-10-23",
+      "category": "geopolitics",
+      "scope": "Lebanon",
+      "headline": "Beirut barracks bombing kills U.S. and French personnel",
+      "summary": "Truck bombs strike multinational-force barracks in Beirut, killing hundreds, including 241 U.S. service members.",
+      "tags": [
+        "Beirut",
+        "Lebanon",
+        "terrorism"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-10-25-united-states-invades-grenada",
+      "date": "1983-10-25",
+      "date_precision": "day",
+      "known_as_of": "1983-10-25",
+      "category": "geopolitics",
+      "scope": "Caribbean",
+      "headline": "United States invades Grenada",
+      "summary": "U.S. and allied forces land in Grenada following political upheaval on the island.",
+      "tags": [
+        "Grenada",
+        "US military",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-10-microsoft-word-enters-the-pc-software-mark",
+      "date": "1983-10",
+      "date_precision": "month",
+      "known_as_of": "1983-10",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Microsoft Word enters the PC software market",
+      "summary": "Microsoft releases the first version of Word for MS-DOS, adding to competition in personal-computer productivity software.",
+      "tags": [
+        "Microsoft",
+        "Word",
+        "software"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    }
+  ]
+}

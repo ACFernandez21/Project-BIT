@@ -1,0 +1,522 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1983,
+  "month": 11,
+  "period": "1983-11",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1983-11-context-economics_markets-2-lower-inflation-changes-the-investment-backdr",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Lower inflation changes the investment backdrop",
+      "summary": "November 1983: Inflation is far below the levels seen at the start of the decade, helping stabilize longer-term expectations.",
+      "tags": [
+        "inflation",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "broad_market"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-11-recovery-drives-rapid-job-growth",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recovery drives rapid job growth",
+      "summary": "The economy continues expanding strongly a year after the recession trough.",
+      "tags": [
+        "recovery",
+        "employment"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "employment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1983-11-context-economics_markets-1-unemployment-trends-downward",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Unemployment trends downward",
+      "summary": "November 1983: Job conditions improve materially during the first full year of recovery, though unemployment remains elevated by modern standards.",
+      "tags": [
+        "employment",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "labor",
+        "retail"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-11-context-business_technology-3-personal-computer-software-becomes-a-major-bu",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal-computer software becomes a major business category",
+      "summary": "November 1983: Lotus, Microsoft, and other software firms increasingly define value in the PC ecosystem.",
+      "tags": [
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-business_technology-2-telecommunications-deregulation-approaches-a-",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Telecommunications deregulation approaches a structural break",
+      "summary": "November 1983: Businesses prepare for the January 1984 breakup of the Bell System and a more competitive telecom market.",
+      "tags": [
+        "AT&T",
+        "telecommunications"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-business_technology-1-u-s-video-game-industry-enters-a-severe-shake",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "U.S. video-game industry enters a severe shakeout",
+      "summary": "November 1983: Retail saturation, weak software, and consumer fatigue contribute to the North American video-game crash.",
+      "tags": [
+        "video game crash",
+        "Atari"
+      ],
+      "economic_sectors": [
+        "technology",
+        "retail",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "industry_contraction",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-politics_geopolitics-2-central-america-becomes-a-significant-u-s-for",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Central America becomes a significant U.S. foreign-policy issue",
+      "summary": "November 1983: The Reagan administration focuses on Nicaragua, El Salvador, and regional anti-communist policy.",
+      "tags": [
+        "Central America",
+        "Nicaragua",
+        "El Salvador"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-politics_geopolitics-1-u-s-soviet-relations-enter-a-particularly-ten",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S.-Soviet relations enter a particularly tense phase",
+      "summary": "November 1983: Missile deployments, KAL 007, Able Archer, and arms-control disputes heighten fears of confrontation.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-07-able-archer-83-nato-exercise-begins",
+      "date": "1983-11-07",
+      "date_precision": "day",
+      "known_as_of": "1983-11-07",
+      "category": "geopolitics",
+      "scope": "Europe",
+      "headline": "Able Archer 83 NATO exercise begins",
+      "summary": "A NATO command exercise is interpreted with unusual concern by Soviet leaders, becoming one of the tense moments of the late Cold War.",
+      "tags": [
+        "Able Archer",
+        "NATO",
+        "USSR",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1983-11-context-sports-2-college-football-becomes-a-major-weekly-natio",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "November 1983: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-sports-1-major-league-baseball-reaches-postseason-and-",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "November 1983: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-sports-3-nfl-regular-season-dominates-american-televis",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "November 1983: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-pop_culture-1-event-movies-and-sequels-remain-central-to-th",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Event movies and sequels remain central to theaters",
+      "summary": "November 1983: Star Wars, action-adventure, comedy, and youth-oriented films drive the theatrical calendar.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-pop_culture-2-home-video-becomes-a-more-important-entertain",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Home video becomes a more important entertainment channel",
+      "summary": "November 1983: VCR adoption and video rental broaden how households consume movies outside theaters and broadcast TV.",
+      "tags": [
+        "VCR",
+        "home video"
+      ],
+      "economic_sectors": [
+        "consumer_electronics",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-20-the-day-after-airs-on-abc",
+      "date": "1983-11-20",
+      "date_precision": "day",
+      "known_as_of": "1983-11-20",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "The Day After airs on ABC",
+      "summary": "The television film depicting nuclear war draws an enormous audience and intensifies public debate about nuclear weapons.",
+      "tags": [
+        "The Day After",
+        "television",
+        "nuclear war"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "geopolitical_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1983-11-context-society_science_disasters-3-aids-epidemic-becomes-a-growing-national-heal",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic becomes a growing national health issue",
+      "summary": "November 1983: Cases and deaths rise while researchers work to understand the disease and modes of transmission.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-society_science_disasters-2-environmental-contamination-remains-a-public-",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental contamination remains a public concern",
+      "summary": "November 1983: Superfund sites, industrial pollution, and hazardous-waste controversies keep environmental risk in national news.",
+      "tags": [
+        "Superfund",
+        "pollution"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-11-context-society_science_disasters-1-space-shuttle-activity-accelerates",
+      "date": "1983-11",
+      "date_precision": "month",
+      "known_as_of": "1983-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle activity accelerates",
+      "summary": "November 1983: NASA flies multiple shuttle missions and expands the range of scientific, satellite, and human-spaceflight operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

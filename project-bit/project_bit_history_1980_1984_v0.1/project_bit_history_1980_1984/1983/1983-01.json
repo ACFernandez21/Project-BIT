@@ -1,0 +1,115 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 1,
+  "period": "1983-01",
+  "events": [
+    {
+      "id": "1983-01-01-arpanet-completes-transition-to-tcp-ip",
+      "date": "1983-01-01",
+      "date_precision": "day",
+      "known_as_of": "1983-01-01",
+      "category": "technology",
+      "scope": "international",
+      "headline": "ARPANET completes transition to TCP/IP",
+      "summary": "The network formally adopts TCP/IP, a milestone often associated with the birth of the modern Internet.",
+      "tags": [
+        "ARPANET",
+        "TCP/IP",
+        "internet"
+      ],
+      "economic_sectors": [
+        "technology",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "tech_infrastructure",
+        "long_term_growth"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-01-19-apple-introduces-lisa-computer",
+      "date": "1983-01-19",
+      "date_precision": "day",
+      "known_as_of": "1983-01-19",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Apple introduces Lisa computer",
+      "summary": "Apple releases the Lisa, notable for bringing a graphical user interface and mouse to a commercial personal computer.",
+      "tags": [
+        "Apple",
+        "Lisa",
+        "GUI"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-26-lotus-1-2-3-released",
+      "date": "1983-01-26",
+      "date_precision": "day",
+      "known_as_of": "1983-01-26",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Lotus 1-2-3 released",
+      "summary": "Lotus launches its spreadsheet software for IBM-compatible PCs, quickly becoming a major business application.",
+      "tags": [
+        "Lotus 1-2-3",
+        "software",
+        "IBM PC"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "tech_adoption"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-30-washington-wins-super-bowl-xvii",
+      "date": "1983-01-30",
+      "date_precision": "day",
+      "known_as_of": "1983-01-30",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Washington wins Super Bowl XVII",
+      "summary": "Washington defeats the Miami Dolphins 27-17.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 5,
+  "period": "1984-05",
+  "events": [
+    {
+      "id": "1984-05-05-itaipu-dam-begins-generating-electricity",
+      "date": "1984-05-05",
+      "date_precision": "day",
+      "known_as_of": "1984-05-05",
+      "category": "infrastructure",
+      "scope": "Brazil/Paraguay",
+      "headline": "Itaipu Dam begins generating electricity",
+      "summary": "The massive hydroelectric project on the Brazil-Paraguay border starts power generation.",
+      "tags": [
+        "Itaipu",
+        "hydroelectric",
+        "infrastructure"
+      ],
+      "economic_sectors": [
+        "utilities",
+        "construction"
+      ],
+      "game_relevance": [
+        "power_supply",
+        "infrastructure"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-05-08-soviet-union-announces-los-angeles-olympic",
+      "date": "1984-05-08",
+      "date_precision": "day",
+      "known_as_of": "1984-05-08",
+      "category": "sports",
+      "scope": "international",
+      "headline": "Soviet Union announces Los Angeles Olympics boycott",
+      "summary": "The USSR says it will not participate in the 1984 Summer Olympics, followed by many allied states.",
+      "tags": [
+        "Olympics",
+        "USSR",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-05-23-indiana-jones-and-the-temple-of-doom-opens",
+      "date": "1984-05-23",
+      "date_precision": "day",
+      "known_as_of": "1984-05-23",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Indiana Jones and the Temple of Doom opens",
+      "summary": "The film becomes a major summer hit and helps shape the modern blockbuster era.",
+      "tags": [
+        "Indiana Jones",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

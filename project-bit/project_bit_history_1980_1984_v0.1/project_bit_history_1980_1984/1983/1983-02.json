@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 2,
+  "period": "1983-02",
+  "events": [
+    {
+      "id": "1983-02-23-federal-government-announces-times-beach-b",
+      "date": "1983-02-23",
+      "date_precision": "day",
+      "known_as_of": "1983-02-23",
+      "category": "environment",
+      "scope": "US",
+      "headline": "Federal government announces Times Beach buyout",
+      "summary": "The EPA plans evacuation and purchase of the dioxin-contaminated Missouri community.",
+      "tags": [
+        "EPA",
+        "Times Beach",
+        "dioxin"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-28-m-a-s-h-finale-draws-enormous-television-a",
+      "date": "1983-02-28",
+      "date_precision": "day",
+      "known_as_of": "1983-02-28",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "M*A*S*H finale draws enormous television audience",
+      "summary": "The final episode of M*A*S*H becomes one of the most-watched U.S. television broadcasts ever.",
+      "tags": [
+        "MASH",
+        "television"
+      ],
+      "economic_sectors": [
+        "media",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-02-recovery-begins-to-strengthen",
+      "date": "1983-02",
+      "date_precision": "month",
+      "known_as_of": "1983-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recovery begins to strengthen",
+      "summary": "Following the November 1982 trough, falling interest rates and improving demand support an accelerating U.S. recovery.",
+      "tags": [
+        "recovery",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "housing",
+        "autos",
+        "retail"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "consumer_spending"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

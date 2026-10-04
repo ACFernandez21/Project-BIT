@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 2,
+  "period": "1984-02",
+  "events": [
+    {
+      "id": "1984-02-07-first-untethered-spacewalk",
+      "date": "1984-02-07",
+      "date_precision": "day",
+      "known_as_of": "1984-02-07",
+      "category": "science",
+      "scope": "US",
+      "headline": "First untethered spacewalk",
+      "summary": "Astronaut Bruce McCandless II flies freely from Space Shuttle Challenger using the Manned Maneuvering Unit.",
+      "tags": [
+        "NASA",
+        "spacewalk",
+        "Challenger"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "technology_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-02-08-sarajevo-winter-olympics-begin",
+      "date": "1984-02-08",
+      "date_precision": "day",
+      "known_as_of": "1984-02-08",
+      "category": "sports",
+      "scope": "international",
+      "headline": "Sarajevo Winter Olympics begin",
+      "summary": "The Winter Games open in Yugoslavia and run through February 19.",
+      "tags": [
+        "Olympics",
+        "Sarajevo"
+      ],
+      "economic_sectors": [
+        "sports",
+        "tourism",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-02-28-michael-jackson-wins-eight-grammy-awards",
+      "date": "1984-02-28",
+      "date_precision": "day",
+      "known_as_of": "1984-02-28",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Michael Jackson wins eight Grammy Awards",
+      "summary": "Jackson sets a single-night Grammy record during the peak of Thriller's cultural impact.",
+      "tags": [
+        "Michael Jackson",
+        "Grammys",
+        "Thriller"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    }
+  ]
+}

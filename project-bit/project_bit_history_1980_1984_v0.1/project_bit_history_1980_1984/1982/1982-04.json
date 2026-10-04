@@ -1,0 +1,91 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 4,
+  "period": "1982-04",
+  "events": [
+    {
+      "id": "1982-04-02-argentina-invades-falkland-islands",
+      "date": "1982-04-02",
+      "date_precision": "day",
+      "known_as_of": "1982-04-02",
+      "category": "geopolitics",
+      "scope": "South Atlantic",
+      "headline": "Argentina invades Falkland Islands",
+      "summary": "Argentine forces seize the islands, triggering the Falklands War with the United Kingdom.",
+      "tags": [
+        "Falklands War",
+        "Argentina",
+        "UK"
+      ],
+      "economic_sectors": [
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-04-06-major-april-blizzard-hits-northeastern-uni",
+      "date": "1982-04-06",
+      "date_precision": "day",
+      "known_as_of": "1982-04-06",
+      "category": "weather",
+      "scope": "US",
+      "headline": "Major April blizzard hits northeastern United States",
+      "summary": "A powerful spring snowstorm disrupts travel, schools, businesses, and baseball schedules.",
+      "tags": [
+        "blizzard",
+        "weather"
+      ],
+      "economic_sectors": [
+        "transportation",
+        "retail",
+        "insurance"
+      ],
+      "game_relevance": [
+        "weather_shock",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-04-housing-and-auto-sectors-remain-under-heav",
+      "date": "1982-04",
+      "date_precision": "month",
+      "known_as_of": "1982-04",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Housing and auto sectors remain under heavy pressure",
+      "summary": "High financing costs continue to depress major interest-sensitive industries.",
+      "tags": [
+        "housing",
+        "autos",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "housing",
+        "autos",
+        "banking"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "sector_stress"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

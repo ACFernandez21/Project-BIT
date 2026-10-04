@@ -1,0 +1,529 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1982,
+  "month": 6,
+  "period": "1982-06",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1982-06-context-economics_markets-1-falling-rates-begin-setting-up-recovery",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Falling rates begin setting up recovery",
+      "summary": "June 1982: As inflation eases, financial conditions begin improving and interest-sensitive sectors prepare for recovery.",
+      "tags": [
+        "interest rates",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "credit_conditions"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-06-context-economics_markets-3-inflation-falls-substantially-from-1980-peaks",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation falls substantially from 1980 peaks",
+      "summary": "June 1982: Disinflation becomes increasingly visible as tight monetary policy suppresses price growth.",
+      "tags": [
+        "disinflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "banking"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-06-context-economics_markets-2-the-1981-82-recession-remains-the-dominant-ec",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "The 1981–82 recession remains the dominant economic story",
+      "summary": "June 1982: High unemployment and weak industrial activity continue through most of the year before the November trough.",
+      "tags": [
+        "recession",
+        "unemployment"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-06-context-business_technology-1-cable-and-specialty-television-continue-expan",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable and specialty television continue expanding",
+      "summary": "June 1982: Dedicated channels such as CNN and the Weather Channel illustrate fragmentation of the traditional broadcast audience.",
+      "tags": [
+        "cable television",
+        "CNN"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-business_technology-3-home-video-game-market-reaches-extraordinary-",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Home video-game market reaches extraordinary scale",
+      "summary": "June 1982: Atari and other console makers enjoy very high sales before the U.S. market's coming shakeout.",
+      "tags": [
+        "Atari",
+        "video games"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-business_technology-2-ibm-compatible-pc-ecosystem-expands-rapidly",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "IBM-compatible PC ecosystem expands rapidly",
+      "summary": "June 1982: Hardware makers and software developers increasingly build around the IBM PC architecture.",
+      "tags": [
+        "IBM PC",
+        "PC compatibles"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-politics_geopolitics-1-middle-east-conflict-remains-a-major-world-ri",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East conflict remains a major world risk",
+      "summary": "June 1982: The Iran-Iraq War and the Lebanon conflict keep oil, security, and U.S. foreign policy in focus.",
+      "tags": [
+        "Middle East",
+        "Lebanon",
+        "Iran-Iraq War"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-politics_geopolitics-2-the-reagan-administration-confronts-recession",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Reagan administration confronts recession-era political pressure",
+      "summary": "June 1982: High unemployment and economic weakness shape congressional debate and the approach to the midterm elections.",
+      "tags": [
+        "Reagan",
+        "midterms",
+        "recession"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "policy_change",
+        "election_cycle"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-14-argentina-surrenders-in-falklands-war",
+      "date": "1982-06-14",
+      "date_precision": "day",
+      "known_as_of": "1982-06-14",
+      "category": "geopolitics",
+      "scope": "South Atlantic",
+      "headline": "Argentina surrenders in Falklands War",
+      "summary": "Argentine forces surrender in the Falkland Islands, effectively ending the conflict.",
+      "tags": [
+        "Falklands War",
+        "Argentina",
+        "UK"
+      ],
+      "economic_sectors": [
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1982-06-los-angeles-lakers-win-nba-championship",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Los Angeles Lakers win NBA championship",
+      "summary": "The Lakers defeat the Philadelphia 76ers in the NBA Finals.",
+      "tags": [
+        "NBA",
+        "Lakers"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "sports"
+    },
+    {
+      "id": "1982-06-context-sports-2-major-league-baseball-occupies-the-center-of-",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball occupies the center of the summer sports calendar",
+      "summary": "June 1982: Pennant races, the All-Star Game, and star performances dominate U.S. summer sports coverage.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-sports-1-nfl-teams-prepare-for-the-coming-season",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL teams prepare for the coming season",
+      "summary": "June 1982: Training camps and preseason football begin shifting national sports attention toward the NFL.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-pop_culture-1-cable-television-fragments-the-entertainment-",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Cable television fragments the entertainment audience",
+      "summary": "June 1982: Music, news, weather, and specialty programming increasingly compete with traditional broadcasters.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-pop_culture-2-thriller-era-pop-begins-to-transform-the-musi",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Thriller-era pop begins to transform the music business",
+      "summary": "June 1982: Michael Jackson's late-1982 album and the rise of music video help reshape global pop marketing.",
+      "tags": [
+        "Thriller",
+        "Michael Jackson",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-11-e-t-the-extra-terrestrial-opens",
+      "date": "1982-06-11",
+      "date_precision": "day",
+      "known_as_of": "1982-06-11",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "E.T. the Extra-Terrestrial opens",
+      "summary": "Steven Spielberg's film becomes a major box-office phenomenon and one of the defining movies of the decade.",
+      "tags": [
+        "E.T.",
+        "film",
+        "Spielberg"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1982-06-context-society_science_disasters-2-aids-cases-draw-increasing-medical-attention",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS cases draw increasing medical attention",
+      "summary": "June 1982: Public-health officials confront a growing epidemic that remains poorly understood and highly stigmatized.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-society_science_disasters-1-consumer-product-safety-receives-renewed-atte",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Consumer-product safety receives renewed attention",
+      "summary": "June 1982: The Tylenol poisonings and related packaging changes make product tampering and tamper-evident design national issues.",
+      "tags": [
+        "consumer safety",
+        "tamper evident packaging"
+      ],
+      "economic_sectors": [
+        "pharma",
+        "retail",
+        "packaging"
+      ],
+      "game_relevance": [
+        "consumer_safety",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-06-context-society_science_disasters-3-space-shuttle-missions-become-more-routine",
+      "date": "1982-06",
+      "date_precision": "month",
+      "known_as_of": "1982-06",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle missions become more routine",
+      "summary": "June 1982: NASA expands shuttle operations after the first flights of Columbia.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 12,
+  "period": "1981-12",
+  "events": [
+    {
+      "id": "1981-12-13-martial-law-imposed-in-poland",
+      "date": "1981-12-13",
+      "date_precision": "day",
+      "known_as_of": "1981-12-13",
+      "category": "geopolitics",
+      "scope": "Poland",
+      "headline": "Martial law imposed in Poland",
+      "summary": "Polish authorities impose martial law and move against the Solidarity movement.",
+      "tags": [
+        "Poland",
+        "Solidarity",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "industry"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "labor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-12-28-first-american-ivf-baby-born",
+      "date": "1981-12-28",
+      "date_precision": "day",
+      "known_as_of": "1981-12-28",
+      "category": "science",
+      "scope": "US",
+      "headline": "First American IVF baby born",
+      "summary": "Elizabeth Jordan Carr is born in Virginia, marking a major U.S. milestone for in-vitro fertilization.",
+      "tags": [
+        "IVF",
+        "medicine"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "healthcare"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-12-recession-deepens-into-year-end",
+      "date": "1981-12",
+      "date_precision": "month",
+      "known_as_of": "1981-12",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recession deepens into year-end",
+      "summary": "High interest rates continue to suppress manufacturing, construction, and auto demand.",
+      "tags": [
+        "recession",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment",
+        "credit_conditions"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

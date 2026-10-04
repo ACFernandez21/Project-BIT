@@ -1,0 +1,527 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1981,
+  "month": 8,
+  "period": "1981-08",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1981-08-context-economics_markets-1-the-economy-moves-into-severe-recession",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "The economy moves into severe recession",
+      "summary": "August 1981: Weakness spreads across manufacturing, construction, autos, and other cyclical industries during 1981.",
+      "tags": [
+        "recession",
+        "manufacturing"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1981-08-03-patco-air-traffic-controllers-strike",
+      "date": "1981-08-03",
+      "date_precision": "day",
+      "known_as_of": "1981-08-03",
+      "category": "labor",
+      "scope": "US",
+      "headline": "PATCO air traffic controllers strike",
+      "summary": "President Reagan orders striking federal air traffic controllers back to work and later fires those who refuse.",
+      "tags": [
+        "PATCO",
+        "labor",
+        "Reagan"
+      ],
+      "economic_sectors": [
+        "airlines",
+        "transportation"
+      ],
+      "game_relevance": [
+        "labor",
+        "airline_operations",
+        "policy_change"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1981-08-13-economic-recovery-tax-act-signed",
+      "date": "1981-08-13",
+      "date_precision": "day",
+      "known_as_of": "1981-08-13",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Economic Recovery Tax Act signed",
+      "summary": "Reagan signs a major tax-cut package that reduces individual income-tax rates over several years.",
+      "tags": [
+        "Reaganomics",
+        "tax cuts"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "fiscal_policy",
+        "consumer_spending"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1981-08-context-business_technology-1-cable-networks-gain-influence",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable networks gain influence",
+      "summary": "August 1981: MTV and other specialized cable channels demonstrate a new model for targeted television programming.",
+      "tags": [
+        "cable television",
+        "MTV"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-business_technology-2-video-game-and-home-computer-competition-inte",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Video-game and home-computer competition intensifies",
+      "summary": "August 1981: Arcades, consoles, and increasingly capable home computers compete for consumer entertainment spending.",
+      "tags": [
+        "video games",
+        "home computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "competition",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-12-ibm-personal-computer-introduced",
+      "date": "1981-08-12",
+      "date_precision": "day",
+      "known_as_of": "1981-08-12",
+      "category": "technology",
+      "scope": "US",
+      "headline": "IBM Personal Computer introduced",
+      "summary": "IBM launches the IBM PC, a milestone in the commercialization and standardization of personal computing.",
+      "tags": [
+        "IBM PC",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "semiconductors",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1981-08-context-politics_geopolitics-2-middle-east-instability-remains-strategically",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East instability remains strategically important",
+      "summary": "August 1981: Iran-Iraq fighting, Israeli security concerns, and oil-supply risks continue shaping diplomacy and markets.",
+      "tags": [
+        "Middle East",
+        "Iran-Iraq War"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-politics_geopolitics-3-the-reagan-administration-begins-a-major-poli",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Reagan administration begins a major policy shift",
+      "summary": "August 1981: The new administration emphasizes tax cuts, deregulation, stronger defense spending, and a harder Cold War posture.",
+      "tags": [
+        "Reagan",
+        "Reagan administration"
+      ],
+      "economic_sectors": [
+        "defense",
+        "banking",
+        "energy"
+      ],
+      "game_relevance": [
+        "policy_change",
+        "sector_rotation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-politics_geopolitics-1-u-s-soviet-tensions-remain-high",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S.-Soviet tensions remain high",
+      "summary": "August 1981: Nuclear forces, Afghanistan, Poland, and European security keep the Cold War near the center of international politics.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-sports-3-major-league-baseball-occupies-the-center-of-",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball occupies the center of the summer sports calendar",
+      "summary": "August 1981: Pennant races, the All-Star Game, and star performances dominate U.S. summer sports coverage.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-sports-1-motorsports-and-golf-draw-major-summer-audien",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Motorsports and golf draw major summer audiences",
+      "summary": "August 1981: NASCAR, Indy-style racing, and golf majors remain important parts of the sports calendar.",
+      "tags": [
+        "motorsports",
+        "golf"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-sports-2-nfl-teams-prepare-for-the-coming-season",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL teams prepare for the coming season",
+      "summary": "August 1981: Training camps and preseason football begin shifting national sports attention toward the NFL.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-pop_culture-1-hollywood-leans-further-into-franchise-and-ev",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Hollywood leans further into franchise and event films",
+      "summary": "August 1981: Sequels, action, science fiction, and high-concept releases increasingly shape theatrical marketing.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-pop_culture-2-prime-time-television-remains-a-shared-nation",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Prime-time television remains a shared national culture",
+      "summary": "August 1981: Large broadcast audiences make hit series and specials common reference points across the country.",
+      "tags": [
+        "television",
+        "broadcast"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "consumer_attention",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-01-mtv-begins-broadcasting",
+      "date": "1981-08-01",
+      "date_precision": "day",
+      "known_as_of": "1981-08-01",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "MTV begins broadcasting",
+      "summary": "Music Television launches in the United States, accelerating the importance of music videos and cable youth culture.",
+      "tags": [
+        "MTV",
+        "music videos",
+        "cable"
+      ],
+      "economic_sectors": [
+        "media",
+        "music"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1981-08-context-society_science_disasters-1-aids-emerges-as-a-new-public-health-crisis",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS emerges as a new public-health crisis",
+      "summary": "August 1981: Doctors and public-health agencies begin identifying unusual infections that will become known as AIDS.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-society_science_disasters-2-environmental-regulation-remains-a-major-fede",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental regulation remains a major federal policy arena",
+      "summary": "August 1981: Debates over pollution, energy development, and the direction of the EPA reflect the Reagan administration's deregulatory approach.",
+      "tags": [
+        "EPA",
+        "environment"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "energy"
+      ],
+      "game_relevance": [
+        "regulation",
+        "environmental_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-08-context-society_science_disasters-3-the-space-shuttle-begins-a-new-era-of-reusabl",
+      "date": "1981-08",
+      "date_precision": "month",
+      "known_as_of": "1981-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle begins a new era of reusable spacecraft",
+      "summary": "August 1981: NASA's shuttle flights make human spaceflight a recurring national technology story.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    }
+  ]
+}

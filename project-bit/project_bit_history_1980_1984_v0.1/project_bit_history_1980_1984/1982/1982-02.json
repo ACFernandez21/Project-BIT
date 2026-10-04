@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 2,
+  "period": "1982-02",
+  "events": [
+    {
+      "id": "1982-02-hama-uprising-is-crushed",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "geopolitics",
+      "scope": "Syria",
+      "headline": "Hama uprising is crushed",
+      "summary": "Syrian government forces suppress an uprising in Hama with extensive casualties and destruction.",
+      "tags": [
+        "Syria",
+        "Middle East"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-02-recession-and-high-unemployment-dominate",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recession and high unemployment dominate",
+      "summary": "The U.S. downturn continues under tight monetary conditions, with manufacturing and construction especially weak.",
+      "tags": [
+        "recession",
+        "unemployment"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    },
+    {
+      "id": "1982-02-personal-computer-software-market-expands",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Personal-computer software market expands",
+      "summary": "The growing IBM PC ecosystem accelerates demand for business software and compatible hardware.",
+      "tags": [
+        "IBM PC",
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

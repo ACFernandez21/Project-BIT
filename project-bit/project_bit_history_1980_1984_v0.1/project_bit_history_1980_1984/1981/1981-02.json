@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 2,
+  "period": "1981-02",
+  "events": [
+    {
+      "id": "1981-02-18-reagan-presents-economic-program-to-congre",
+      "date": "1981-02-18",
+      "date_precision": "day",
+      "known_as_of": "1981-02-18",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Reagan presents economic program to Congress",
+      "summary": "The administration outlines major tax and spending changes intended to reduce inflation and stimulate growth.",
+      "tags": [
+        "Reaganomics",
+        "tax policy"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "fiscal_policy",
+        "sector_rotation"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-02-interest-rates-remain-exceptionally-high",
+      "date": "1981-02",
+      "date_precision": "month",
+      "known_as_of": "1981-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Interest rates remain exceptionally high",
+      "summary": "The Volcker Fed maintains tight monetary conditions as inflation remains a dominant policy concern.",
+      "tags": [
+        "Volcker",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "credit_conditions"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    },
+    {
+      "id": "1981-02-mtv-preparations-signal-a-changing-music-b",
+      "date": "1981-02",
+      "date_precision": "month",
+      "known_as_of": "1981-02",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "MTV preparations signal a changing music business",
+      "summary": "Cable television and music-video programming are emerging as a new promotional channel ahead of MTV's launch later in the year.",
+      "tags": [
+        "music video",
+        "cable television"
+      ],
+      "economic_sectors": [
+        "media",
+        "music"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    }
+  ]
+}

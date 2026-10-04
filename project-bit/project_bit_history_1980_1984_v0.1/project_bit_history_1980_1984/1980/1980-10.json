@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 10,
+  "period": "1980-10",
+  "events": [
+    {
+      "id": "1980-10-21-philadelphia-phillies-win-the-world-series",
+      "date": "1980-10-21",
+      "date_precision": "day",
+      "known_as_of": "1980-10-21",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Philadelphia Phillies win the World Series",
+      "summary": "The Phillies defeat the Kansas City Royals to win the franchise's first World Series championship.",
+      "tags": [
+        "MLB",
+        "World Series",
+        "Phillies"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-10-28-carter-and-reagan-hold-presidential-debate",
+      "date": "1980-10-28",
+      "date_precision": "day",
+      "known_as_of": "1980-10-28",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Carter and Reagan hold presidential debate",
+      "summary": "The nationally televised debate becomes a defining moment in the closing days of the 1980 presidential campaign.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "consumer_sentiment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-10-interest-rates-climb-again",
+      "date": "1980-10",
+      "date_precision": "month",
+      "known_as_of": "1980-10",
+      "category": "markets",
+      "scope": "US",
+      "headline": "Interest rates climb again",
+      "summary": "After easing during the recession, U.S. interest rates rise sharply again as the Federal Reserve maintains its anti-inflation stance.",
+      "tags": [
+        "Volcker",
+        "interest rates",
+        "inflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "credit_conditions"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    }
+  ]
+}

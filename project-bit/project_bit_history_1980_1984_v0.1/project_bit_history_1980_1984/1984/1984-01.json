@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 1,
+  "period": "1984-01",
+  "events": [
+    {
+      "id": "1984-01-01-bell-system-breakup-takes-effect",
+      "date": "1984-01-01",
+      "date_precision": "day",
+      "known_as_of": "1984-01-01",
+      "category": "business",
+      "scope": "US",
+      "headline": "Bell System breakup takes effect",
+      "summary": "AT&T's local telephone operations are separated into regional Bell companies, reshaping U.S. telecommunications.",
+      "tags": [
+        "AT&T",
+        "Bell System",
+        "telecommunications"
+      ],
+      "economic_sectors": [
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "deregulation",
+        "industry_structure"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1984"
+      ]
+    },
+    {
+      "id": "1984-01-09-van-halen-releases-1984",
+      "date": "1984-01-09",
+      "date_precision": "day",
+      "known_as_of": "1984-01-09",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Van Halen releases 1984",
+      "summary": "The album becomes a major commercial hit, led by singles including 'Jump.'",
+      "tags": [
+        "Van Halen",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-01-24-apple-launches-macintosh",
+      "date": "1984-01-24",
+      "date_precision": "day",
+      "known_as_of": "1984-01-24",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Apple launches Macintosh",
+      "summary": "Steve Jobs introduces the Macintosh, bringing a graphical interface and mouse-driven computing to a mass audience.",
+      "tags": [
+        "Apple",
+        "Macintosh",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

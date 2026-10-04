@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 8,
+  "period": "1980-08",
+  "events": [
+    {
+      "id": "1980-08-14-jimmy-carter-wins-democratic-renomination",
+      "date": "1980-08-14",
+      "date_precision": "day",
+      "known_as_of": "1980-08-14",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Jimmy Carter wins Democratic renomination",
+      "summary": "President Carter secures the Democratic nomination after defeating Senator Ted Kennedy's primary challenge.",
+      "tags": [
+        "Carter",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-31-solidarity-movement-gains-recognition-in-p",
+      "date": "1980-08-31",
+      "date_precision": "day",
+      "known_as_of": "1980-08-31",
+      "category": "politics",
+      "scope": "Europe",
+      "headline": "Solidarity movement gains recognition in Poland",
+      "summary": "The Gdansk Agreement recognizes independent trade unions, giving rise to Solidarity as a major challenge to communist rule.",
+      "tags": [
+        "Poland",
+        "Solidarity",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "industry",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "labor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    },
+    {
+      "id": "1980-08-economic-recovery-begins-after-short-reces",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Economic recovery begins after short recession",
+      "summary": "Activity begins recovering from the 1980 recession even as inflation remains high and monetary policy stays volatile.",
+      "tags": [
+        "recovery",
+        "inflation"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "nber_cycle",
+        "fed_great_inflation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1983,
+  "month": 1,
+  "period": "1983-01",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1983-01-context-economics_markets-3-lower-inflation-changes-the-investment-backdr",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Lower inflation changes the investment backdrop",
+      "summary": "January 1983: Inflation is far below the levels seen at the start of the decade, helping stabilize longer-term expectations.",
+      "tags": [
+        "inflation",
+        "disinflation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "broad_market"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-01-context-economics_markets-1-post-recession-expansion-strengthens",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Post-recession expansion strengthens",
+      "summary": "January 1983: The U.S. economy grows rapidly after the November 1982 recession trough.",
+      "tags": [
+        "recovery",
+        "growth"
+      ],
+      "economic_sectors": [
+        "retail",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-01-context-economics_markets-2-unemployment-trends-downward",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Unemployment trends downward",
+      "summary": "January 1983: Job conditions improve materially during the first full year of recovery, though unemployment remains elevated by modern standards.",
+      "tags": [
+        "employment",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "labor",
+        "retail"
+      ],
+      "game_relevance": [
+        "employment",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "nber_cycles"
+      ]
+    },
+    {
+      "id": "1983-01-01-arpanet-completes-transition-to-tcp-ip",
+      "date": "1983-01-01",
+      "date_precision": "day",
+      "known_as_of": "1983-01-01",
+      "category": "technology",
+      "scope": "international",
+      "headline": "ARPANET completes transition to TCP/IP",
+      "summary": "The network formally adopts TCP/IP, a milestone often associated with the birth of the modern Internet.",
+      "tags": [
+        "ARPANET",
+        "TCP/IP",
+        "internet"
+      ],
+      "economic_sectors": [
+        "technology",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "tech_infrastructure",
+        "long_term_growth"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1983-01-19-apple-introduces-lisa-computer",
+      "date": "1983-01-19",
+      "date_precision": "day",
+      "known_as_of": "1983-01-19",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Apple introduces Lisa computer",
+      "summary": "Apple releases the Lisa, notable for bringing a graphical user interface and mouse to a commercial personal computer.",
+      "tags": [
+        "Apple",
+        "Lisa",
+        "GUI"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1983-01-26-lotus-1-2-3-released",
+      "date": "1983-01-26",
+      "date_precision": "day",
+      "known_as_of": "1983-01-26",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Lotus 1-2-3 released",
+      "summary": "Lotus launches its spreadsheet software for IBM-compatible PCs, quickly becoming a major business application.",
+      "tags": [
+        "Lotus 1-2-3",
+        "software",
+        "IBM PC"
+      ],
+      "economic_sectors": [
+        "software",
+        "technology"
+      ],
+      "game_relevance": [
+        "enterprise_software",
+        "tech_adoption"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1983-01-context-politics_geopolitics-3-central-america-becomes-a-significant-u-s-for",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Central America becomes a significant U.S. foreign-policy issue",
+      "summary": "January 1983: The Reagan administration focuses on Nicaragua, El Salvador, and regional anti-communist policy.",
+      "tags": [
+        "Central America",
+        "Nicaragua",
+        "El Salvador"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-politics_geopolitics-1-reagan-defense-buildup-becomes-more-visible",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Reagan defense buildup becomes more visible",
+      "summary": "January 1983: The administration pushes higher defense spending and new strategic programs during a period of renewed Cold War tension.",
+      "tags": [
+        "Reagan",
+        "defense buildup",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "defense",
+        "aerospace"
+      ],
+      "game_relevance": [
+        "defense_sector",
+        "government_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-politics_geopolitics-2-u-s-soviet-relations-enter-a-particularly-ten",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "U.S.-Soviet relations enter a particularly tense phase",
+      "summary": "January 1983: Missile deployments, KAL 007, Able Archer, and arms-control disputes heighten fears of confrontation.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-sports-2-nba-and-nhl-regular-seasons-move-through-mids",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL regular seasons move through midseason",
+      "summary": "January 1983: Basketball and hockey provide major winter sports storylines across U.S. and Canadian markets.",
+      "tags": [
+        "NBA",
+        "NHL"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-sports-1-nfl-postseason-captures-national-attention",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL postseason captures national attention",
+      "summary": "January 1983: Professional football playoffs and the Super Bowl are major U.S. television and advertising events.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-30-washington-wins-super-bowl-xvii",
+      "date": "1983-01-30",
+      "date_precision": "day",
+      "known_as_of": "1983-01-30",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Washington wins Super Bowl XVII",
+      "summary": "Washington defeats the Miami Dolphins 27-17.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ],
+      "record_type": "event",
+      "topic_class": "sports"
+    },
+    {
+      "id": "1983-01-context-pop_culture-2-event-movies-and-sequels-remain-central-to-th",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Event movies and sequels remain central to theaters",
+      "summary": "January 1983: Star Wars, action-adventure, comedy, and youth-oriented films drive the theatrical calendar.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-pop_culture-3-home-video-becomes-a-more-important-entertain",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Home video becomes a more important entertainment channel",
+      "summary": "January 1983: VCR adoption and video rental broaden how households consume movies outside theaters and broadcast TV.",
+      "tags": [
+        "VCR",
+        "home video"
+      ],
+      "economic_sectors": [
+        "consumer_electronics",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-pop_culture-1-michael-jackson-and-mtv-define-a-new-pop-musi",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Michael Jackson and MTV define a new pop-music visual era",
+      "summary": "January 1983: Music videos, choreography, fashion, and television exposure become inseparable from major pop releases.",
+      "tags": [
+        "Michael Jackson",
+        "MTV",
+        "music videos"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-society_science_disasters-1-aids-epidemic-becomes-a-growing-national-heal",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS epidemic becomes a growing national health issue",
+      "summary": "January 1983: Cases and deaths rise while researchers work to understand the disease and modes of transmission.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-society_science_disasters-3-environmental-contamination-remains-a-public-",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental contamination remains a public concern",
+      "summary": "January 1983: Superfund sites, industrial pollution, and hazardous-waste controversies keep environmental risk in national news.",
+      "tags": [
+        "Superfund",
+        "pollution"
+      ],
+      "economic_sectors": [
+        "chemicals",
+        "insurance",
+        "real_estate"
+      ],
+      "game_relevance": [
+        "environmental_risk",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    },
+    {
+      "id": "1983-01-context-society_science_disasters-2-space-shuttle-activity-accelerates",
+      "date": "1983-01",
+      "date_precision": "month",
+      "known_as_of": "1983-01",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle activity accelerates",
+      "summary": "January 1983: NASA flies multiple shuttle missions and expands the range of scientific, satellite, and human-spaceflight operations.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1983"
+      ]
+    }
+  ]
+}

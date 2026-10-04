@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "months": 60,
+  "records": 1080,
+  "unique_ids": 1080,
+  "exactly_18_each": true,
+  "balanced_3_per_class": true,
+  "discrete_events": 183,
+  "monthly_context": 897
+}

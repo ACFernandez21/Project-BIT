@@ -1,0 +1,535 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 11,
+  "period": "1980-11",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-11-context-economics_markets-1-credit-conditions-stay-unusually-tight",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Credit conditions stay unusually tight",
+      "summary": "November 1980: Borrowing costs and restricted credit weigh on households and interest-sensitive industries.",
+      "tags": [
+        "credit",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-11-context-economics_markets-2-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "November 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-11-markets-anticipate-reagan-policy-shift",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Markets anticipate Reagan policy shift",
+      "summary": "Investors begin positioning around expectations of tax cuts, deregulation, higher defense spending, and continued anti-inflation policy.",
+      "tags": [
+        "Reaganomics",
+        "markets"
+      ],
+      "economic_sectors": [
+        "finance",
+        "defense",
+        "banking"
+      ],
+      "game_relevance": [
+        "policy_expectations",
+        "sector_rotation"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-11-context-business_technology-2-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "November 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-business_technology-1-cable-television-expands-the-media-landscape",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable television expands the media landscape",
+      "summary": "November 1980: Cable networks and expanded channel choices begin changing how Americans consume television.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-business_technology-3-personal-computers-move-further-into-homes-an",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "November 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-politics_geopolitics-2-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "November 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-politics_geopolitics-1-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "November 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-04-ronald-reagan-wins-u-s-presidential-electi",
+      "date": "1980-11-04",
+      "date_precision": "day",
+      "known_as_of": "1980-11-04",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Ronald Reagan wins U.S. presidential election",
+      "summary": "Reagan defeats incumbent President Jimmy Carter in a decisive election victory.",
+      "tags": [
+        "Reagan",
+        "Carter",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_change"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980",
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1980-11-context-sports-2-college-football-becomes-a-major-weekly-natio",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "November 1980: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-sports-1-major-league-baseball-reaches-postseason-and-",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "November 1980: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-sports-3-nfl-regular-season-dominates-american-televis",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "November 1980: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-pop_culture-1-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "November 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-pop_culture-2-network-television-still-dominates-mass-enter",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "November 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-pop_culture-3-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "November 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-society_science_disasters-2-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "November 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-context-society_science_disasters-1-environmental-and-energy-issues-remain-promin",
+      "date": "1980-11",
+      "date_precision": "month",
+      "known_as_of": "1980-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental and energy issues remain prominent",
+      "summary": "November 1980: Oil shocks, pollution concerns, and new environmental regulation continue to influence U.S. policy and industry.",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "chemicals",
+        "utilities"
+      ],
+      "game_relevance": [
+        "regulation",
+        "energy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-11-12-voyager-1-flies-past-saturn",
+      "date": "1980-11-12",
+      "date_precision": "day",
+      "known_as_of": "1980-11-12",
+      "category": "science",
+      "scope": "international",
+      "headline": "Voyager 1 flies past Saturn",
+      "summary": "NASA's Voyager 1 makes its close encounter with Saturn, returning major scientific observations and images.",
+      "tags": [
+        "NASA",
+        "Voyager",
+        "Saturn"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "technology_sentiment",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

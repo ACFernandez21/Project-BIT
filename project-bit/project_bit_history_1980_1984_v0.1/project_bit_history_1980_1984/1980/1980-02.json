@@ -1,0 +1,94 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 2,
+  "period": "1980-02",
+  "events": [
+    {
+      "id": "1980-02-13-lake-placid-winter-olympics-open",
+      "date": "1980-02-13",
+      "date_precision": "day",
+      "known_as_of": "1980-02-13",
+      "category": "sports",
+      "scope": "international/US",
+      "headline": "Lake Placid Winter Olympics open",
+      "summary": "The XIII Olympic Winter Games open in Lake Placid, New York, amid intense Cold War attention.",
+      "tags": [
+        "Olympics",
+        "Lake Placid",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "tourism",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-22-miracle-on-ice",
+      "date": "1980-02-22",
+      "date_precision": "day",
+      "known_as_of": "1980-02-22",
+      "category": "sports",
+      "scope": "US/international",
+      "headline": "Miracle on Ice",
+      "summary": "The U.S. Olympic hockey team defeats the heavily favored Soviet team in the medal round at Lake Placid.",
+      "tags": [
+        "hockey",
+        "Olympics",
+        "USSR",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "national_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-high-inflation-and-tight-money-dominate-th",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "High inflation and tight money dominate the U.S. economy",
+      "summary": "The Volcker Federal Reserve continues an aggressive anti-inflation policy as borrowing costs remain extremely high.",
+      "tags": [
+        "inflation",
+        "Volcker",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "credit_conditions",
+        "consumer_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    }
+  ]
+}

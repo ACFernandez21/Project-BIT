@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 9,
+  "period": "1982-09",
+  "events": [
+    {
+      "id": "1982-09-19-first-widely-recognized-emoticons-are-prop",
+      "date": "1982-09-19",
+      "date_precision": "day",
+      "known_as_of": "1982-09-19",
+      "category": "technology",
+      "scope": "US",
+      "headline": "First widely recognized emoticons are proposed online",
+      "summary": "Scott Fahlman suggests :-) and :-( in an online message-board discussion.",
+      "tags": [
+        "internet culture",
+        "emoticons"
+      ],
+      "economic_sectors": [
+        "technology",
+        "communications"
+      ],
+      "game_relevance": [
+        "tech_culture",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-09-21-nfl-players-begin-57-day-strike",
+      "date": "1982-09-21",
+      "date_precision": "day",
+      "known_as_of": "1982-09-21",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL players begin 57-day strike",
+      "summary": "The strike reduces the regular season to nine games and forces an expanded playoff format.",
+      "tags": [
+        "NFL",
+        "labor strike"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "labor",
+        "sports_news"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    },
+    {
+      "id": "1982-09-29-chicago-tylenol-murders-begin",
+      "date": "1982-09-29",
+      "date_precision": "day",
+      "known_as_of": "1982-09-29",
+      "category": "crime",
+      "scope": "US",
+      "headline": "Chicago Tylenol murders begin",
+      "summary": "Cyanide-laced Tylenol capsules kill seven people and lead to sweeping changes in consumer-product packaging.",
+      "tags": [
+        "Tylenol",
+        "consumer safety"
+      ],
+      "economic_sectors": [
+        "pharma",
+        "retail",
+        "packaging"
+      ],
+      "game_relevance": [
+        "consumer_safety",
+        "brand_risk",
+        "regulation"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ]
+    }
+  ]
+}

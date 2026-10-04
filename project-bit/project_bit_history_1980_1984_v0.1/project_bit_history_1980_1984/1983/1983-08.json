@@ -1,0 +1,92 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1983,
+  "month": 8,
+  "period": "1983-08",
+  "events": [
+    {
+      "id": "1983-08-18-hurricane-alicia-strikes-texas",
+      "date": "1983-08-18",
+      "date_precision": "day",
+      "known_as_of": "1983-08-18",
+      "category": "disaster",
+      "scope": "US",
+      "headline": "Hurricane Alicia strikes Texas",
+      "summary": "Alicia hits the Houston-Galveston region, causing major damage and disruption.",
+      "tags": [
+        "hurricane",
+        "Texas",
+        "Houston"
+      ],
+      "economic_sectors": [
+        "energy",
+        "insurance",
+        "transportation"
+      ],
+      "game_relevance": [
+        "weather_shock",
+        "regional_economy",
+        "energy"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    },
+    {
+      "id": "1983-08-strong-recovery-boosts-consumer-demand",
+      "date": "1983-08",
+      "date_precision": "month",
+      "known_as_of": "1983-08",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Strong recovery boosts consumer demand",
+      "summary": "Falling inflation and improved employment support stronger spending and business activity.",
+      "tags": [
+        "recovery",
+        "consumer spending"
+      ],
+      "economic_sectors": [
+        "retail",
+        "autos",
+        "housing"
+      ],
+      "game_relevance": [
+        "consumer_sentiment",
+        "growth_cycle"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    },
+    {
+      "id": "1983-08-personal-computer-competition-intensifies",
+      "date": "1983-08",
+      "date_precision": "month",
+      "known_as_of": "1983-08",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Personal computer competition intensifies",
+      "summary": "IBM-compatible PCs, Apple systems, and rapidly growing software markets make personal computing a mainstream business story.",
+      "tags": [
+        "personal computers",
+        "IBM",
+        "Apple"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1983"
+      ]
+    }
+  ]
+}

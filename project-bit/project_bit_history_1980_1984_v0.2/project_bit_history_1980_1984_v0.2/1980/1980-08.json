@@ -1,0 +1,528 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 8,
+  "period": "1980-08",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-08-context-economics_markets-1-credit-conditions-stay-unusually-tight",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Credit conditions stay unusually tight",
+      "summary": "August 1980: Borrowing costs and restricted credit weigh on households and interest-sensitive industries.",
+      "tags": [
+        "credit",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-08-economic-recovery-begins-after-short-reces",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Economic recovery begins after short recession",
+      "summary": "Activity begins recovering from the 1980 recession even as inflation remains high and monetary policy stays volatile.",
+      "tags": [
+        "recovery",
+        "inflation"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "growth_cycle",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "nber_cycle",
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-08-context-economics_markets-2-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "August 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-08-context-business_technology-2-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "August 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-business_technology-1-cable-television-expands-the-media-landscape",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable television expands the media landscape",
+      "summary": "August 1980: Cable networks and expanded channel choices begin changing how Americans consume television.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-business_technology-3-personal-computers-move-further-into-homes-an",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "August 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-politics_geopolitics-1-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "August 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-14-jimmy-carter-wins-democratic-renomination",
+      "date": "1980-08-14",
+      "date_precision": "day",
+      "known_as_of": "1980-08-14",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Jimmy Carter wins Democratic renomination",
+      "summary": "President Carter secures the Democratic nomination after defeating Senator Ted Kennedy's primary challenge.",
+      "tags": [
+        "Carter",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1980-08-31-solidarity-movement-gains-recognition-in-p",
+      "date": "1980-08-31",
+      "date_precision": "day",
+      "known_as_of": "1980-08-31",
+      "category": "politics",
+      "scope": "Europe",
+      "headline": "Solidarity movement gains recognition in Poland",
+      "summary": "The Gdansk Agreement recognizes independent trade unions, giving rise to Solidarity as a major challenge to communist rule.",
+      "tags": [
+        "Poland",
+        "Solidarity",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "industry",
+        "shipping"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "labor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1980-08-context-sports-3-major-league-baseball-occupies-the-center-of-",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball occupies the center of the summer sports calendar",
+      "summary": "August 1980: Pennant races, the All-Star Game, and star performances dominate U.S. summer sports coverage.",
+      "tags": [
+        "MLB",
+        "baseball"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-sports-1-motorsports-and-golf-draw-major-summer-audien",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Motorsports and golf draw major summer audiences",
+      "summary": "August 1980: NASCAR, Indy-style racing, and golf majors remain important parts of the sports calendar.",
+      "tags": [
+        "motorsports",
+        "golf"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-sports-2-nfl-teams-prepare-for-the-coming-season",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL teams prepare for the coming season",
+      "summary": "August 1980: Training camps and preseason football begin shifting national sports attention toward the NFL.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-pop_culture-1-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "August 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-pop_culture-2-network-television-still-dominates-mass-enter",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "August 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-pop_culture-3-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "August 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-society_science_disasters-2-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "August 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-society_science_disasters-1-environmental-and-energy-issues-remain-promin",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental and energy issues remain prominent",
+      "summary": "August 1980: Oil shocks, pollution concerns, and new environmental regulation continue to influence U.S. policy and industry.",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "chemicals",
+        "utilities"
+      ],
+      "game_relevance": [
+        "regulation",
+        "energy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-08-context-society_science_disasters-3-the-space-shuttle-program-prepares-for-first-",
+      "date": "1980-08",
+      "date_precision": "month",
+      "known_as_of": "1980-08",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle program prepares for first flight",
+      "summary": "August 1980: NASA works toward the first orbital shuttle mission, scheduled for 1981.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

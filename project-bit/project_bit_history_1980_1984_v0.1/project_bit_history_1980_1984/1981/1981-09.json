@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 9,
+  "period": "1981-09",
+  "events": [
+    {
+      "id": "1981-09-21-sandra-day-o-connor-confirmed-to-supreme-c",
+      "date": "1981-09-21",
+      "date_precision": "day",
+      "known_as_of": "1981-09-21",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Sandra Day O'Connor confirmed to Supreme Court",
+      "summary": "The Senate confirms O'Connor, who becomes the first woman to serve on the U.S. Supreme Court.",
+      "tags": [
+        "Supreme Court",
+        "Sandra Day O'Connor"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "politics",
+        "period_flavor"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-09-19-simon-garfunkel-perform-in-central-park",
+      "date": "1981-09-19",
+      "date_precision": "day",
+      "known_as_of": "1981-09-19",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Simon & Garfunkel perform in Central Park",
+      "summary": "The reunion concert draws a huge crowd and becomes a major live-music event.",
+      "tags": [
+        "Simon & Garfunkel",
+        "music",
+        "New York"
+      ],
+      "economic_sectors": [
+        "music",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-09-recessionary-pressure-spreads",
+      "date": "1981-09",
+      "date_precision": "month",
+      "known_as_of": "1981-09",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recessionary pressure spreads",
+      "summary": "Manufacturing and other interest-sensitive industries weaken as the 1981-82 recession develops.",
+      "tags": [
+        "recession",
+        "manufacturing"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "autos",
+        "housing"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 3,
+  "period": "1981-03",
+  "events": [
+    {
+      "id": "1981-03-30-president-reagan-survives-assassination-at",
+      "date": "1981-03-30",
+      "date_precision": "day",
+      "known_as_of": "1981-03-30",
+      "category": "politics",
+      "scope": "US",
+      "headline": "President Reagan survives assassination attempt",
+      "summary": "John Hinckley Jr. shoots Reagan and several others outside a Washington hotel; Reagan survives.",
+      "tags": [
+        "Reagan",
+        "assassination attempt"
+      ],
+      "economic_sectors": [
+        "media"
+      ],
+      "game_relevance": [
+        "national_sentiment",
+        "political_uncertainty"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-03-31-ordinary-people-wins-best-picture",
+      "date": "1981-03-31",
+      "date_precision": "day",
+      "known_as_of": "1981-03-31",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Ordinary People wins Best Picture",
+      "summary": "The 53rd Academy Awards are held after a one-day delay caused by the Reagan shooting.",
+      "tags": [
+        "Academy Awards",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-03-high-borrowing-costs-pressure-housing-and-",
+      "date": "1981-03",
+      "date_precision": "month",
+      "known_as_of": "1981-03",
+      "category": "economics",
+      "scope": "US",
+      "headline": "High borrowing costs pressure housing and manufacturing",
+      "summary": "Interest-sensitive sectors weaken under very tight monetary policy.",
+      "tags": [
+        "interest rates",
+        "manufacturing",
+        "housing"
+      ],
+      "economic_sectors": [
+        "housing",
+        "manufacturing",
+        "banking"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "recession_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

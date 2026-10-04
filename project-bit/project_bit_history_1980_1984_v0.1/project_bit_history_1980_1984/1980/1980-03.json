@@ -1,0 +1,90 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1980,
+  "month": 3,
+  "period": "1980-03",
+  "events": [
+    {
+      "id": "1980-03-14-carter-administration-imposes-credit-contr",
+      "date": "1980-03-14",
+      "date_precision": "day",
+      "known_as_of": "1980-03-14",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Carter administration imposes credit controls",
+      "summary": "The administration introduces credit restraints as part of the fight against inflation, contributing to a sharp pullback in borrowing and spending.",
+      "tags": [
+        "credit controls",
+        "inflation",
+        "Carter"
+      ],
+      "economic_sectors": [
+        "banking",
+        "retail",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    },
+    {
+      "id": "1980-03-31-depository-institutions-deregulation-and-m",
+      "date": "1980-03-31",
+      "date_precision": "day",
+      "known_as_of": "1980-03-31",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Depository Institutions Deregulation and Monetary Control Act signed",
+      "summary": "The law changes banking regulation and expands Federal Reserve requirements across depository institutions.",
+      "tags": [
+        "banking",
+        "Federal Reserve",
+        "deregulation"
+      ],
+      "economic_sectors": [
+        "banking",
+        "finance"
+      ],
+      "game_relevance": [
+        "bank_rules",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_great_inflation"
+      ]
+    },
+    {
+      "id": "1980-03-mount-st-helens-activity-intensifies",
+      "date": "1980-03",
+      "date_precision": "month",
+      "known_as_of": "1980-03",
+      "category": "science",
+      "scope": "US",
+      "headline": "Mount St. Helens activity intensifies",
+      "summary": "Earthquakes and steam explosions at Mount St. Helens signal the volcanic crisis that will culminate in May.",
+      "tags": [
+        "volcano",
+        "Mount St. Helens"
+      ],
+      "economic_sectors": [
+        "insurance",
+        "transportation"
+      ],
+      "game_relevance": [
+        "disaster_risk",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ]
+    }
+  ]
+}

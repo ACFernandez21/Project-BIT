@@ -1,0 +1,88 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 1,
+  "period": "1981-01",
+  "events": [
+    {
+      "id": "1981-01-20-ronald-reagan-inaugurated-as-40th-u-s-pres",
+      "date": "1981-01-20",
+      "date_precision": "day",
+      "known_as_of": "1981-01-20",
+      "category": "politics",
+      "scope": "US",
+      "headline": "Ronald Reagan inaugurated as 40th U.S. president",
+      "summary": "Reagan takes office as the United States shifts toward tax cuts, deregulation, and increased defense spending.",
+      "tags": [
+        "Reagan",
+        "inauguration"
+      ],
+      "economic_sectors": [
+        "defense",
+        "banking",
+        "energy"
+      ],
+      "game_relevance": [
+        "policy_change",
+        "sector_rotation"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-01-20-iran-releases-52-american-hostages",
+      "date": "1981-01-20",
+      "date_precision": "day",
+      "known_as_of": "1981-01-20",
+      "category": "geopolitics",
+      "scope": "US/Iran",
+      "headline": "Iran releases 52 American hostages",
+      "summary": "The Iran hostage crisis ends after 444 days, minutes after Reagan's inauguration.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-01-25-oakland-raiders-win-super-bowl-xv",
+      "date": "1981-01-25",
+      "date_precision": "day",
+      "known_as_of": "1981-01-25",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Oakland Raiders win Super Bowl XV",
+      "summary": "The Raiders defeat the Philadelphia Eagles 27-10.",
+      "tags": [
+        "NFL",
+        "Super Bowl",
+        "Raiders"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    }
+  ]
+}

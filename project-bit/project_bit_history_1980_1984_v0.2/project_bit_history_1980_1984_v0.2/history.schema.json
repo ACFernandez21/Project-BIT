@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project BIT Monthly Historical Timeline v0.2",
+  "type": "object",
+  "required": [
+    "dataset",
+    "dataset_version",
+    "year",
+    "month",
+    "period",
+    "event_count",
+    "events"
+  ],
+  "properties": {
+    "dataset": {
+      "const": "project_bit_historical_timeline"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "period": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$"
+    },
+    "event_count": {
+      "const": 18
+    },
+    "events": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "date",
+          "date_precision",
+          "known_as_of",
+          "record_type",
+          "topic_class",
+          "category",
+          "scope",
+          "headline",
+          "summary",
+          "tags",
+          "economic_sectors",
+          "game_relevance",
+          "importance",
+          "source_keys"
+        ]
+      }
+    }
+  }
+}

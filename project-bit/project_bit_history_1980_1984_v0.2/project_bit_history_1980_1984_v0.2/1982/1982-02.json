@@ -1,0 +1,530 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1982,
+  "month": 2,
+  "period": "1982-02",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1982-02-context-economics_markets-2-falling-rates-begin-setting-up-recovery",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Falling rates begin setting up recovery",
+      "summary": "February 1982: As inflation eases, financial conditions begin improving and interest-sensitive sectors prepare for recovery.",
+      "tags": [
+        "interest rates",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "credit_conditions"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-02-context-economics_markets-1-inflation-falls-substantially-from-1980-peaks",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation falls substantially from 1980 peaks",
+      "summary": "February 1982: Disinflation becomes increasingly visible as tight monetary policy suppresses price growth.",
+      "tags": [
+        "disinflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "banking"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-02-recession-and-high-unemployment-dominate",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Recession and high unemployment dominate",
+      "summary": "The U.S. downturn continues under tight monetary conditions, with manufacturing and construction especially weak.",
+      "tags": [
+        "recession",
+        "unemployment"
+      ],
+      "economic_sectors": [
+        "manufacturing",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recession",
+        "employment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1982-02-context-business_technology-2-cable-and-specialty-television-continue-expan",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable and specialty television continue expanding",
+      "summary": "February 1982: Dedicated channels such as CNN and the Weather Channel illustrate fragmentation of the traditional broadcast audience.",
+      "tags": [
+        "cable television",
+        "CNN"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-business_technology-1-home-video-game-market-reaches-extraordinary-",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Home video-game market reaches extraordinary scale",
+      "summary": "February 1982: Atari and other console makers enjoy very high sales before the U.S. market's coming shakeout.",
+      "tags": [
+        "Atari",
+        "video games"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-personal-computer-software-market-expands",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "technology",
+      "scope": "US",
+      "headline": "Personal-computer software market expands",
+      "summary": "The growing IBM PC ecosystem accelerates demand for business software and compatible hardware.",
+      "tags": [
+        "IBM PC",
+        "software",
+        "personal computers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1982-02-context-politics_geopolitics-1-cold-war-confrontation-remains-intense",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War confrontation remains intense",
+      "summary": "February 1982: Nuclear weapons, NATO deployments, Poland, Afghanistan, and U.S.-Soviet rivalry dominate strategic affairs.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-hama-uprising-is-crushed",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "category": "geopolitics",
+      "scope": "Syria",
+      "headline": "Hama uprising is crushed",
+      "summary": "Syrian government forces suppress an uprising in Hama with extensive casualties and destruction.",
+      "tags": [
+        "Syria",
+        "Middle East"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1982-02-context-politics_geopolitics-2-middle-east-conflict-remains-a-major-world-ri",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East conflict remains a major world risk",
+      "summary": "February 1982: The Iran-Iraq War and the Lebanon conflict keep oil, security, and U.S. foreign policy in focus.",
+      "tags": [
+        "Middle East",
+        "Lebanon",
+        "Iran-Iraq War"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-sports-2-college-basketball-builds-toward-march",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College basketball builds toward March",
+      "summary": "February 1982: Conference play intensifies as teams position for the NCAA men's basketball tournament.",
+      "tags": [
+        "NCAA basketball",
+        "college sports"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-sports-1-nba-and-nhl-regular-seasons-move-through-mids",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL regular seasons move through midseason",
+      "summary": "February 1982: Basketball and hockey provide major winter sports storylines across U.S. and Canadian markets.",
+      "tags": [
+        "NBA",
+        "NHL"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-sports-3-nfl-postseason-captures-national-attention",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL postseason captures national attention",
+      "summary": "February 1982: Professional football playoffs and the Super Bowl are major U.S. television and advertising events.",
+      "tags": [
+        "NFL",
+        "Super Bowl"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-pop_culture-2-cable-television-fragments-the-entertainment-",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Cable television fragments the entertainment audience",
+      "summary": "February 1982: Music, news, weather, and specialty programming increasingly compete with traditional broadcasters.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-pop_culture-1-science-fiction-and-family-blockbusters-remai",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Science-fiction and family blockbusters remain box-office forces",
+      "summary": "February 1982: Films such as E.T., Star Trek, and other effects-heavy releases reinforce the event-movie model.",
+      "tags": [
+        "film",
+        "science fiction"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-pop_culture-3-thriller-era-pop-begins-to-transform-the-musi",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Thriller-era pop begins to transform the music business",
+      "summary": "February 1982: Michael Jackson's late-1982 album and the rise of music video help reshape global pop marketing.",
+      "tags": [
+        "Thriller",
+        "Michael Jackson",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "media_shift"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-society_science_disasters-3-aids-cases-draw-increasing-medical-attention",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "AIDS cases draw increasing medical attention",
+      "summary": "February 1982: Public-health officials confront a growing epidemic that remains poorly understood and highly stigmatized.",
+      "tags": [
+        "AIDS",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-society_science_disasters-2-consumer-product-safety-receives-renewed-atte",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Consumer-product safety receives renewed attention",
+      "summary": "February 1982: The Tylenol poisonings and related packaging changes make product tampering and tamper-evident design national issues.",
+      "tags": [
+        "consumer safety",
+        "tamper evident packaging"
+      ],
+      "economic_sectors": [
+        "pharma",
+        "retail",
+        "packaging"
+      ],
+      "game_relevance": [
+        "consumer_safety",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-02-context-society_science_disasters-1-space-shuttle-missions-become-more-routine",
+      "date": "1982-02",
+      "date_precision": "month",
+      "known_as_of": "1982-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle missions become more routine",
+      "summary": "February 1982: NASA expands shuttle operations after the first flights of Columbia.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    }
+  ]
+}

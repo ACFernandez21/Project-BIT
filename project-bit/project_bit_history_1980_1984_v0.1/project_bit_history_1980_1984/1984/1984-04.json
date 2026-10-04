@@ -1,0 +1,85 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1984,
+  "month": 4,
+  "period": "1984-04",
+  "events": [
+    {
+      "id": "1984-04-05-kareem-abdul-jabbar-becomes-nba-all-time-s",
+      "date": "1984-04-05",
+      "date_precision": "day",
+      "known_as_of": "1984-04-05",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Kareem Abdul-Jabbar becomes NBA all-time scoring leader",
+      "summary": "Abdul-Jabbar passes Wilt Chamberlain's career scoring record.",
+      "tags": [
+        "NBA",
+        "Kareem Abdul-Jabbar"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-04-13-india-launches-operation-meghdoot",
+      "date": "1984-04-13",
+      "date_precision": "day",
+      "known_as_of": "1984-04-13",
+      "category": "geopolitics",
+      "scope": "India/Pakistan",
+      "headline": "India launches Operation Meghdoot",
+      "summary": "Indian forces occupy key positions on the Siachen Glacier, beginning the long-running Siachen conflict.",
+      "tags": [
+        "India",
+        "Pakistan",
+        "Siachen"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    },
+    {
+      "id": "1984-04-terms-of-endearment-leads-academy-awards",
+      "date": "1984-04",
+      "date_precision": "month",
+      "known_as_of": "1984-04",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Terms of Endearment leads Academy Awards",
+      "summary": "The film wins Best Picture and multiple major awards at the 56th Academy Awards.",
+      "tags": [
+        "Academy Awards",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_1984"
+      ]
+    }
+  ]
+}

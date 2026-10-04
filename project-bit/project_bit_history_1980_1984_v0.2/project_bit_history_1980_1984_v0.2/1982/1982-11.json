@@ -1,0 +1,529 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1982,
+  "month": 11,
+  "period": "1982-11",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1982-11-1981-82-recession-reaches-its-trough",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "category": "economics",
+      "scope": "US",
+      "headline": "1981-82 recession reaches its trough",
+      "summary": "NBER later dates November 1982 as the end of the severe recession.",
+      "tags": [
+        "recession",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "employment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "nber_cycle",
+        "fed_recession_8182"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1982-11-context-economics_markets-2-falling-rates-begin-setting-up-recovery",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Falling rates begin setting up recovery",
+      "summary": "November 1982: As inflation eases, financial conditions begin improving and interest-sensitive sectors prepare for recovery.",
+      "tags": [
+        "interest rates",
+        "recovery"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "recovery_signal",
+        "credit_conditions"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-11-context-economics_markets-1-inflation-falls-substantially-from-1980-peaks",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation falls substantially from 1980 peaks",
+      "summary": "November 1982: Disinflation becomes increasingly visible as tight monetary policy suppresses price growth.",
+      "tags": [
+        "disinflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "broad_market",
+        "banking"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1982-11-context-business_technology-2-cable-and-specialty-television-continue-expan",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable and specialty television continue expanding",
+      "summary": "November 1982: Dedicated channels such as CNN and the Weather Channel illustrate fragmentation of the traditional broadcast audience.",
+      "tags": [
+        "cable television",
+        "CNN"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-business_technology-1-home-video-game-market-reaches-extraordinary-",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Home video-game market reaches extraordinary scale",
+      "summary": "November 1982: Atari and other console makers enjoy very high sales before the U.S. market's coming shakeout.",
+      "tags": [
+        "Atari",
+        "video games"
+      ],
+      "economic_sectors": [
+        "technology",
+        "entertainment",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "competition"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-business_technology-3-ibm-compatible-pc-ecosystem-expands-rapidly",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "IBM-compatible PC ecosystem expands rapidly",
+      "summary": "November 1982: Hardware makers and software developers increasingly build around the IBM PC architecture.",
+      "tags": [
+        "IBM PC",
+        "PC compatibles"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "sector_growth"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-politics_geopolitics-1-cold-war-confrontation-remains-intense",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War confrontation remains intense",
+      "summary": "November 1982: Nuclear weapons, NATO deployments, Poland, Afghanistan, and U.S.-Soviet rivalry dominate strategic affairs.",
+      "tags": [
+        "Cold War",
+        "USSR",
+        "NATO"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-politics_geopolitics-2-middle-east-conflict-remains-a-major-world-ri",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Middle East conflict remains a major world risk",
+      "summary": "November 1982: The Iran-Iraq War and the Lebanon conflict keep oil, security, and U.S. foreign policy in focus.",
+      "tags": [
+        "Middle East",
+        "Lebanon",
+        "Iran-Iraq War"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-politics_geopolitics-3-the-reagan-administration-confronts-recession",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Reagan administration confronts recession-era political pressure",
+      "summary": "November 1982: High unemployment and economic weakness shape congressional debate and the approach to the midterm elections.",
+      "tags": [
+        "Reagan",
+        "midterms",
+        "recession"
+      ],
+      "economic_sectors": [
+        "broad_market"
+      ],
+      "game_relevance": [
+        "policy_change",
+        "election_cycle"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-sports-2-college-football-becomes-a-major-weekly-natio",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "November 1982: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-sports-1-major-league-baseball-reaches-postseason-and-",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "November 1982: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-sports-3-nfl-regular-season-dominates-american-televis",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "November 1982: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-pop_culture-2-cable-television-fragments-the-entertainment-",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Cable television fragments the entertainment audience",
+      "summary": "November 1982: Music, news, weather, and specialty programming increasingly compete with traditional broadcasters.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-pop_culture-1-science-fiction-and-family-blockbusters-remai",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Science-fiction and family blockbusters remain box-office forces",
+      "summary": "November 1982: Films such as E.T., Star Trek, and other effects-heavy releases reinforce the event-movie model.",
+      "tags": [
+        "film",
+        "science fiction"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-30-michael-jackson-releases-thriller",
+      "date": "1982-11-30",
+      "date_precision": "day",
+      "known_as_of": "1982-11-30",
+      "category": "pop_culture",
+      "scope": "international",
+      "headline": "Michael Jackson releases Thriller",
+      "summary": "Thriller is released and goes on to become one of the most commercially successful albums in history.",
+      "tags": [
+        "Michael Jackson",
+        "Thriller",
+        "music"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "pop_culture"
+    },
+    {
+      "id": "1982-11-context-society_science_disasters-2-consumer-product-safety-receives-renewed-atte",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Consumer-product safety receives renewed attention",
+      "summary": "November 1982: The Tylenol poisonings and related packaging changes make product tampering and tamper-evident design national issues.",
+      "tags": [
+        "consumer safety",
+        "tamper evident packaging"
+      ],
+      "economic_sectors": [
+        "pharma",
+        "retail",
+        "packaging"
+      ],
+      "game_relevance": [
+        "consumer_safety",
+        "regulation"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-context-society_science_disasters-1-space-shuttle-missions-become-more-routine",
+      "date": "1982-11",
+      "date_precision": "month",
+      "known_as_of": "1982-11",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Space Shuttle missions become more routine",
+      "summary": "November 1982: NASA expands shuttle operations after the first flights of Columbia.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-11-13-vietnam-veterans-memorial-dedicated",
+      "date": "1982-11-13",
+      "date_precision": "day",
+      "known_as_of": "1982-11-13",
+      "category": "society",
+      "scope": "US",
+      "headline": "Vietnam Veterans Memorial dedicated",
+      "summary": "The memorial is formally dedicated in Washington, D.C.",
+      "tags": [
+        "Vietnam Veterans Memorial",
+        "Washington DC"
+      ],
+      "economic_sectors": [
+        "tourism",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1982"
+      ],
+      "record_type": "event",
+      "topic_class": "society_science_disasters"
+    }
+  ]
+}

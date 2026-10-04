@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1982,
+  "month": 3,
+  "period": "1982-03",
+  "events": [
+    {
+      "id": "1982-03-10-united-states-bans-libyan-oil-imports",
+      "date": "1982-03-10",
+      "date_precision": "day",
+      "known_as_of": "1982-03-10",
+      "category": "geopolitics",
+      "scope": "US/Libya",
+      "headline": "United States bans Libyan oil imports",
+      "summary": "The Reagan administration imposes an embargo on Libyan crude amid accusations of state support for terrorism.",
+      "tags": [
+        "Libya",
+        "oil",
+        "sanctions"
+      ],
+      "economic_sectors": [
+        "energy"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "international_trade",
+        "geopolitical_risk"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-03-29-chariots-of-fire-wins-best-picture",
+      "date": "1982-03-29",
+      "date_precision": "day",
+      "known_as_of": "1982-03-29",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Chariots of Fire wins Best Picture",
+      "summary": "The film wins Best Picture at the 54th Academy Awards.",
+      "tags": [
+        "Academy Awards",
+        "film"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1982"
+      ]
+    },
+    {
+      "id": "1982-03-volcker-disinflation-continues",
+      "date": "1982-03",
+      "date_precision": "month",
+      "known_as_of": "1982-03",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Volcker disinflation continues",
+      "summary": "Inflation is falling, but the cost is severe weakness in employment and output.",
+      "tags": [
+        "inflation",
+        "Volcker",
+        "recession"
+      ],
+      "economic_sectors": [
+        "banking",
+        "manufacturing"
+      ],
+      "game_relevance": [
+        "inflation",
+        "recession",
+        "interest_rates"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_recession_8182"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 6,
+  "period": "1981-06",
+  "events": [
+    {
+      "id": "1981-06-05-cdc-reports-unusual-pneumonia-cases-later-",
+      "date": "1981-06-05",
+      "date_precision": "day",
+      "known_as_of": "1981-06-05",
+      "category": "health",
+      "scope": "US",
+      "headline": "CDC reports unusual pneumonia cases later associated with AIDS",
+      "summary": "A CDC report describes rare infections in young gay men, an early public milestone in recognition of the AIDS epidemic.",
+      "tags": [
+        "AIDS",
+        "CDC",
+        "public health"
+      ],
+      "economic_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "game_relevance": [
+        "health_crisis",
+        "research"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-06-07-israel-strikes-iraq-s-osirak-nuclear-react",
+      "date": "1981-06-07",
+      "date_precision": "day",
+      "known_as_of": "1981-06-07",
+      "category": "geopolitics",
+      "scope": "Middle East",
+      "headline": "Israel strikes Iraq's Osirak nuclear reactor",
+      "summary": "Israeli aircraft destroy the Iraqi reactor near Baghdad in Operation Opera.",
+      "tags": [
+        "Israel",
+        "Iraq",
+        "nuclear"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    },
+    {
+      "id": "1981-06-12-major-league-baseball-players-strike",
+      "date": "1981-06-12",
+      "date_precision": "day",
+      "known_as_of": "1981-06-12",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball players strike",
+      "summary": "An MLB labor dispute halts the season for nearly two months.",
+      "tags": [
+        "MLB",
+        "labor strike"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "labor",
+        "sports_news"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1981"
+      ]
+    }
+  ]
+}

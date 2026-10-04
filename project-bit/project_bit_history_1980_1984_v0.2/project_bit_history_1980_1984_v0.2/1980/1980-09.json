@@ -1,0 +1,538 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 9,
+  "period": "1980-09",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-09-context-economics_markets-1-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "September 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-09-inflation-remains-a-central-election-year-",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "category": "economics",
+      "scope": "US",
+      "headline": "Inflation remains a central election-year issue",
+      "summary": "High consumer prices and borrowing costs continue to shape household finances and the presidential campaign.",
+      "tags": [
+        "inflation",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "banking",
+        "retail",
+        "housing"
+      ],
+      "game_relevance": [
+        "consumer_sentiment",
+        "interest_rates"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-09-context-economics_markets-2-inflation-remains-exceptionally-high",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Inflation remains exceptionally high",
+      "summary": "September 1980: The U.S. economy remains shaped by double-digit inflation and the Federal Reserve's aggressive anti-inflation campaign.",
+      "tags": [
+        "inflation",
+        "Volcker"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "inflation",
+        "interest_rates"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-09-context-business_technology-1-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "September 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-pac-man-spreads-beyond-japan",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "category": "technology",
+      "scope": "international",
+      "headline": "Pac-Man spreads beyond Japan",
+      "summary": "Namco's Pac-Man begins its international rise, becoming one of the defining arcade games of the decade.",
+      "tags": [
+        "Pac-Man",
+        "arcade",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "business_technology"
+    },
+    {
+      "id": "1980-09-context-business_technology-2-personal-computers-move-further-into-homes-an",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "September 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-politics_geopolitics-1-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "September 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-politics_geopolitics-2-the-u-s-presidential-campaign-dominates-domes",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The U.S. presidential campaign dominates domestic politics",
+      "summary": "September 1980: Jimmy Carter and Ronald Reagan compete amid inflation, recession, the Iran hostage crisis, and Cold War tensions.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-22-iran-iraq-war-begins",
+      "date": "1980-09-22",
+      "date_precision": "day",
+      "known_as_of": "1980-09-22",
+      "category": "geopolitics",
+      "scope": "Middle East",
+      "headline": "Iran-Iraq War begins",
+      "summary": "Iraq invades Iran, beginning a war that will last nearly eight years and repeatedly threaten oil supplies.",
+      "tags": [
+        "Iran",
+        "Iraq",
+        "war",
+        "oil"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense",
+        "shipping"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "politics_geopolitics"
+    },
+    {
+      "id": "1980-09-context-sports-1-college-football-becomes-a-major-weekly-natio",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "College football becomes a major weekly national event",
+      "summary": "September 1980: Rankings, rivalry games, and bowl positioning dominate Saturdays during the fall.",
+      "tags": [
+        "college football",
+        "NCAA"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-sports-3-major-league-baseball-reaches-postseason-and-",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "Major League Baseball reaches postseason and World Series",
+      "summary": "September 1980: Pennant races culminate in baseball's championship series and World Series.",
+      "tags": [
+        "MLB",
+        "World Series"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-sports-2-nfl-regular-season-dominates-american-televis",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NFL regular season dominates American television sports",
+      "summary": "September 1980: Professional football drives large national audiences and advertising demand through the fall.",
+      "tags": [
+        "NFL",
+        "football"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-pop_culture-3-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "September 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-pop_culture-1-network-television-still-dominates-mass-enter",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "September 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-pop_culture-2-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "September 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-society_science_disasters-1-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "September 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-society_science_disasters-3-environmental-and-energy-issues-remain-promin",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental and energy issues remain prominent",
+      "summary": "September 1980: Oil shocks, pollution concerns, and new environmental regulation continue to influence U.S. policy and industry.",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "chemicals",
+        "utilities"
+      ],
+      "game_relevance": [
+        "regulation",
+        "energy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-09-context-society_science_disasters-2-the-space-shuttle-program-prepares-for-first-",
+      "date": "1980-09",
+      "date_precision": "month",
+      "known_as_of": "1980-09",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle program prepares for first flight",
+      "summary": "September 1980: NASA works toward the first orbital shuttle mission, scheduled for 1981.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

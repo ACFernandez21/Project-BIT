@@ -1,0 +1,538 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.2.0",
+  "year": 1980,
+  "month": 2,
+  "period": "1980-02",
+  "event_count": 18,
+  "topic_class_targets": {
+    "economics_markets": 3,
+    "business_technology": 3,
+    "politics_geopolitics": 3,
+    "sports": 3,
+    "pop_culture": 3,
+    "society_science_disasters": 3
+  },
+  "events": [
+    {
+      "id": "1980-02-context-economics_markets-1-credit-conditions-stay-unusually-tight",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Credit conditions stay unusually tight",
+      "summary": "February 1980: Borrowing costs and restricted credit weigh on households and interest-sensitive industries.",
+      "tags": [
+        "credit",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "credit_conditions",
+        "consumer_spending"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-02-context-economics_markets-2-energy-prices-remain-a-major-economic-concern",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "economics_markets",
+      "category": "economics",
+      "scope": "US/international",
+      "headline": "Energy prices remain a major economic concern",
+      "summary": "February 1980: The aftereffects of the 1979 oil shock keep energy costs and energy security central to business and household decisions.",
+      "tags": [
+        "oil",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "transportation",
+        "chemicals"
+      ],
+      "game_relevance": [
+        "oil_price",
+        "consumer_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "fed_recession_1980_82"
+      ]
+    },
+    {
+      "id": "1980-02-high-inflation-and-tight-money-dominate-th",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "category": "economics",
+      "scope": "US",
+      "headline": "High inflation and tight money dominate the U.S. economy",
+      "summary": "The Volcker Federal Reserve continues an aggressive anti-inflation policy as borrowing costs remain extremely high.",
+      "tags": [
+        "inflation",
+        "Volcker",
+        "interest rates"
+      ],
+      "economic_sectors": [
+        "banking",
+        "housing",
+        "autos"
+      ],
+      "game_relevance": [
+        "interest_rates",
+        "credit_conditions",
+        "consumer_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "fed_great_inflation"
+      ],
+      "record_type": "event",
+      "topic_class": "economics_markets"
+    },
+    {
+      "id": "1980-02-context-business_technology-2-arcade-video-games-become-a-major-consumer-ph",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Arcade video games become a major consumer phenomenon",
+      "summary": "February 1980: Coin-operated games are a fast-growing entertainment business and an increasingly visible part of youth culture.",
+      "tags": [
+        "arcades",
+        "video games"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "technology"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "tech_adoption"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-business_technology-1-cable-television-expands-the-media-landscape",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Cable television expands the media landscape",
+      "summary": "February 1980: Cable networks and expanded channel choices begin changing how Americans consume television.",
+      "tags": [
+        "cable television",
+        "media"
+      ],
+      "economic_sectors": [
+        "media",
+        "telecommunications"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-business_technology-3-personal-computers-move-further-into-homes-an",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "business_technology",
+      "category": "technology",
+      "scope": "US/international",
+      "headline": "Personal computers move further into homes and small businesses",
+      "summary": "February 1980: Apple, Tandy, Commodore, and other systems expand awareness of microcomputing beyond hobbyists.",
+      "tags": [
+        "personal computers",
+        "microcomputers"
+      ],
+      "economic_sectors": [
+        "technology",
+        "software",
+        "retail"
+      ],
+      "game_relevance": [
+        "tech_adoption",
+        "consumer_trends"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-politics_geopolitics-2-cold-war-tensions-remain-elevated-after-the-s",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "Cold War tensions remain elevated after the Soviet invasion of Afghanistan",
+      "summary": "February 1980: Sanctions, the Olympic boycott, defense policy, and U.S.-Soviet relations stay central to world affairs.",
+      "tags": [
+        "Cold War",
+        "Afghanistan",
+        "USSR"
+      ],
+      "economic_sectors": [
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-politics_geopolitics-1-the-iran-hostage-crisis-remains-a-continuing-",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The Iran hostage crisis remains a continuing national issue",
+      "summary": "February 1980: Americans remain focused on the U.S. hostages held in Tehran until their release in January 1981.",
+      "tags": [
+        "Iran hostage crisis",
+        "Iran"
+      ],
+      "economic_sectors": [
+        "energy",
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "national_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-politics_geopolitics-3-the-u-s-presidential-campaign-dominates-domes",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "politics_geopolitics",
+      "category": "geopolitics",
+      "scope": "US/international",
+      "headline": "The U.S. presidential campaign dominates domestic politics",
+      "summary": "February 1980: Jimmy Carter and Ronald Reagan compete amid inflation, recession, the Iran hostage crisis, and Cold War tensions.",
+      "tags": [
+        "Carter",
+        "Reagan",
+        "election 1980"
+      ],
+      "economic_sectors": [
+        "media",
+        "defense",
+        "energy"
+      ],
+      "game_relevance": [
+        "election_cycle",
+        "policy_expectations"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-sports-1-nba-and-nhl-regular-seasons-move-through-mids",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "sports",
+      "category": "sports",
+      "scope": "US",
+      "headline": "NBA and NHL regular seasons move through midseason",
+      "summary": "February 1980: Basketball and hockey provide major winter sports storylines across U.S. and Canadian markets.",
+      "tags": [
+        "NBA",
+        "NHL"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-13-lake-placid-winter-olympics-open",
+      "date": "1980-02-13",
+      "date_precision": "day",
+      "known_as_of": "1980-02-13",
+      "category": "sports",
+      "scope": "international/US",
+      "headline": "Lake Placid Winter Olympics open",
+      "summary": "The XIII Olympic Winter Games open in Lake Placid, New York, amid intense Cold War attention.",
+      "tags": [
+        "Olympics",
+        "Lake Placid",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "tourism",
+        "media"
+      ],
+      "game_relevance": [
+        "sports_news",
+        "consumer_attention"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "sports"
+    },
+    {
+      "id": "1980-02-22-miracle-on-ice",
+      "date": "1980-02-22",
+      "date_precision": "day",
+      "known_as_of": "1980-02-22",
+      "category": "sports",
+      "scope": "US/international",
+      "headline": "Miracle on Ice",
+      "summary": "The U.S. Olympic hockey team defeats the heavily favored Soviet team in the medal round at Lake Placid.",
+      "tags": [
+        "hockey",
+        "Olympics",
+        "USSR",
+        "Cold War"
+      ],
+      "economic_sectors": [
+        "sports",
+        "media"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "national_sentiment"
+      ],
+      "importance": 5,
+      "source_keys": [
+        "wiki_us_1980"
+      ],
+      "record_type": "event",
+      "topic_class": "sports"
+    },
+    {
+      "id": "1980-02-context-pop_culture-1-blockbuster-filmmaking-remains-central-to-u-s",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Blockbuster filmmaking remains central to U.S. entertainment",
+      "summary": "February 1980: Studios increasingly rely on wide releases, sequels, science fiction, comedy, and event movies to drive box-office traffic.",
+      "tags": [
+        "film",
+        "blockbusters"
+      ],
+      "economic_sectors": [
+        "entertainment",
+        "media"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-pop_culture-2-network-television-still-dominates-mass-enter",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "Network television still dominates mass entertainment",
+      "summary": "February 1980: ABC, CBS, and NBC remain the primary national television platforms even as cable begins to grow.",
+      "tags": [
+        "television",
+        "broadcast networks"
+      ],
+      "economic_sectors": [
+        "media",
+        "advertising"
+      ],
+      "game_relevance": [
+        "media_shift",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-pop_culture-3-new-wave-disco-s-aftermath-and-rock-share-the",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "pop_culture",
+      "category": "pop_culture",
+      "scope": "US/international",
+      "headline": "New wave, disco's aftermath, and rock share the music market",
+      "summary": "February 1980: Popular music is rapidly changing as disco fades from its late-1970s peak and rock, new wave, R&B, and pop compete for attention.",
+      "tags": [
+        "music",
+        "new wave",
+        "rock"
+      ],
+      "economic_sectors": [
+        "music",
+        "media",
+        "retail"
+      ],
+      "game_relevance": [
+        "consumer_trends",
+        "period_flavor"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-society_science_disasters-2-changing-demographics-and-social-attitudes-ma",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Changing demographics and social attitudes mark the new decade",
+      "summary": "February 1980: The 1980 census and shifting regional populations affect politics, planning, and consumer markets.",
+      "tags": [
+        "1980 Census",
+        "demographics"
+      ],
+      "economic_sectors": [
+        "real_estate",
+        "retail"
+      ],
+      "game_relevance": [
+        "demographics",
+        "regional_economy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-society_science_disasters-1-environmental-and-energy-issues-remain-promin",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "Environmental and energy issues remain prominent",
+      "summary": "February 1980: Oil shocks, pollution concerns, and new environmental regulation continue to influence U.S. policy and industry.",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "economic_sectors": [
+        "energy",
+        "chemicals",
+        "utilities"
+      ],
+      "game_relevance": [
+        "regulation",
+        "energy"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    },
+    {
+      "id": "1980-02-context-society_science_disasters-3-the-space-shuttle-program-prepares-for-first-",
+      "date": "1980-02",
+      "date_precision": "month",
+      "known_as_of": "1980-02",
+      "record_type": "monthly_context",
+      "topic_class": "society_science_disasters",
+      "category": "society",
+      "scope": "US/international",
+      "headline": "The Space Shuttle program prepares for first flight",
+      "summary": "February 1980: NASA works toward the first orbital shuttle mission, scheduled for 1981.",
+      "tags": [
+        "NASA",
+        "Space Shuttle"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "science_progress",
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1980"
+      ]
+    }
+  ]
+}

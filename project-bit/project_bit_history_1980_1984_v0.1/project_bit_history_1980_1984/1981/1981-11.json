@@ -1,0 +1,87 @@
+{
+  "dataset": "project_bit_historical_timeline",
+  "dataset_version": "0.1.0",
+  "year": 1981,
+  "month": 11,
+  "period": "1981-11",
+  "events": [
+    {
+      "id": "1981-11-12-space-shuttle-columbia-flies-sts-2",
+      "date": "1981-11-12",
+      "date_precision": "day",
+      "known_as_of": "1981-11-12",
+      "category": "science",
+      "scope": "US",
+      "headline": "Space Shuttle Columbia flies STS-2",
+      "summary": "The shuttle's second mission demonstrates reuse of an orbital spacecraft.",
+      "tags": [
+        "NASA",
+        "Space Shuttle",
+        "STS-2"
+      ],
+      "economic_sectors": [
+        "aerospace",
+        "technology"
+      ],
+      "game_relevance": [
+        "technology_sentiment"
+      ],
+      "importance": 3,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-11-16-luke-and-laura-wedding-draws-huge-tv-audie",
+      "date": "1981-11-16",
+      "date_precision": "day",
+      "known_as_of": "1981-11-16",
+      "category": "pop_culture",
+      "scope": "US",
+      "headline": "Luke and Laura wedding draws huge TV audience",
+      "summary": "The General Hospital wedding becomes one of the most-watched moments in daytime television history.",
+      "tags": [
+        "television",
+        "General Hospital"
+      ],
+      "economic_sectors": [
+        "media",
+        "entertainment"
+      ],
+      "game_relevance": [
+        "period_flavor",
+        "consumer_attention"
+      ],
+      "importance": 2,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    },
+    {
+      "id": "1981-11-30-u-s-soviet-intermediate-range-nuclear-talk",
+      "date": "1981-11-30",
+      "date_precision": "day",
+      "known_as_of": "1981-11-30",
+      "category": "geopolitics",
+      "scope": "US/USSR",
+      "headline": "U.S.-Soviet intermediate-range nuclear talks begin",
+      "summary": "Negotiations open in Geneva over intermediate-range nuclear weapons in Europe.",
+      "tags": [
+        "Cold War",
+        "nuclear weapons",
+        "arms control"
+      ],
+      "economic_sectors": [
+        "defense"
+      ],
+      "game_relevance": [
+        "geopolitical_risk",
+        "defense_sector"
+      ],
+      "importance": 4,
+      "source_keys": [
+        "wiki_us_1981"
+      ]
+    }
+  ]
+}
